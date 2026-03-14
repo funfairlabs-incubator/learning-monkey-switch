@@ -1,0 +1,19 @@
+[
+  {
+    "email": "parent@gmail.com",
+    "name": "Tobias",
+    "role": "adult"
+  },
+  {
+    "email": "partner@gmail.com",
+    "name": "Partner",
+    "role": "adult"
+  },
+  {
+    "email": "child1@gmail.com",
+    "name": "Child Name",
+    "role": "child",
+    "year_group": "Y9",
+    "parent_overrides": []
+  }
+]

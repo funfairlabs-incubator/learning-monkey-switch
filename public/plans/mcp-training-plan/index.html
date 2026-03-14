@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCP Deep-Dive Training Plan · learn · funfairlabs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <meta name="google-signin-client_id" content="REPLACE_WITH_CLIENT_ID">
+</head>
+<body class="plan-page">
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="wordmark">funfairlabs<span class="wordmark-learn">/learn</span></a>
+      <nav class="header-nav">
+        <a href="/plans/" class="nav-link">← plans</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="auth-gate auth-gate--inline" id="auth-gate">
+    <div class="auth-gate-inner">
+      <p>This content is private. <button class="btn-signin-inline" onclick="window.learnAuth.signIn()">Sign in with Google →</button></p>
+    </div>
+  </div>
+
+  <main class="plan-content" id="plan-content" style="display:none">
+    <article class="plan-article">
+      <p><h1>MCP Deep-Dive Training Plan</h1>
+
+<blockquote>Last reviewed: March 2026 · Maintained by Claude</blockquote></p><p>This plan takes you from zero to confidently building and consuming MCP (Model Context Protocol) servers. It assumes solid TypeScript and a working knowledge of REST APIs.
+
+<hr>
+
+<h2>What is MCP and why does it matter?</h2></p><p>MCP is Anthropic's open protocol for connecting AI models to external tools, data sources, and services. Think of it as a standardised plugin system — instead of every AI vendor inventing their own function-calling format, MCP defines a universal interface that any client (Claude, Cursor, your own app) can speak to any server (filesystem, GitHub, databases, Slack, etc.).</p><p>The key insight: <strong>MCP separates the tool implementation from the model</strong>. You write an MCP server once, and any MCP-compatible client can use it.
+
+<hr>
+
+<h2>Phase 1 — Foundations (Week 1)</h2>
+
+<h4>Goals</h4>
+Understand the protocol, run existing servers, inspect traffic.
+
+<h3>Core reading</h3>
+
+<ul><li><a href="https://modelcontextprotocol.io/docs/concepts/architecture" target="_blank" rel="noopener">MCP specification</a> — architecture overview, transport types (stdio, SSE, HTTP)</li><li><a href="https://github.com/modelcontextprotocol/typescript-sdk" target="_blank" rel="noopener">MCP TypeScript SDK</a> — the reference implementation</li><li><a href="https://github.com/modelcontextprotocol/servers" target="_blank" rel="noopener">MCP server examples</a> — official reference servers (filesystem, GitHub, Postgres, etc.)</li></ul>
+
+<h3>Hands-on</h3>
+
+<ul><li>Install the MCP inspector: <code>npx @modelcontextprotocol/inspector</code></li><li>Run the filesystem server against a local directory</li><li>Connect Claude Desktop to it via <code>claude_desktop_config.json</code></li><li>Inspect the protocol messages in the inspector — see how <code>tools/list</code> and <code>tools/call</code> work</li></ul>
+
+<h3>Checkpoint</h3>
+You can explain: tools vs resources vs prompts, stdio transport vs HTTP/SSE, and what a capability negotiation looks like.
+
+<hr>
+
+<h2>Phase 2 — Building a server (Week 2)</h2>
+
+<h4>Goals</h4>
+Write your own MCP server from scratch using the TypeScript SDK.
+
+<h3>The pattern</h3>
+
+<pre class="code-block"><code class="lang-typescript">import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
+import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
+import { z } from 'zod';</p><p>const server = new McpServer({ name: 'my-server', version: '1.0.0' });</p><p>server.tool(
+  'get_weather',
+  { location: z.string().describe('City name') },
+  async ({ location }) =&gt; {
+    // Call your API
+    const data = await fetchWeather(location);
+    return { content: [{ type: 'text', text: JSON.stringify(data) }] };
+  }
+);</p><p>const transport = new StdioServerTransport();
+await server.connect(transport);</code></pre>
+
+<h3>Exercise</h3>
+Build a server that exposes tools against a domain you already know — e.g. wrapping the ClassCharts API, or your GCS bucket. Start with 2-3 tools, test with the inspector, then connect it to Claude Desktop.
+
+<h3>Resources vs Tools</h3>
+<ul><li><strong>Tools</strong> — Claude calls these to perform actions or fetch data</li><li><strong>Resources</strong> — Claude reads these (like files or database rows); similar to GET, not POST</li><li><strong>Prompts</strong> — reusable prompt templates the user invokes</li></ul></p><p>Most real servers start with tools only. Add resources when you have structured data Claude should be able to browse.
+
+<hr>
+
+<h2>Phase 3 — HTTP transport and deployment (Week 3)</h2>
+
+<h4>Goals</h4>
+Move from stdio (local) to HTTP/SSE (deployed, multi-client).
+
+<h3>Why HTTP matters</h3>
+stdio servers run as child processes on the same machine. HTTP/SSE servers can be deployed to Cloud Run, called from web apps, and shared between multiple Claude instances.
+
+<h3>The two HTTP options</h3></p><p><strong>SSE (Server-Sent Events)</strong> — older, supported by Claude Desktop and many clients:
+<pre class="code-block"><code class="lang-typescript">import { SSEServerTransport } from '@modelcontextprotocol/sdk/server/sse.js';
+import express from 'express';</p><p>const app = express();
+app.get('/sse', (req, res) =&gt; {
+  const transport = new SSEServerTransport('/message', res);
+  server.connect(transport);
+});</code></pre></p><p><strong>Streamable HTTP</strong> — newer, preferred for Cloud Run:
+<pre class="code-block"><code class="lang-typescript">import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/streamableHttp.js';</code></pre>
+
+<h3>Deploying to Cloud Run</h3>
+
+<ul><li>Containerise with a minimal Dockerfile (Node 20 alpine)</li><li>Add <code>/health</code> endpoint returning 200</li><li><code>gcloud run deploy my-mcp-server --source . --region europe-west2 --allow-unauthenticated</code></li><li>Wire the URL into your Claude config or app</li></ul>
+
+<h3>Auth on Cloud Run</h3>
+For private servers, add Bearer token validation. The client sends <code>Authorization: Bearer <token></code> in the request headers. Validate against a secret stored in Secret Manager.
+
+<hr>
+
+<h2>Phase 4 — MCP in your apps (Week 4)</h2>
+
+<h4>Goals</h4>
+Use the MCP TypeScript client to call servers from your own code (not just Claude Desktop).
+
+<h3>The client</h3>
+
+<pre class="code-block"><code class="lang-typescript">import { Client } from '@modelcontextprotocol/sdk/client/index.js';
+import { SSEClientTransport } from '@modelcontextprotocol/sdk/client/sse.js';</p><p>const client = new Client({ name: 'my-app', version: '1.0.0' }, { capabilities: {} });
+const transport = new SSEClientTransport(new URL('https://my-server.run.app/sse'));
+await client.connect(transport);</p><p>const tools = await client.listTools();
+const result = await client.callTool({ name: 'get_weather', arguments: { location: 'London' } });</code></pre>
+
+<h3>Patterns worth knowing</h3>
+
+<ul><li><strong>Tool discovery at runtime</strong> — list tools, feed the list to Claude as part of the system prompt, let Claude decide which to call</li><li><strong>Chaining servers</strong> — one Claude conversation can use tools from multiple MCP servers simultaneously (via the Anthropic API <code>mcp_servers</code> param)</li><li><strong>Remote MCP via the Anthropic API</strong> — pass <code>mcp_servers: [{ type: 'url', url: '...' }]</code> directly to the API; the API handles the connection lifecycle</li></ul>
+
+<hr>
+
+<h2>Reference</h2></p><p>| Concept | Quick description |
+|---|---|
+| <code>tools/list</code> | Claude asks server what tools are available |
+| <code>tools/call</code> | Claude invokes a specific tool with args |
+| <code>resources/list</code> | Claude asks what readable resources exist |
+| <code>resources/read</code> | Claude reads a resource by URI |
+| <code>prompts/list</code> | List reusable prompt templates |
+| <code>initialize</code> | Capability negotiation on connect |
+| stdio transport | Child process, local only |
+| SSE transport | HTTP, works over network |
+| Streamable HTTP | Newer HTTP transport, preferred for Cloud Run |
+
+<hr>
+
+<h2>Further reading</h2>
+
+<ul><li><a href="https://modelcontextprotocol.io/specification/changelog" target="_blank" rel="noopener">MCP specification changelog</a></li><li><a href="https://docs.anthropic.com/en/docs/build-with-claude/mcp" target="_blank" rel="noopener">Anthropic API — remote MCP docs</a></li><li><a href="https://github.com/punkpeye/awesome-mcp-servers" target="_blank" rel="noopener">Awesome MCP servers</a></li></ul>
+</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>Generated by Claude · <a href="/plans/">← back to plans</a></p>
+  </footer>
+
+  <script>
+    window.LEARN_CONFIG = {
+      clientId: "REPLACE_WITH_CLIENT_ID",
+      gcsBucket: "classcharts-attachments",
+      allowedUsersKey: "learn-allowed-users.json"
+    };
+  </script>
+  <script src="/js/auth.js"></script>
+</body>
+</html>

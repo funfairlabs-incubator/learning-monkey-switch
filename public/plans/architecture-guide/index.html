@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Architecture & System Design · learn · funfairlabs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <meta name="google-signin-client_id" content="REPLACE_WITH_CLIENT_ID">
+</head>
+<body class="plan-page">
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="wordmark">funfairlabs<span class="wordmark-learn">/learn</span></a>
+      <nav class="header-nav">
+        <a href="/plans/" class="nav-link">← plans</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="auth-gate auth-gate--inline" id="auth-gate">
+    <div class="auth-gate-inner">
+      <p>This content is private. <button class="btn-signin-inline" onclick="window.learnAuth.signIn()">Sign in with Google →</button></p>
+    </div>
+  </div>
+
+  <main class="plan-content" id="plan-content" style="display:none">
+    <article class="plan-article">
+      <p><h1>Architecture & System Design</h1>
+
+<blockquote>Last reviewed: March 2026 · Maintained by Claude</blockquote></p><p>A practical guide to thinking about and designing software systems — from individual services to large distributed architectures. Useful whether you're a developer making design decisions, or a non-technical reader who wants to understand how software systems are structured.
+
+<hr>
+
+<h2>What is software architecture?</h2></p><p>Architecture is the set of significant decisions that shape a software system — how it's divided into parts, how those parts communicate, where data lives, and how the system handles failure. Good architecture makes a system easier to change, scale, and understand. Poor architecture makes every change expensive and every incident chaotic.</p><p>The key insight: <strong>architecture isn't about diagrams, it's about tradeoffs</strong>. Every choice (monolith vs microservices, SQL vs NoSQL, synchronous vs async) trades one thing for another. Understanding those tradeoffs is the job.
+
+<hr>
+
+<h2>Part 1 — Foundational concepts</h2>
+
+<h3>The monolith vs microservices question</h3></p><p>Most systems start as a <strong>monolith</strong> — a single deployable unit where all the code lives together. This is often the right call early on: it's simpler to develop, test, and deploy.</p><p><strong>Microservices</strong> split the system into independently deployable services, each responsible for one domain. The benefits are real — independent scaling, independent deployments, team autonomy — but so are the costs: distributed systems are harder to debug, network calls fail, data consistency becomes your problem.</p><p>The pragmatic view: start with a monolith. Split things out when a specific piece genuinely needs to scale independently, or when team size makes a shared codebase painful.
+
+<h3>Synchronous vs asynchronous communication</h3></p><p><strong>Synchronous</strong>: Service A calls Service B and waits for a response. Simple, easy to reason about. Problem: if B is slow or down, A is stuck.</p><p><strong>Asynchronous</strong>: Service A puts a message on a queue. Service B picks it up when it's ready. Decoupled, resilient. Problem: harder to reason about, eventual consistency becomes a concern.</p><p>In practice most systems use both — synchronous for user-facing requests where you need an immediate response, async (queues, pub/sub) for background work, notifications, and event-driven processing.
+
+<h3>The database question</h3></p><p><strong>Relational (SQL)</strong>: Structured data, relationships between entities, ACID transactions. Postgres is usually the right default. Predictable, battle-tested, powerful.</p><p><strong>Document (NoSQL)</strong>: Flexible schema, good for hierarchical data. MongoDB, Firestore. Can be fast for reads, but joins are your problem.</p><p><strong>Key-value stores</strong>: Redis. Blazingly fast. Good for caching, sessions, rate limiting — not for primary data storage.</p><p>The common mistake: reaching for a fancy datastore before you've outgrown Postgres. Postgres can handle more than most teams will ever need.
+
+<hr>
+
+<h2>Part 2 — Patterns worth knowing</h2>
+
+<h3>The 12-Factor App</h3></p><p>A set of principles for building cloud-native applications — config in environment variables, stateless processes, logs as streams, explicit dependencies. Understanding these explains why modern cloud infrastructure works the way it does.</p><p><a href="https://12factor.net" target="_blank" rel="noopener">Read the original: 12factor.net</a>
+
+<h3>Event-driven architecture</h3></p><p>Instead of services calling each other directly, they emit events ("order placed", "payment received") that other services consume. Decouples producers from consumers, makes it easy to add new consumers without changing existing code.</p><p>Tradeoff: eventual consistency. The system will get there, but not instantly. For user-facing flows that need immediate confirmation (did my payment go through?) you still need a synchronous confirmation step.
+
+<h3>CQRS — Command Query Responsibility Segregation</h3></p><p>Split the write path (commands that change state) from the read path (queries that return data). The read side can be optimised for queries independently of the write side. Useful for complex domains; overkill for simple CRUD.
+
+<h3>The strangler fig pattern</h3></p><p>How to migrate a legacy monolith to a new architecture without a big-bang rewrite. New functionality is built outside the old system; old functionality is gradually moved across. The old system is "strangled" over time. Named after a tree that grows around a host and eventually replaces it.
+
+<hr>
+
+<h2>Part 3 — Distributed systems realities</h2>
+
+<h3>The things that always fail</h3>
+
+<ul><li>The network is not reliable</li><li>Latency is not zero</li><li>Bandwidth is not infinite</li><li>The network is not secure</li><li>Topology changes</li><li>There is more than one administrator</li><li>Transport cost is not zero</li><li>The network is not homogeneous</li></ul></p><p>(These are the "fallacies of distributed computing" — worth knowing by name.)
+
+<h3>Idempotency</h3></p><p>If an operation might be retried (network failure, timeout), it should be safe to run it twice without bad effects. Design operations to be idempotent — "process payment for order 123" should check if it's already been processed before charging the card.
+
+<h3>Circuit breakers</h3></p><p>If Service B is failing, stop hammering it. A circuit breaker detects repeated failures and "opens" — subsequent calls fail fast without actually hitting B. After a timeout it lets a test call through. If that succeeds, it closes again. Prevents cascading failures.
+
+<hr>
+
+<h2>Further reading</h2>
+
+<ul><li><a href="https://dataintensive.net" target="_blank" rel="noopener">Designing Data-Intensive Applications</a> — Martin Kleppmann's book. The definitive resource on how real systems handle data at scale. Dense but worth it.</li><li><a href="https://www.cosmicpython.com" target="_blank" rel="noopener">Architecture Patterns with Python</a> — free online. Practical patterns: repository, unit of work, event-driven architecture.</li><li><a href="https://aosabook.org" target="_blank" rel="noopener">The Architecture of Open Source Applications</a> — free. Real engineers describe how real systems were designed and why.</li><li><a href="https://blog.bytebytego.com" target="_blank" rel="noopener">ByteByteGo Newsletter</a> — accessible system design explanations, good diagrams.</li></ul>
+</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>Generated by Claude · <a href="/plans/">← back to plans</a></p>
+  </footer>
+
+  <script>
+    window.LEARN_CONFIG = {
+      clientId: "REPLACE_WITH_CLIENT_ID",
+      gcsBucket: "classcharts-attachments",
+      allowedUsersKey: "learn-allowed-users.json"
+    };
+  </script>
+  <script src="/js/auth.js"></script>
+</body>
+</html>

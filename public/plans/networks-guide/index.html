@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Networks & How the Internet Works · learn · funfairlabs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <meta name="google-signin-client_id" content="REPLACE_WITH_CLIENT_ID">
+</head>
+<body class="plan-page">
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="wordmark">funfairlabs<span class="wordmark-learn">/learn</span></a>
+      <nav class="header-nav">
+        <a href="/plans/" class="nav-link">← plans</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="auth-gate auth-gate--inline" id="auth-gate">
+    <div class="auth-gate-inner">
+      <p>This content is private. <button class="btn-signin-inline" onclick="window.learnAuth.signIn()">Sign in with Google →</button></p>
+    </div>
+  </div>
+
+  <main class="plan-content" id="plan-content" style="display:none">
+    <article class="plan-article">
+      <p><h1>Networks & How the Internet Works</h1>
+
+<blockquote>Last reviewed: March 2026 · Maintained by Claude</blockquote></p><p>From "what is a LAN?" to how data actually travels across the internet. Written to be readable at any level — start wherever makes sense for you.
+
+<hr>
+
+<h2>The basics — what is a network?</h2></p><p>A <strong>network</strong> is two or more devices connected so they can share information. That's it. The complexity comes from the scale: the internet is a network of billions of devices, and the question of how a message finds its way from your laptop in the UK to a server in California in under 100 milliseconds is genuinely fascinating.
+
+<hr>
+
+<h2>LAN, WAN, and everything in between</h2>
+
+<h3>LAN — Local Area Network</h3></p><p>Your home Wi-Fi is a LAN. Your school or office network is a LAN. All the devices on it — your phone, laptop, smart TV, printer — can communicate with each other directly because they're physically close and on the same network.</p><p>A LAN is typically managed by a <strong>router</strong>, which connects your local network to the wider internet.
+
+<h3>WAN — Wide Area Network</h3></p><p>A WAN connects multiple LANs across large distances. The internet is the largest WAN in existence. Your home router has two connections: one to your local devices (the LAN side) and one to your ISP (the WAN side).
+
+<h3>Other network types</h3>
+
+<ul><li><strong>MAN</strong> (Metropolitan Area Network): a network covering a city — e.g. a university campus across multiple buildings</li><li><strong>VPN</strong> (Virtual Private Network): software that creates an encrypted "tunnel" over the internet, making it appear as if you're on a private network — common for remote working</li></ul>
+
+<hr>
+
+<h2>Part 1 — How data actually travels</h2>
+
+<h3>IP addresses</h3></p><p>Every device on a network has an <strong>IP address</strong> — a numerical label like <code>192.168.1.5</code> (on your local network) or <code>142.250.187.46</code> (a public address). It's how the network knows where to send data.</p><p><strong>IPv4</strong> addresses (the old format: four numbers 0–255 separated by dots) are running out because there are only ~4 billion possible combinations and the internet has more devices than that. <strong>IPv6</strong> was invented to solve this — it uses 128 bits instead of 32, giving roughly 340 undecillion possible addresses.</p><p><strong>Private vs public IP addresses</strong>: Your devices on your home network have private IPs (usually starting <code>192.168.x.x</code> or <code>10.x.x.x</code>). Your router has one public IP address facing the internet. Network Address Translation (NAT) is how your router maps private addresses to the single public one.
+
+<h3>Packets</h3></p><p>Data doesn't travel as one continuous stream — it's broken into <strong>packets</strong>, small chunks typically 1,500 bytes. Each packet is labelled with a source address, destination address, and a sequence number. They may travel different routes and arrive out of order. The receiving end reassembles them.</p><p>Why packets? Because networks are shared. If data had to travel as one uninterrupted stream, one large transfer could block everything else.
+
+<h3>The TCP/IP model</h3></p><p>The internet is built on a stack of protocols:</p><p><strong>IP (Internet Protocol)</strong> — handles addressing and routing. Gets packets from A to B, best-effort. Doesn't guarantee delivery or order.</p><p><strong>TCP (Transmission Control Protocol)</strong> — sits on top of IP. Adds reliability: checks that all packets arrived, requests retransmission of lost ones, reassembles them in order. Used for web pages, email, file transfers — anything where you need completeness.</p><p><strong>UDP (User Datagram Protocol)</strong> — also sits on top of IP, but without TCP's reliability guarantees. Faster, lower overhead. Used for video calls, gaming, live streams — where a dropped packet is better than a delayed one.
+
+<hr>
+
+<h2>Part 2 — What happens when you type a URL</h2></p><p>Type <code>https://bbc.co.uk</code> into your browser. Here's what happens:</p><p><strong>1. DNS lookup</strong>
+Your browser needs to turn <code>bbc.co.uk</code> into an IP address. It asks a <strong>DNS (Domain Name System)</strong> server — the internet's phone book. Your router usually provides a DNS server, which itself queries a chain of authoritative servers. The answer comes back: <code>151.101.0.81</code>.</p><p><strong>2. TCP connection</strong>
+Your browser opens a TCP connection to that IP address on port 443 (HTTPS). This involves a "handshake" — a brief back-and-forth to establish the connection.</p><p><strong>3. TLS handshake</strong>
+For HTTPS, there's a second handshake to establish an encrypted connection. Your browser and the server agree on encryption methods and exchange keys. This is what makes the padlock appear.</p><p><strong>4. HTTP request</strong>
+Your browser sends an HTTP GET request: "give me the document at <code>/</code>"</p><p><strong>5. HTTP response</strong>
+The server responds with the HTML. Your browser parses it, finds references to CSS and JavaScript files, and makes more requests for those.</p><p><strong>6. Rendering</strong>
+Browser assembles the page. What feels instant typically involved dozens of separate network requests.
+
+<hr>
+
+<h2>Part 3 — The internet's infrastructure</h2>
+
+<h3>Routers and routing</h3></p><p>A <strong>router</strong> forwards packets toward their destination. When a packet arrives, the router looks at its destination IP and decides which next hop to send it to, based on a routing table. Large internet routers hold routing tables with hundreds of thousands of entries.</p><p><strong>BGP (Border Gateway Protocol)</strong> is how large networks (called Autonomous Systems) tell each other how to reach IP addresses they control. When a major BGP misconfiguration happens, parts of the internet can become unreachable — this is called a BGP leak or BGP hijack, and it causes real outages. (Facebook's 2021 outage started with a BGP issue.)
+
+<h3>Physical infrastructure</h3></p><p>Internet traffic travels over:
+<ul><li><strong>Fibre optic cables</strong> — light pulses through glass fibres. Incredibly fast, carries enormous bandwidth</li><li><strong>Submarine cables</strong> — most international internet traffic travels over cables on the sea floor. There are hundreds of thousands of kilometres of them</li><li><strong>Wireless</strong> — Wi-Fi (local), 4G/5G (mobile), and satellite (e.g. Starlink for remote areas)</li></ul></p><p><strong>Data centres</strong> house the servers that run websites, cloud services, and everything else. A large data centre might contain hundreds of thousands of servers. They're located strategically around the world to reduce latency.
+
+<h3>CDNs (Content Delivery Networks)</h3></p><p>A CDN stores copies of content in data centres around the world. When you load a website, you might be served files from a CDN node 50km away rather than a server in another country. This reduces latency significantly. Cloudflare, Akamai, and Fastly are major CDN providers.
+
+<hr>
+
+<h2>Part 4 — Security basics</h2>
+
+<h3>Firewalls</h3></p><p>A firewall controls which network traffic is allowed in and out. At home, your router includes a basic firewall. Organisations use more sophisticated firewalls that can inspect traffic, block specific services, and log everything.
+
+<h3>Encryption</h3></p><p>HTTPS uses <strong>TLS</strong> to encrypt traffic between your browser and the server. Without it, anyone on the same network (e.g. a coffee shop Wi-Fi) could read your data in plaintext.</p><p><strong>End-to-end encryption</strong> (used by WhatsApp, Signal) means even the service provider can't read your messages — only the sender and recipient hold the keys.
+
+<h3>Common attacks</h3>
+
+<ul><li><strong>DNS spoofing</strong>: tricking a device into resolving a domain to a wrong IP address</li><li><strong>Man-in-the-middle</strong>: intercepting traffic between two parties (HTTPS prevents this)</li><li><strong>DDoS (Distributed Denial of Service)</strong>: flooding a server with traffic to make it unavailable</li></ul>
+
+<hr>
+
+<h2>GCSE and A-Level reference</h2>
+
+<h3>Key terms you need to know</h3></p><p>| Term | Definition |
+|---|---|
+| IP address | Numerical label identifying a device on a network |
+| MAC address | Hardware identifier built into a network interface card — unique, doesn't change |
+| DNS | System translating domain names to IP addresses |
+| HTTP/HTTPS | Protocol for transferring web pages; S = encrypted |
+| TCP | Reliable, connection-based transport protocol |
+| UDP | Faster, connectionless transport protocol |
+| Router | Forwards packets between networks |
+| Switch | Connects devices on the same LAN |
+| Firewall | Controls allowed network traffic |
+| Bandwidth | Maximum data transfer rate of a connection |
+| Latency | Time taken for data to travel from source to destination |
+| Packet | A small unit of data with addressing information |
+| Protocol | A set of rules governing communication |
+
+<hr>
+
+<h2>Further reading and resources</h2>
+
+<ul><li><a href="https://www.bbc.co.uk/bitesize/topics/zc6nsbk" target="_blank" rel="noopener">BBC Bitesize: Computer Networks</a> — clear GCSE-level coverage</li><li><a href="https://howdns.works" target="_blank" rel="noopener">How DNS Works (comic)</a> — genuinely fun explanation</li><li><a href="https://www.cloudflare.com/learning/" target="_blank" rel="noopener">Cloudflare Learning Centre</a> — excellent free explainers on networking, security, CDNs</li><li><a href="https://www.submarinecablemap.com" target="_blank" rel="noopener">Submarine Cable Map</a> — interactive map of the world's undersea cables</li><li><a href="https://wizardzines.com" target="_blank" rel="noopener">Julia Evans' networking zines</a> — charming illustrated guides to how networks work</li></ul>
+</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>Generated by Claude · <a href="/plans/">← back to plans</a></p>
+  </footer>
+
+  <script>
+    window.LEARN_CONFIG = {
+      clientId: "REPLACE_WITH_CLIENT_ID",
+      gcsBucket: "classcharts-attachments",
+      allowedUsersKey: "learn-allowed-users.json"
+    };
+  </script>
+  <script src="/js/auth.js"></script>
+</body>
+</html>
