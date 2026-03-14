@@ -141,6 +141,33 @@ function isStale(slug) {
   } catch { return true; }
 }
 
+const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+
+// Retry with exponential backoff — respects the retry-after header on 429s
+async function callWithRetry(topic, maxRetries = 4) {
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      return await client.messages.create({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 1500,
+        tools: [{ type: 'web_search_20250305', name: 'web_search' }],
+        messages: [{ role: 'user', content: topic.prompt }]
+      });
+    } catch (err) {
+      const is429 = err?.status === 429;
+      const isLast = attempt === maxRetries;
+
+      if (!is429 || isLast) throw err;
+
+      // Respect retry-after header if present, else exponential backoff
+      const retryAfter = parseInt(err?.headers?.['retry-after'] || '0', 10);
+      const backoff = retryAfter > 0 ? retryAfter * 1000 : Math.min(30000, 5000 * attempt);
+      console.log(`⏳ Rate limited on "${topic.title}" — waiting ${Math.round(backoff / 1000)}s (attempt ${attempt}/${maxRetries})...`);
+      await sleep(backoff);
+    }
+  }
+}
+
 async function generateTopic(topic) {
   if (!isStale(topic.slug)) {
     console.log(`⏭  Skipping ${topic.title} (fresh)`);
@@ -148,12 +175,7 @@ async function generateTopic(topic) {
   }
   console.log(`🔄 Generating: ${topic.title}...`);
 
-  const response = await client.messages.create({
-    model: 'claude-sonnet-4-20250514',
-    max_tokens: 1500,
-    tools: [{ type: 'web_search_20250305', name: 'web_search' }],
-    messages: [{ role: 'user', content: topic.prompt }]
-  });
+  const response = await callWithRetry(topic);
 
   const text = response.content
     .filter(b => b.type === 'text')
@@ -181,6 +203,7 @@ async function generateTopic(topic) {
 console.log(`FORCE_REGENERATE=${FORCE} | Topics: ${TOPICS.length}\n`);
 for (const topic of TOPICS) {
   await generateTopic(topic);
-  await new Promise(r => setTimeout(r, 1200));
+  // 30s between topics — well within 30k TPM limit at ~3-4k tokens per call
+  await sleep(30000);
 }
 console.log('\n✨ Content generation complete.');
