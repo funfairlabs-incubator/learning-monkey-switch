@@ -204,6 +204,6 @@ console.log(`FORCE_REGENERATE=${FORCE} | Topics: ${TOPICS.length}\n`);
 for (const topic of TOPICS) {
   await generateTopic(topic);
   // 30s between topics — well within 30k TPM limit at ~3-4k tokens per call
-  await sleep(30000);
+  await sleep(65000); // 65s clears the 1-min rate limit window; ~10 min total for 9 topics
 }
 console.log('\n✨ Content generation complete.');
