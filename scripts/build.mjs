@@ -13,7 +13,8 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 
-const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID || 'REPLACE_WITH_CLIENT_ID';
+const GOOGLE_CLIENT_ID  = process.env.GOOGLE_CLIENT_ID  || 'REPLACE_WITH_CLIENT_ID';
+const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY || '';
 const GCS_BUCKET = process.env.GCS_BUCKET || 'learning-monkey-switch';
 const ALLOWED_USERS_KEY = 'learn-allowed-users.json';
 
@@ -138,7 +139,8 @@ function buildIndex() {
     window.LEARN_CONFIG = {
       clientId: "${GOOGLE_CLIENT_ID}",
       gcsBucket: "${GCS_BUCKET}",
-      allowedUsersKey: "${ALLOWED_USERS_KEY}"
+      allowedUsersKey: "${ALLOWED_USERS_KEY}",
+      anthropicKey: "${ANTHROPIC_API_KEY}"
     };
   </script>
   <script src="/js/auth.js"></script>
@@ -264,7 +266,8 @@ function buildPlansIndex() {
     window.LEARN_CONFIG = {
       clientId: "${GOOGLE_CLIENT_ID}",
       gcsBucket: "${GCS_BUCKET}",
-      allowedUsersKey: "${ALLOWED_USERS_KEY}"
+      allowedUsersKey: "${ALLOWED_USERS_KEY}",
+      anthropicKey: "${ANTHROPIC_API_KEY}"
     };
   </script>
   <script src="/js/auth.js"></script>
@@ -348,7 +351,8 @@ function buildPlanPages() {
     window.LEARN_CONFIG = {
       clientId: "${GOOGLE_CLIENT_ID}",
       gcsBucket: "${GCS_BUCKET}",
-      allowedUsersKey: "${ALLOWED_USERS_KEY}"
+      allowedUsersKey: "${ALLOWED_USERS_KEY}",
+      anthropicKey: "${ANTHROPIC_API_KEY}"
     };
   </script>
   <script src="/js/auth.js"></script>
@@ -555,7 +559,8 @@ function buildLearnPage() {
     window.LEARN_CONFIG = {
       clientId: "${GOOGLE_CLIENT_ID}",
       gcsBucket: "${GCS_BUCKET}",
-      allowedUsersKey: "${ALLOWED_USERS_KEY}"
+      allowedUsersKey: "${ALLOWED_USERS_KEY}",
+      anthropicKey: "${ANTHROPIC_API_KEY}"
     };
   </script>
   <script src="/js/auth.js"></script>
