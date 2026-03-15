@@ -87,9 +87,7 @@ function buildIndex() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>learn · funfairlabs</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -99,6 +97,9 @@ function buildIndex() {
       <nav class="header-nav">
         <a href="/learn/" class="nav-link nav-link--auth" id="study-link">study</a>
         <a href="/plans/" class="nav-link nav-link--plans" id="plans-link">my plans</a>
+        <button class="btn-header-signin" id="header-signin-btn" onclick="window.learnAuth && window.learnAuth.signIn()">
+          Sign in
+        </button>
       </nav>
     </div>
   </header>
@@ -126,6 +127,8 @@ function buildIndex() {
       if (e.detail.authenticated) {
         document.getElementById('plans-link').classList.add('visible');
         document.getElementById('study-link').classList.add('visible');
+        const btn = document.getElementById('header-signin-btn');
+        if (btn) btn.classList.add('hidden');
       }
     });
   </script>
@@ -173,9 +176,7 @@ function buildPlansIndex() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>plans · learn · funfairlabs</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="/css/style.css">
   <meta name="google-signin-client_id" content="${GOOGLE_CLIENT_ID}">
 </head>
@@ -264,9 +265,7 @@ function buildPlanPages() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${title} · learn · funfairlabs</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="/css/style.css">
   <meta name="google-signin-client_id" content="${GOOGLE_CLIENT_ID}">
 </head>
@@ -379,9 +378,7 @@ function buildLearnPage() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>study · learn · funfairlabs</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/learn.css">
   <meta name="google-signin-client_id" content="${GOOGLE_CLIENT_ID}">
