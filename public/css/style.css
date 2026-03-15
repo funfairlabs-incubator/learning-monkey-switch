@@ -17,11 +17,11 @@
   --text-3:      #908a80;
 
   /* Orange primary — matches funfairlabs.com exactly */
-  --pal-h:       24;
-  --accent:      hsl(var(--pal-h) 78% 42%);
-  --accent-d:    hsl(var(--pal-h) 76% 30%);
-  --accent-soft: hsl(var(--pal-h) 82% 95%);
-  --accent-t:    hsl(var(--pal-h) 78% 42% / 0.13);
+  
+  --accent:      #c8611a;
+  --accent-d:    #8f3d0d;
+  --accent-soft: #fef0e8;
+  --accent-t:    rgba(200, 97, 26, 0.13);
 
   --radius:      10px;
   --radius-lg:   18px;
