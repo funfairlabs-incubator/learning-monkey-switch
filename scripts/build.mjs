@@ -91,6 +91,20 @@ function buildIndex() {
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+  <script>
+    /* Dynamic colour palette — matches funfairlabs.com */
+    (function(){
+      const ranges=[[0,35],[165,260],[280,340]];
+      const r=ranges[Math.floor(Math.random()*ranges.length)];
+      const h=Math.floor(Math.random()*(r[1]-r[0])+r[0]);
+      const root=document.documentElement;
+      root.style.setProperty('--pal-h', h);
+      root.style.setProperty('--accent',     'hsl('+h+',78%,42%)');
+      root.style.setProperty('--accent-d',   'hsl('+h+',76%,30%)');
+      root.style.setProperty('--accent-soft','hsl('+h+',82%,95%)');
+      root.style.setProperty('--accent-t',   'hsla('+h+',78%,42%,0.13)');
+    })();
+  </script>
   <header class="site-header">
     <div class="header-inner">
       <a href="/" class="wordmark">funfairlabs<span class="wordmark-learn">/learn</span></a>
@@ -188,6 +202,20 @@ function buildPlansIndex() {
   <meta name="google-signin-client_id" content="${GOOGLE_CLIENT_ID}">
 </head>
 <body class="plans-page">
+  <script>
+    /* Dynamic colour palette — matches funfairlabs.com */
+    (function(){
+      const ranges=[[0,35],[165,260],[280,340]];
+      const r=ranges[Math.floor(Math.random()*ranges.length)];
+      const h=Math.floor(Math.random()*(r[1]-r[0])+r[0]);
+      const root=document.documentElement;
+      root.style.setProperty('--pal-h', h);
+      root.style.setProperty('--accent',     'hsl('+h+',78%,42%)');
+      root.style.setProperty('--accent-d',   'hsl('+h+',76%,30%)');
+      root.style.setProperty('--accent-soft','hsl('+h+',82%,95%)');
+      root.style.setProperty('--accent-t',   'hsla('+h+',78%,42%,0.13)');
+    })();
+  </script>
   <header class="site-header">
     <div class="header-inner">
       <a href="/" class="wordmark">funfairlabs<span class="wordmark-learn">/learn</span></a>
@@ -277,6 +305,20 @@ function buildPlanPages() {
   <meta name="google-signin-client_id" content="${GOOGLE_CLIENT_ID}">
 </head>
 <body class="plan-page">
+  <script>
+    /* Dynamic colour palette — matches funfairlabs.com */
+    (function(){
+      const ranges=[[0,35],[165,260],[280,340]];
+      const r=ranges[Math.floor(Math.random()*ranges.length)];
+      const h=Math.floor(Math.random()*(r[1]-r[0])+r[0]);
+      const root=document.documentElement;
+      root.style.setProperty('--pal-h', h);
+      root.style.setProperty('--accent',     'hsl('+h+',78%,42%)');
+      root.style.setProperty('--accent-d',   'hsl('+h+',76%,30%)');
+      root.style.setProperty('--accent-soft','hsl('+h+',82%,95%)');
+      root.style.setProperty('--accent-t',   'hsla('+h+',78%,42%,0.13)');
+    })();
+  </script>
   <header class="site-header">
     <div class="header-inner">
       <a href="/" class="wordmark">funfairlabs<span class="wordmark-learn">/learn</span></a>
@@ -391,6 +433,20 @@ function buildLearnPage() {
   <meta name="google-signin-client_id" content="${GOOGLE_CLIENT_ID}">
 </head>
 <body class="learn-page">
+  <script>
+    /* Dynamic colour palette — matches funfairlabs.com */
+    (function(){
+      const ranges=[[0,35],[165,260],[280,340]];
+      const r=ranges[Math.floor(Math.random()*ranges.length)];
+      const h=Math.floor(Math.random()*(r[1]-r[0])+r[0]);
+      const root=document.documentElement;
+      root.style.setProperty('--pal-h', h);
+      root.style.setProperty('--accent',     'hsl('+h+',78%,42%)');
+      root.style.setProperty('--accent-d',   'hsl('+h+',76%,30%)');
+      root.style.setProperty('--accent-soft','hsl('+h+',82%,95%)');
+      root.style.setProperty('--accent-t',   'hsla('+h+',78%,42%,0.13)');
+    })();
+  </script>
   <header class="site-header">
     <div class="header-inner">
       <a href="/" class="wordmark">funfairlabs<span class="wordmark-learn">/learn</span></a>
