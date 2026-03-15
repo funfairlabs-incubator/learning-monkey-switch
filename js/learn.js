@@ -197,7 +197,9 @@ Please create a structured study guide I can work through. Include:
       systemPrompt = PERSONAS.child(currentUser);
     }
 
-    const response = await fetch('https://api.anthropic.com/v1/messages', {
+    // Call via Cloudflare Worker proxy — API key never exposed in browser
+    const proxyUrl = window.LEARN_CONFIG?.proxyUrl || 'https://learn-proxy.funfairlabs.com/chat';
+    const response = await fetch(proxyUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

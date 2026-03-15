@@ -9,6 +9,20 @@
   <meta name="google-signin-client_id" content="480333369166-pq4qre14tke8ap93dmskeqk055dpsq7g.apps.googleusercontent.com">
 </head>
 <body class="plans-page">
+  <script>
+    /* Dynamic colour palette — matches funfairlabs.com */
+    (function(){
+      const ranges=[[0,35],[165,260],[280,340]];
+      const r=ranges[Math.floor(Math.random()*ranges.length)];
+      const h=Math.floor(Math.random()*(r[1]-r[0])+r[0]);
+      const root=document.documentElement;
+      root.style.setProperty('--pal-h', h);
+      root.style.setProperty('--accent',     'hsl('+h+',78%,42%)');
+      root.style.setProperty('--accent-d',   'hsl('+h+',76%,30%)');
+      root.style.setProperty('--accent-soft','hsl('+h+',82%,95%)');
+      root.style.setProperty('--accent-t',   'hsla('+h+',78%,42%,0.13)');
+    })();
+  </script>
   <header class="site-header">
     <div class="header-inner">
       <a href="/" class="wordmark">funfairlabs<span class="wordmark-learn">/learn</span></a>
@@ -96,7 +110,8 @@
     window.LEARN_CONFIG = {
       clientId: "480333369166-pq4qre14tke8ap93dmskeqk055dpsq7g.apps.googleusercontent.com",
       gcsBucket: "learning-monkey-switch",
-      allowedUsersKey: "learn-allowed-users.json"
+      allowedUsersKey: "learn-allowed-users.json",
+      proxyUrl: "https://learn-proxy.funfairexpenses.workers.dev/chat"
     };
   </script>
   <script src="/js/auth.js"></script>
