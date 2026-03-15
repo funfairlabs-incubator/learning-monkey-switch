@@ -1,0 +1,17 @@
+name = "learn-proxy"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+# Custom domain — add this route in the Cloudflare dashboard
+# Route: learn-proxy.funfairlabs.com/*  → learn-proxy worker
+# Or use: routes = [{ pattern = "learn-proxy.funfairlabs.com/*", zone_name = "funfairlabs.com" }]
+
+# Optional: KV namespace for rate limiting
+# Create with: wrangler kv:namespace create RATE_LIMIT_KV
+# Then uncomment and fill in the id:
+# [[kv_namespaces]]
+# binding = "RATE_LIMIT_KV"
+# id = "YOUR_KV_NAMESPACE_ID"
+
+# Secret (never in wrangler.toml — set via CLI):
+# wrangler secret put ANTHROPIC_API_KEY

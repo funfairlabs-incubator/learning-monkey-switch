@@ -197,15 +197,11 @@ Please create a structured study guide I can work through. Include:
       systemPrompt = PERSONAS.child(currentUser);
     }
 
-    const apiKey = window.LEARN_CONFIG?.anthropicKey || '';
-    const response = await fetch('https://api.anthropic.com/v1/messages', {
+    // Call via Cloudflare Worker proxy — API key never exposed in browser
+    const proxyUrl = window.LEARN_CONFIG?.proxyUrl || 'https://learn-proxy.funfairlabs.com/chat';
+    const response = await fetch(proxyUrl, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': apiKey,
-        'anthropic-version': '2023-06-01',
-        'anthropic-dangerous-direct-browser-access': 'true',
-      },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         model:      'claude-sonnet-4-20250514',
         max_tokens: 1500,
