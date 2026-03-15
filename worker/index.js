@@ -18,6 +18,7 @@
 
 const ALLOWED_ORIGINS = [
   'https://learn.funfairlabs.com',
+  'https://learn-proxy.funfairexpenses.workers.dev',
   'http://localhost:3000',       // local dev
   'http://127.0.0.1:5500',       // VS Code Live Server
 ];

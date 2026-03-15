@@ -14,7 +14,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 
 const GOOGLE_CLIENT_ID  = process.env.GOOGLE_CLIENT_ID  || 'REPLACE_WITH_CLIENT_ID';
-const PROXY_URL = 'https://learn-proxy.funfairlabs.com/chat';
+const PROXY_URL = 'https://learn-proxy.funfairexpenses.workers.dev/chat';
 const GCS_BUCKET = process.env.GCS_BUCKET || 'learning-monkey-switch';
 const ALLOWED_USERS_KEY = 'learn-allowed-users.json';
 
