@@ -1,0 +1,32 @@
+{
+  "topic": "UK Schools & Education",
+  "generated_at": "2026-03-15",
+  "highlight": {
+    "title": "Major Curriculum Reform: New National Curriculum from 2028",
+    "summary": "<cite index=\"5-2,3-1\">The government has confirmed plans to refresh the national curriculum from 2028 onwards following its response to the recent Curriculum Review. A refreshed National Curriculum is planned from 2028, with a strong emphasis on literacy, numeracy, oracy, and digital/media literacy.</cite> <cite index=\"5-3\">Government will aim to publish the final revised national curriculum by spring 2027 – giving schools four terms to prepare for the changes.</cite>",
+    "url": "https://www.gov.uk/government/news/new-curriculum-to-give-young-people-the-skills-for-life-and-work"
+  },
+  "resources": [
+    {
+      "title": "Free BBC Bitesize Revision App",
+      "url": "https://www.bbc.co.uk/bitesize",
+      "why_now": "Student resource: <cite index=\"33-21,40-14\">BBC Bitesize is used by over 1.5 million students per week and offers exam board-specific content for GCSE, A-levels, and other qualifications.</cite> <cite index=\"33-34\">The BBC Bitesize Exam Revision app is completely free and there are no in-app purchases.</cite>"
+    },
+    {
+      "title": "KS2 SATs 2026: Official Government Information for Parents",
+      "url": "https://www.gov.uk/government/publications/key-stage-2-national-curriculum-tests-and-results-information-for-parents/2025-key-stage-2-national-curriculum-tests-information-for-parents",
+      "why_now": "Parent resource: <cite index=\"12-9,12-10,12-11\">For the academic year 2025 to 2026, the KS2 tests are scheduled to take place from Monday 11 May to Thursday 14 May 2026. Schools can view KS2 test results online from Tuesday 7 July 2026. Your child's school will decide how they issue test results and teacher assessment judgements to pupils and parents, but you should receive them by the end of the summer term.</cite>"
+    },
+    {
+      "title": "Computing Curriculum Changes 2026: Preparing for AI and Cybersecurity",
+      "url": "https://www.hyetteducation.com/resources/computing-curriculum-changes-2026",
+      "why_now": "Both parents and teachers: <cite index=\"4-10,4-31\">The current computing national curriculum was introduced in 2014, but artificial intelligence, machine learning, cybersecurity threats have moved on dramatically since then. The revised version is expected to introduce age-appropriate AI concepts from KS2 onwards.</cite>"
+    },
+    {
+      "title": "2026 Schools White Paper Explained",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10570/",
+      "why_now": "Parent resource: <cite index=\"6-2,6-8\">The government's Every Child Achieving and Thriving white paper, published on 23 February 2026, sets out long-term reforms to the school system. The government has set several national ambitions relating to attainment and absence, which include: halving the attainment gap between disadvantaged children and their peers at GCSE.</cite>"
+    }
+  ],
+  "claude_take": "<cite index=\"5-2,8-2\">With a new national curriculum coming in 2028 focusing on literacy, numeracy, oracy, and digital literacy, families have time to prepare but shouldn't wait. The emphasis on oracy (speaking and listening skills) and updated computing content including AI literacy signals a shift toward skills students will actually need in their adult lives.</cite> Start building these skills now rather than waiting for formal curriculum changes."
+}
