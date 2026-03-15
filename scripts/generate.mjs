@@ -200,10 +200,25 @@ async function generateTopic(topic) {
   console.log(`✅ Written: content/recommendations/${topic.slug}.json`);
 }
 
-console.log(`FORCE_REGENERATE=${FORCE} | Topics: ${TOPICS.length}\n`);
-for (const topic of TOPICS) {
-  await generateTopic(topic);
-  // 30s between topics — well within 30k TPM limit at ~3-4k tokens per call
-  await sleep(65000); // 65s clears the 1-min rate limit window; ~10 min total for 9 topics
+// Filter to specific slugs if TOPIC_SLUGS env var is set (space-separated)
+// e.g. TOPIC_SLUGS="uk-education" or TOPIC_SLUGS="nextjs-fullstack devtools-workflow tech-news"
+const slugFilter = (process.env.TOPIC_SLUGS || '').trim().split(/\s+/).filter(Boolean);
+const toRun = slugFilter.length > 0
+  ? TOPICS.filter(t => slugFilter.includes(t.slug))
+  : TOPICS;
+
+if (toRun.length === 0) {
+  console.log(`⚠️  No matching topics for TOPIC_SLUGS="${process.env.TOPIC_SLUGS}". Nothing to do.`);
+  process.exit(0);
+}
+
+console.log(`FORCE_REGENERATE=${FORCE} | Running ${toRun.length} topic(s): ${toRun.map(t => t.slug).join(', ')}\n`);
+for (let i = 0; i < toRun.length; i++) {
+  await generateTopic(toRun[i]);
+  // Only delay between topics, not after the last one
+  if (i < toRun.length - 1) {
+    console.log('⏸  Waiting 65s before next topic...');
+    await sleep(65000);
+  }
 }
 console.log('\n✨ Content generation complete.');

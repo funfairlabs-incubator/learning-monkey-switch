@@ -2,12 +2,41 @@ name: Generate and Deploy
 
 on:
   schedule:
-    # Every Sunday at 08:00 UTC
-    - cron: '0 8 * * 0'
+    # One topic per evening at 19:00 UTC (8pm BST)
+    # Day → topic mapping:
+    # Mon → uk-education (priority #1)
+    # Tue → mcp-ai
+    # Wed → architecture
+    # Thu → leadership
+    # Fri → networks
+    # Sat → gcp-infra
+    # Sun → nextjs-fullstack, devtools-workflow, tech-news (catch-all for remaining 3)
+    - cron: '0 19 * * 1'   # Monday    — uk-education
+    - cron: '0 19 * * 2'   # Tuesday   — mcp-ai
+    - cron: '0 19 * * 3'   # Wednesday — architecture
+    - cron: '0 19 * * 4'   # Thursday  — leadership
+    - cron: '0 19 * * 5'   # Friday    — networks
+    - cron: '0 19 * * 6'   # Saturday  — gcp-infra
+    - cron: '0 8  * * 0'   # Sunday    — nextjs-fullstack, devtools-workflow, tech-news
   workflow_dispatch:
     inputs:
+      topic:
+        description: 'Single topic slug to generate (leave blank for scheduled day)'
+        type: choice
+        default: ''
+        options:
+          - ''
+          - uk-education
+          - mcp-ai
+          - architecture
+          - leadership
+          - networks
+          - gcp-infra
+          - nextjs-fullstack
+          - devtools-workflow
+          - tech-news
       force_regenerate:
-        description: 'Force regenerate all topics (ignore cache)'
+        description: 'Force regenerate even if fresh'
         type: boolean
         default: false
 
@@ -32,10 +61,37 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Resolve topic(s) for today
+        id: topics
+        run: |
+          # Manual override takes priority
+          if [ -n "${{ github.event.inputs.topic }}" ]; then
+            echo "slugs=${{ github.event.inputs.topic }}" >> $GITHUB_OUTPUT
+            echo "Running manual topic: ${{ github.event.inputs.topic }}"
+            exit 0
+          fi
+
+          # Derive from day of week
+          DOW=$(date -u +%u)  # 1=Mon … 7=Sun
+          case $DOW in
+            1) SLUGS="uk-education" ;;
+            2) SLUGS="mcp-ai" ;;
+            3) SLUGS="architecture" ;;
+            4) SLUGS="leadership" ;;
+            5) SLUGS="networks" ;;
+            6) SLUGS="gcp-infra" ;;
+            7) SLUGS="nextjs-fullstack devtools-workflow tech-news" ;;
+            *) SLUGS="" ;;
+          esac
+
+          echo "slugs=$SLUGS" >> $GITHUB_OUTPUT
+          echo "Today is DOW=$DOW, running: $SLUGS"
+
       - name: Generate content
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           FORCE_REGENERATE: ${{ github.event.inputs.force_regenerate || 'false' }}
+          TOPIC_SLUGS: ${{ steps.topics.outputs.slugs }}
         run: node scripts/generate.mjs
 
       - name: Build static site
