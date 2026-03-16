@@ -178,7 +178,7 @@
           container = document.createElement('div');
           container.id = 'g-signin-container';
           container.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:9999;background:white;padding:24px;border-radius:12px;box-shadow:0 8px 32px rgba(0,0,0,0.2);text-align:center;';
-          container.innerHTML = '<p style="margin-bottom:16px;font-family:Arial,sans-serif;font-size:14px;color:#444">Sign in with your Google account</p><div id="g-signin-btn"></div><button onclick="document.getElementById('g-signin-container').remove()" style="margin-top:12px;background:none;border:none;font-size:12px;color:#888;cursor:pointer;font-family:Arial,sans-serif">Cancel</button>';
+          container.innerHTML = `<p style="margin-bottom:16px;font-family:Arial,sans-serif;font-size:14px;color:#444">Sign in with your Google account</p><div id="g-signin-btn"></div><button onclick="document.getElementById('g-signin-container').remove()" style="margin-top:12px;background:none;border:none;font-size:12px;color:#888;cursor:pointer;font-family:Arial,sans-serif">Cancel</button>`;
           document.body.appendChild(container);
         }
         google.accounts.id.renderButton(
