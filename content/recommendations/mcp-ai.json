@@ -1,0 +1,32 @@
+{
+  "topic": "MCP & AI Tooling",
+  "generated_at": "2026-03-17",
+  "highlight": {
+    "title": "MCP Security Crisis: Over 30 CVEs Filed in First Two Months of 2026",
+    "summary": "<cite index=\"14-1,14-2\">Between January and February 2026, security researchers filed over 30 CVEs targeting MCP servers, clients, and infrastructure. The vulnerabilities ranged from trivial path traversals to a CVSS 9.6 remote code execution flaw in a package downloaded nearly half a million times.</cite> <cite index=\"19-38,19-41,19-42,19-45,19-46\">Analysis of 1,808 MCP servers revealed 66% had security findings, with code execution risks being the most common.</cite>",
+    "url": "https://news.ycombinator.com/item?id=47356600"
+  },
+  "resources": [
+    {
+      "title": "We Scanned 1,808 MCP Servers. 66% Had Security Findings - AgentSeal",
+      "url": "https://agentseal.org/blog/mcp-server-security-findings",
+      "why_now": "<cite index=\"19-4,19-5,19-6,19-7,19-8\">A February 2026 real-world incident where an AI agent accidentally destroyed 2.5 years of education platform data highlights how MCP security flaws can cause catastrophic failures.</cite> <cite index=\"19-17,19-18,19-19,19-20\">Snyk's analysis of 3,984 AI agent skills found 36.82% had security flaws, with 76 containing confirmed malware.</cite>"
+    },
+    {
+      "title": "Exploring the Future of MCP Transports | Model Context Protocol Blog",
+      "url": "https://blog.modelcontextprotocol.io/posts/2025-12-19-mcp-transport-future/",
+      "why_now": "<cite index=\"7-7,7-8,7-9\">The MCP Transport Working Group is evolving beyond Streamable HTTP due to enterprise-scale challenges with stateful connections becoming bottlenecks for managed services and load balancing.</cite> <cite index=\"7-16,7-17\">They envision a future where agentic applications are stateful but the protocol itself doesn't need to be, enabling scale while supporting stateful application sessions.</cite>"
+    },
+    {
+      "title": "MCP Security Vulnerabilities: How to Prevent Prompt Injection and Tool Poisoning Attacks in 2026",
+      "url": "https://www.practical-devsecops.com/mcp-security-vulnerabilities/",
+      "why_now": "<cite index=\"12-3,12-4\">MCP has become the backbone infrastructure for connecting AI models with external tools in 2026, holding sensitive data and runtime privileges that make security absolutely critical.</cite> <cite index=\"12-8,12-9,12-10\">The expanding ecosystem means adversaries are developing sophisticated prompt injection and tool poisoning techniques requiring proactive security measures.</cite>"
+    },
+    {
+      "title": "Microsoft Patches 84 Flaws in March Patch Tuesday, Including Two Public Zero-Days",
+      "url": "https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html",
+      "why_now": "<cite index=\"16-1,16-4,16-5\">Microsoft's March 2026 Patch Tuesday included CVE-2026-26118, a CVSS 8.8 server-side request forgery bug in Azure MCP Server that could allow privilege escalation.</cite> <cite index=\"16-7,16-8,16-9\">The vulnerability allows attackers to capture managed identity tokens and obtain associated permissions, showing MCP is now part of major cloud infrastructure security updates.</cite>"
+    }
+  ],
+  "claude_take": "<cite index=\"7-16,7-17,5-32\">MCP's evolution toward stateless protocols and session management at the data layer suggests 2026 will be the year AI agents transition from demos to production deployments.</cite> However, the security crisis reveals the protocol matured faster than its security model—expect major governance changes and enterprise-grade security frameworks to emerge as adoption continues scaling exponentially."
+}
