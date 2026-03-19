@@ -1,0 +1,32 @@
+{
+  "topic": "Leadership & Team Craft",
+  "generated_at": "2026-03-19",
+  "highlight": {
+    "title": "How to Foster Psychological Safety When AI Erodes Trust on Your Team",
+    "summary": "As organizations integrate AI tools promising productivity gains, unexpected team dysfunction emerges. Harvard's Amy Edmondson and 3M's Jayshree Seth reveal how AI can undermine trust in ways leaders struggle to identify, offering practical approaches to maintain psychological safety in AI-augmented teams.",
+    "url": "https://hbr.org/2026/02/how-to-foster-psychological-safety-when-ai-erodes-trust-on-your-team"
+  },
+  "resources": [
+    {
+      "title": "7 Leadership Trends for 2026",
+      "url": "https://www.siyglobal.com/blog/7-leadership-trends-for-2026",
+      "why_now": "With 71% of leaders reporting increased stress and manager engagement dropping for the first time, this research identifies the emotional intelligence capabilities (Connection, Conscience, Creativity, Clarity, and Curiosity) leaders need when their span of control rapidly expands in lean organizations."
+    },
+    {
+      "title": "Six Counterintuitive Trends for 2026: What Should Leaders Prepare For?",
+      "url": "https://barryoreilly.com/explore/blog/six-counterintuitive-trends-for-2026/",
+      "why_now": "While most leadership advice focuses on doing more, Barry O'Reilly's research reveals why judgment trumps expertise, how 'Joy of Missing Out' replaces FOMO, and why protecting attention may matter more than accessing intelligence as AI saturates work environments."
+    },
+    {
+      "title": "Time Is Not Enough: Exploring the Processes That Shape Team Psychological Safety",
+      "url": "https://link.springer.com/article/10.1007/s10869-025-10078-9",
+      "why_now": "This breakthrough study reveals psychological safety as a 'perishable resource' that requires active maintenance through four key processes: connecting, clarifying, supporting, and performing. Critical for leaders managing hybrid teams where trust can't be assumed."
+    },
+    {
+      "title": "A Leader's Framework for Decision Making",
+      "url": "https://hbr.org/2007/11/a-leaders-framework-for-decision-making",
+      "why_now": "The Cynefin framework remains essential as leaders face unprecedented complexity where traditional cause-and-effect thinking fails. With AI changing decision contexts rapidly, understanding when to sense-categorize-respond versus act-sense-respond becomes a core leadership competency."
+    }
+  ],
+  "claude_take": "Leadership in 2026 isn't about mastering new technologies—it's about preserving human agency while AI transforms work. The most critical skill isn't technical fluency but the emotional intelligence to maintain trust and psychological safety when algorithms make team dynamics unpredictable."
+}
