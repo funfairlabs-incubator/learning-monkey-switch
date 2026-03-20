@@ -1,0 +1,32 @@
+{
+  "topic": "Networks & Infrastructure",
+  "generated_at": "2026-03-20",
+  "highlight": {
+    "title": "Cloudflare's July 2024 BGP Outage: When Internet Routing Goes Wrong",
+    "summary": "In July 2024, a BGP hijack disrupted Cloudflare's DNS service across 300 networks in 70 countries, showing how fragile internet routing can be. <cite index='1-1,1-2'>An outage affecting Cloudflare's 1.1.1.1 DNS resolver service stemmed from a Border Gateway Protocol (BGP) hijack paired with a route leak. The issue disrupted 300 networks across 70 countries.</cite> This real-world example demonstrates why understanding network protocols matters—when the internet's \"GPS\" breaks down, millions of users can't reach websites even though their devices work perfectly.",
+    "url": "https://pulse.internetsociety.org/blog/cloudflare-dns-outage-traced-to-bgp-hijacking-incident"
+  },
+  "resources": [
+    {
+      "title": "How the Internet Works: A Complete 2025 Guide to Protocols & Infrastructure",
+      "url": "https://scopedesign.com/how-internet-works-2025-complete-guide-protocols-infrastructure/",
+      "why_now": "<cite index='12-2,12-10'>Nearly half of web requests used HTTP/2 in 2024, with 20.5% using HTTP/3</cite>—this guide explains the four-layer TCP/IP stack that makes modern web browsing possible, perfect for teens curious about what happens when they click a link."
+    },
+    {
+      "title": "Mozilla's \"How the Web Works\" Developer Guide",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works",
+      "why_now": "A beginner-friendly explanation using analogies like <cite index='18-6,18-7'>DNS being like an address book for websites</cite>, making complex networking concepts accessible to anyone starting their journey into understanding the internet."
+    },
+    {
+      "title": "WPA3 WiFi Security: Apple's 2025 Router Recommendations",
+      "url": "https://support.apple.com/en-us/102766",
+      "why_now": "<cite index='21-13,21-14'>WPA3 Personal is the newest, most secure protocol currently available for Wi-Fi devices</cite> and works with Wi-Fi 6 devices—essential knowledge as home networks upgrade to handle more smart devices and remote work demands."
+    },
+    {
+      "title": "APNIC's 2024 BGP Analysis: The Internet's Routing Evolution",
+      "url": "https://labs.apnic.net/index.php/2025/01/02/bgp-in-2024/",
+      "why_now": "For tech professionals: <cite index='9-12,9-14'>The IPv4 routing table grew by 53,000 entries in 2024</cite>, resuming growth patterns from earlier years—understanding these trends helps predict infrastructure scaling challenges for the next decade."
+    }
+  ],
+  "claude_take": "The 2024 Cloudflare BGP incident perfectly illustrates why network fundamentals matter more than ever. As we pile more devices onto home networks and depend on cloud services for everything, understanding how packets actually travel from your laptop to Netflix servers isn't just academic—it's the difference between troubleshooting connection issues yourself versus helplessly calling tech support when things go wrong."
+}
