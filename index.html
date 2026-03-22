@@ -122,8 +122,122 @@
     <div class="section-meta">Updated Saturday, 21 March 2026</div>
   </section>
 
+  <section class="topic-section">
+    <h2 class="topic-title">Next.js & Full-Stack</h2>
+    <div class="highlight-card">
+      <span class="highlight-label">This week's highlight</span>
+      <a href="https://nextjs.org/blog/next-16" target="_blank" rel="noopener noreferrer" class="highlight-link">
+        Next.js 16 Lands with Cache Components and Turbopack ↗
+      </a>
+      <p class="highlight-summary"><cite index="11-1,11-8,11-24">Next.js 16 introduces Cache Components with explicit "use cache" directives, making caching opt-in rather than implicit. Turbopack becomes the stable default bundler, providing 2-5x faster builds.</cite> <cite index="11-28,15-22">This marks a fundamental shift from the unpredictable caching of Next.js 15 to explicit control over what gets cached.</cite></p>
+    </div>
+    <div class="resources-grid">
+      
+    <a href="https://nextjs.org/blog/next-15-1" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Critical Security Updates for React Server Components</span>
+      <span class="resource-why"><cite index="9-4,9-7,9-8">A critical vulnerability (CVE-2025-66478) in React Server Components allows remote code execution, affecting standard Next.js applications without code modifications.</cite> Immediate patching required for production apps.</span>
+      <span class="resource-link-icon">↗</span>
+    </a>
+    <a href="https://www.developerway.com/posts/react-server-components-performance" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">React 19 Server Components Performance Investigation</span>
+      <span class="resource-why"><cite index="34-20,34-27">This deep-dive analysis compares Client-Side Rendering, SSR, and RSC performance patterns, answering whether Server Components are worth it from a performance perspective.</cite> Essential reading as teams evaluate RSC adoption.</span>
+      <span class="resource-link-icon">↗</span>
+    </a>
+    <a href="https://dev.to/muhammad_zulqarnainakram/typescript-patterns-every-react-developer-should-know-in-2025-2264" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">TypeScript Patterns Every React Developer Should Know in 2025</span>
+      <span class="resource-why"><cite index="26-2,26-10">Based on migrating large-scale applications with millions of users to TypeScript, this covers patterns that significantly improve code quality and developer experience.</cite> The React ecosystem has standardized on TypeScript patterns.</span>
+      <span class="resource-link-icon">↗</span>
+    </a>
+    <a href="https://nextjs.org/blog/next-16-2" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Next.js 16.2: Faster Startup and React Upgrades</span>
+      <span class="resource-why"><cite index="16-8,16-9">Next.js 16.2 delivers 87% faster startup times and includes React upgrades that make Server Components payload deserialization up to 350% faster.</cite> These performance wins are shipping now in production.</span>
+      <span class="resource-link-icon">↗</span>
+    </a>
+    </div>
+    <div class="claude-take">
+      <span class="take-label">Claude's take</span>
+      <p>The Next.js/React ecosystem is maturing rapidly with explicit caching models replacing magic, while TypeScript patterns are becoming standardized across teams. However, the recent RSC security vulnerability highlights that bleeding-edge adoption requires careful risk assessment - sometimes the performance gains aren't worth the architectural complexity and vendor lock-in.</p>
+    </div>
+    <div class="section-meta">Updated Saturday, 22 March 2025</div>
+  </section>
 
+  <section class="topic-section">
+    <h2 class="topic-title">Developer Tools & Workflow</h2>
+    <div class="highlight-card">
+      <span class="highlight-label">This week's highlight</span>
+      <a href="https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html" target="_blank" rel="noopener noreferrer" class="highlight-link">
+        GitHub Actions Tightens Up Security After Major Supply Chain Attack ↗
+      </a>
+      <p class="highlight-summary">GitHub rushed out critical security updates after attackers hijacked the popular Trivy security scanner Action, compromising 75 version tags to steal CI/CD secrets. The incident highlights the importance of pinning GitHub Actions to specific SHA hashes rather than version tags, which can be moved to point at malicious commits.</p>
+    </div>
+    <div class="resources-grid">
+      
+    <a href="https://www.warp.dev/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Warp 2.0: The Agentic Development Environment</span>
+      <span class="resource-why">Terminal-first AI development gains momentum as Warp transforms from a modern terminal into a full development environment with multi-agent support, GPU acceleration, and enterprise-grade team collaboration features.</span>
+      <span class="resource-link-icon">↗</span>
+    </a>
+    <a href="https://www.scriptbyai.com/best-cli-ai-coding-agents/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">AI-Powered CLI Coding Agents Roundup for 2026</span>
+      <span class="resource-why">CLI coding agents like Claude Code and Codex are moving beyond simple completions to full codebase understanding, automated workflows, and Git integration, marking a shift toward terminal-native development workflows.</span>
+      <span class="resource-link-icon">↗</span>
+    </a>
+    <a href="https://www.windmill.dev/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Windmill: Developer-First Workflow Automation</span>
+      <span class="resource-why">Y Combinator-backed Windmill bridges the gap between low-code and pro-code automation, allowing developers to turn scripts into production workflows with auto-generated UIs and APIs, supporting 20+ languages with sub-20ms overhead.</span>
+      <span class="resource-link-icon">↗</span>
+    </a>
+    <a href="https://samexpert.com/github-actions-pricing-backlash-2026/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">GitHub Actions Pricing Backlash and Retreat</span>
+      <span class="resource-why">GitHub's attempt to charge for self-hosted runners sparked massive developer backlash and a rapid policy reversal, highlighting the tension between platform economics and developer expectations as CI/CD usage scales dramatically.</span>
+      <span class="resource-link-icon">↗</span>
+    </a>
+    </div>
+    <div class="claude-take">
+      <span class="take-label">Claude's take</span>
+      <p>The developer tooling landscape is consolidating around AI-native experiences that don't just add chat panels to existing tools, but redesign workflows from the ground up. The most interesting developments are happening at the intersection of terminals, automation platforms, and agent orchestration—suggesting that 2026 will be less about individual AI features and more about comprehensive development environments that can coordinate multiple agents across the entire software lifecycle.</p>
+    </div>
+    <div class="section-meta">Updated Sunday, 22 March 2026</div>
+  </section>
 
+  <section class="topic-section">
+    <h2 class="topic-title">Tech & Learning</h2>
+    <div class="highlight-card">
+      <span class="highlight-label">This week's highlight</span>
+      <a href="https://techstartups.com/2026/03/17/top-tech-news-today-march-17-2026/" target="_blank" rel="noopener noreferrer" class="highlight-link">
+        AI Infrastructure Race Transforms Industrial Markets ↗
+      </a>
+      <p class="highlight-summary">The AI boom is reshaping entire industrial supply chains, from thermal management to data center cooling, creating massive new opportunities for previously overlooked B2B sectors. Companies are scrambling globally for specialized components, turning infrastructure into strategic national capacity.</p>
+    </div>
+    <div class="resources-grid">
+      
+    <a href="https://www.yomly.com/remote-work-statistics/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Remote Work Reaches 52% of Global Workforce in 2026</span>
+      <span class="resource-why">This represents a fundamental shift from 20% in 2020, with engineering talent increasingly demanding flexibility as companies struggle to retain top performers in a competitive market.</span>
+      <span class="resource-link-icon">↗</span>
+    </a>
+    <a href="https://nordlayer.com/blog/remote-work-trends/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">AI Agents Managing Complex Workloads by 2027</span>
+      <span class="resource-why">Deloitte reports half of companies will deploy agentic AI for complex tasks with minimal supervision by 2027, fundamentally changing how distributed teams operate and collaborate.</span>
+      <span class="resource-link-icon">↗</span>
+    </a>
+    <a href="https://www.nvidia.com/gtc/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">NVIDIA GTC 2026: Physical AI and Inference Optimization</span>
+      <span class="resource-why">The premier AI conference is showcasing practical workflows for physical AI development and inference efficiency, areas where challengers think they can pressure NVIDIA's dominance in enterprise applications.</span>
+      <span class="resource-link-icon">↗</span>
+    </a>
+    <a href="https://www.the74million.org/article/10-useful-tech-tools-for-educators-in-2026-a-practical-guide/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">10 Useful Tech Tools for Educators in 2026</span>
+      <span class="resource-why">After testing 200+ EdTech services, this curated list highlights tools like Pathwright and Genially that are actually worth educators' time, cutting through the overwhelming noise of educational technology options.</span>
+      <span class="resource-link-icon">↗</span>
+    </a>
+    </div>
+    <div class="claude-take">
+      <span class="take-label">Claude's take</span>
+      <p>March 2026 reveals a tech industry maturing beyond hype into real structural changes—remote work is permanent, AI infrastructure is straining global supply chains, and educational tools are finally becoming genuinely useful rather than just trendy. The winners will be those who treat flexibility, efficiency, and practical value as core business requirements, not nice-to-haves.</p>
+    </div>
+    <div class="section-meta">Updated Sunday, 22 March 2026</div>
+  </section>
 
   <section class="topic-section">
     <h2 class="topic-title">Architecture & System Design</h2>
