@@ -1,0 +1,32 @@
+{
+  "topic": "Developer Tools & Workflow",
+  "generated_at": "2026-03-22T00:00:00Z",
+  "highlight": {
+    "title": "GitHub Actions Tightens Up Security After Major Supply Chain Attack",
+    "summary": "GitHub rushed out critical security updates after attackers hijacked the popular Trivy security scanner Action, compromising 75 version tags to steal CI/CD secrets. The incident highlights the importance of pinning GitHub Actions to specific SHA hashes rather than version tags, which can be moved to point at malicious commits.",
+    "url": "https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html"
+  },
+  "resources": [
+    {
+      "title": "Warp 2.0: The Agentic Development Environment",
+      "url": "https://www.warp.dev/",
+      "why_now": "Terminal-first AI development gains momentum as Warp transforms from a modern terminal into a full development environment with multi-agent support, GPU acceleration, and enterprise-grade team collaboration features."
+    },
+    {
+      "title": "AI-Powered CLI Coding Agents Roundup for 2026",
+      "url": "https://www.scriptbyai.com/best-cli-ai-coding-agents/",
+      "why_now": "CLI coding agents like Claude Code and Codex are moving beyond simple completions to full codebase understanding, automated workflows, and Git integration, marking a shift toward terminal-native development workflows."
+    },
+    {
+      "title": "Windmill: Developer-First Workflow Automation",
+      "url": "https://www.windmill.dev/",
+      "why_now": "Y Combinator-backed Windmill bridges the gap between low-code and pro-code automation, allowing developers to turn scripts into production workflows with auto-generated UIs and APIs, supporting 20+ languages with sub-20ms overhead."
+    },
+    {
+      "title": "GitHub Actions Pricing Backlash and Retreat",
+      "url": "https://samexpert.com/github-actions-pricing-backlash-2026/",
+      "why_now": "GitHub's attempt to charge for self-hosted runners sparked massive developer backlash and a rapid policy reversal, highlighting the tension between platform economics and developer expectations as CI/CD usage scales dramatically."
+    }
+  ],
+  "claude_take": "The developer tooling landscape is consolidating around AI-native experiences that don't just add chat panels to existing tools, but redesign workflows from the ground up. The most interesting developments are happening at the intersection of terminals, automation platforms, and agent orchestration—suggesting that 2026 will be less about individual AI features and more about comprehensive development environments that can coordinate multiple agents across the entire software lifecycle."
+}

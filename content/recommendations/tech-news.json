@@ -1,0 +1,32 @@
+{
+  "topic": "Tech & Learning",
+  "generated_at": "2026-03-22",
+  "highlight": {
+    "title": "AI Infrastructure Race Transforms Industrial Markets",
+    "summary": "The AI boom is reshaping entire industrial supply chains, from thermal management to data center cooling, creating massive new opportunities for previously overlooked B2B sectors. Companies are scrambling globally for specialized components, turning infrastructure into strategic national capacity.",
+    "url": "https://techstartups.com/2026/03/17/top-tech-news-today-march-17-2026/"
+  },
+  "resources": [
+    {
+      "title": "Remote Work Reaches 52% of Global Workforce in 2026",
+      "url": "https://www.yomly.com/remote-work-statistics/",
+      "why_now": "This represents a fundamental shift from 20% in 2020, with engineering talent increasingly demanding flexibility as companies struggle to retain top performers in a competitive market."
+    },
+    {
+      "title": "AI Agents Managing Complex Workloads by 2027",
+      "url": "https://nordlayer.com/blog/remote-work-trends/",
+      "why_now": "Deloitte reports half of companies will deploy agentic AI for complex tasks with minimal supervision by 2027, fundamentally changing how distributed teams operate and collaborate."
+    },
+    {
+      "title": "NVIDIA GTC 2026: Physical AI and Inference Optimization",
+      "url": "https://www.nvidia.com/gtc/",
+      "why_now": "The premier AI conference is showcasing practical workflows for physical AI development and inference efficiency, areas where challengers think they can pressure NVIDIA's dominance in enterprise applications."
+    },
+    {
+      "title": "10 Useful Tech Tools for Educators in 2026",
+      "url": "https://www.the74million.org/article/10-useful-tech-tools-for-educators-in-2026-a-practical-guide/",
+      "why_now": "After testing 200+ EdTech services, this curated list highlights tools like Pathwright and Genially that are actually worth educators' time, cutting through the overwhelming noise of educational technology options."
+    }
+  ],
+  "claude_take": "March 2026 reveals a tech industry maturing beyond hype into real structural changes—remote work is permanent, AI infrastructure is straining global supply chains, and educational tools are finally becoming genuinely useful rather than just trendy. The winners will be those who treat flexibility, efficiency, and practical value as core business requirements, not nice-to-haves."
+}

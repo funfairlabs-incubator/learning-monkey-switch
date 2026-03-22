@@ -1,0 +1,32 @@
+{
+  "topic": "Next.js & Full-Stack",
+  "generated_at": "2025-03-22",
+  "highlight": {
+    "title": "Next.js 16 Lands with Cache Components and Turbopack",
+    "summary": "<cite index=\"11-1,11-8,11-24\">Next.js 16 introduces Cache Components with explicit \"use cache\" directives, making caching opt-in rather than implicit. Turbopack becomes the stable default bundler, providing 2-5x faster builds.</cite> <cite index=\"11-28,15-22\">This marks a fundamental shift from the unpredictable caching of Next.js 15 to explicit control over what gets cached.</cite>",
+    "url": "https://nextjs.org/blog/next-16"
+  },
+  "resources": [
+    {
+      "title": "Critical Security Updates for React Server Components",
+      "url": "https://nextjs.org/blog/next-15-1",
+      "why_now": "<cite index=\"9-4,9-7,9-8\">A critical vulnerability (CVE-2025-66478) in React Server Components allows remote code execution, affecting standard Next.js applications without code modifications.</cite> Immediate patching required for production apps."
+    },
+    {
+      "title": "React 19 Server Components Performance Investigation",
+      "url": "https://www.developerway.com/posts/react-server-components-performance",
+      "why_now": "<cite index=\"34-20,34-27\">This deep-dive analysis compares Client-Side Rendering, SSR, and RSC performance patterns, answering whether Server Components are worth it from a performance perspective.</cite> Essential reading as teams evaluate RSC adoption."
+    },
+    {
+      "title": "TypeScript Patterns Every React Developer Should Know in 2025",
+      "url": "https://dev.to/muhammad_zulqarnainakram/typescript-patterns-every-react-developer-should-know-in-2025-2264",
+      "why_now": "<cite index=\"26-2,26-10\">Based on migrating large-scale applications with millions of users to TypeScript, this covers patterns that significantly improve code quality and developer experience.</cite> The React ecosystem has standardized on TypeScript patterns."
+    },
+    {
+      "title": "Next.js 16.2: Faster Startup and React Upgrades",
+      "url": "https://nextjs.org/blog/next-16-2",
+      "why_now": "<cite index=\"16-8,16-9\">Next.js 16.2 delivers 87% faster startup times and includes React upgrades that make Server Components payload deserialization up to 350% faster.</cite> These performance wins are shipping now in production."
+    }
+  ],
+  "claude_take": "The Next.js/React ecosystem is maturing rapidly with explicit caching models replacing magic, while TypeScript patterns are becoming standardized across teams. However, the recent RSC security vulnerability highlights that bleeding-edge adoption requires careful risk assessment - sometimes the performance gains aren't worth the architectural complexity and vendor lock-in."
+}
