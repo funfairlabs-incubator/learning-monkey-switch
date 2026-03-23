@@ -1,32 +1,32 @@
 {
   "topic": "UK Schools & Education",
-  "generated_at": "2026-03-15",
+  "generated_at": "2026-03-23",
   "highlight": {
-    "title": "Major Curriculum Reform: New National Curriculum from 2028",
-    "summary": "<cite index=\"5-2,3-1\">The government has confirmed plans to refresh the national curriculum from 2028 onwards following its response to the recent Curriculum Review. A refreshed National Curriculum is planned from 2028, with a strong emphasis on literacy, numeracy, oracy, and digital/media literacy.</cite> <cite index=\"5-3\">Government will aim to publish the final revised national curriculum by spring 2027 – giving schools four terms to prepare for the changes.</cite>",
-    "url": "https://www.gov.uk/government/news/new-curriculum-to-give-young-people-the-skills-for-life-and-work"
+    "title": "Major UK Education White Paper 2026: New National Curriculum Coming 2028",
+    "summary": "<cite index=\"2-2,4-11\">The government has confirmed a revised curriculum will be published in 2027, for first teaching in 2028, following completion of the national curriculum and assessment review.</cite> <cite index=\"5-2,5-3\">The refreshed National Curriculum will emphasise literacy, numeracy, oracy, and digital/media literacy, with Progress 8 being reshaped to reflect this wider focus.</cite>",
+    "url": "https://www.hazlewoods.co.uk/insights/education/education-update-key-takeways-government-white-paper-2026/"
   },
   "resources": [
     {
-      "title": "Free BBC Bitesize Revision App",
-      "url": "https://www.bbc.co.uk/bitesize",
-      "why_now": "Student resource: <cite index=\"33-21,40-14\">BBC Bitesize is used by over 1.5 million students per week and offers exam board-specific content for GCSE, A-levels, and other qualifications.</cite> <cite index=\"33-34\">The BBC Bitesize Exam Revision app is completely free and there are no in-app purchases.</cite>"
+      "title": "KS2 SATs 2026: Complete Date Guide & Revision Priority Topics",
+      "url": "https://primary.lbq.org/hub/ks2-sats-2026-topics-prioritise-revise",
+      "why_now": "For parents with Year 6 children - <cite index=\"21-15,21-16\">SATs run from Monday 11th May to Thursday 14th May 2026</cite> and <cite index=\"23-1,23-3\">revision should focus on Calculations and Fractions, Decimals and Percentages as they make up the biggest proportions historically</cite>."
     },
     {
-      "title": "KS2 SATs 2026: Official Government Information for Parents",
-      "url": "https://www.gov.uk/government/publications/key-stage-2-national-curriculum-tests-and-results-information-for-parents/2025-key-stage-2-national-curriculum-tests-information-for-parents",
-      "why_now": "Parent resource: <cite index=\"12-9,12-10,12-11\">For the academic year 2025 to 2026, the KS2 tests are scheduled to take place from Monday 11 May to Thursday 14 May 2026. Schools can view KS2 test results online from Tuesday 7 July 2026. Your child's school will decide how they issue test results and teacher assessment judgements to pupils and parents, but you should receive them by the end of the summer term.</cite>"
+      "title": "Oak National Academy Free Lessons and Resources",
+      "url": "https://www.thenational.academy/pupils",
+      "why_now": "For students across all year groups - <cite index=\"12-1,12-2\">browse and find free videos, quizzes and lessons from KS1 to KS4, just find your year group, subject and lesson</cite> with comprehensive curriculum coverage during ongoing education reforms."
     },
     {
-      "title": "Computing Curriculum Changes 2026: Preparing for AI and Cybersecurity",
+      "title": "Active GCSE & A-Level Revision Techniques That Actually Work",
+      "url": "https://www.oxcoll.com/oxford/news/2026/03/18/the-best-active-revision-techniques-for-gcse-and-a-level-students",
+      "why_now": "For GCSE and A-Level students - <cite index=\"31-12\">completing past papers under timed exam conditions, practising exam-style questions regularly, using flashcards to test key terms, and explaining concepts aloud</cite> are proven active techniques that strengthen memory recall."
+    },
+    {
+      "title": "Computing Curriculum Changes Coming 2026: What Schools Need to Know",
       "url": "https://www.hyetteducation.com/resources/computing-curriculum-changes-2026",
-      "why_now": "Both parents and teachers: <cite index=\"4-10,4-31\">The current computing national curriculum was introduced in 2014, but artificial intelligence, machine learning, cybersecurity threats have moved on dramatically since then. The revised version is expected to introduce age-appropriate AI concepts from KS2 onwards.</cite>"
-    },
-    {
-      "title": "2026 Schools White Paper Explained",
-      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10570/",
-      "why_now": "Parent resource: <cite index=\"6-2,6-8\">The government's Every Child Achieving and Thriving white paper, published on 23 February 2026, sets out long-term reforms to the school system. The government has set several national ambitions relating to attainment and absence, which include: halving the attainment gap between disadvantaged children and their peers at GCSE.</cite>"
+      "why_now": "For parents of secondary students - <cite index=\"8-20,8-21\">artificial intelligence, machine learning, cybersecurity threats have moved on dramatically since 2014, with the curriculum review aiming to update what children learn about technology they will actually use as adults</cite>."
     }
   ],
-  "claude_take": "<cite index=\"5-2,8-2\">With a new national curriculum coming in 2028 focusing on literacy, numeracy, oracy, and digital literacy, families have time to prepare but shouldn't wait. The emphasis on oracy (speaking and listening skills) and updated computing content including AI literacy signals a shift toward skills students will actually need in their adult lives.</cite> Start building these skills now rather than waiting for formal curriculum changes."
+  "claude_take": "The UK education system is experiencing its biggest shake-up in decades with the 2026 White Paper promising fundamental curriculum changes by 2028. For families, this means focusing on proven revision strategies now while staying informed about upcoming changes that will reshape how children learn from primary through to A-Levels."
 }
