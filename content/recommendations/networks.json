@@ -1,32 +1,32 @@
 {
   "topic": "Networks & Infrastructure",
-  "generated_at": "2026-03-20",
+  "generated_at": "2026-03-27",
   "highlight": {
-    "title": "Cloudflare's July 2024 BGP Outage: When Internet Routing Goes Wrong",
-    "summary": "In July 2024, a BGP hijack disrupted Cloudflare's DNS service across 300 networks in 70 countries, showing how fragile internet routing can be. <cite index='1-1,1-2'>An outage affecting Cloudflare's 1.1.1.1 DNS resolver service stemmed from a Border Gateway Protocol (BGP) hijack paired with a route leak. The issue disrupted 300 networks across 70 countries.</cite> This real-world example demonstrates why understanding network protocols matters—when the internet's \"GPS\" breaks down, millions of users can't reach websites even though their devices work perfectly.",
-    "url": "https://pulse.internetsociety.org/blog/cloudflare-dns-outage-traced-to-bgp-hijacking-incident"
+    "title": "Major BGP Outages Demonstrate Internet's Fragile Foundation",
+    "summary": "A series of BGP routing incidents in early 2026, including major Cloudflare outages and route leaks affecting services like Discord and AWS, have exposed how easily misconfigurations can take down large portions of the internet. These failures show that despite decades of development, the internet's routing system remains vulnerable to both human error and potential attacks.",
+    "url": "https://blog.cloudflare.com/cloudflare-outage-february-20-2026/"
   },
   "resources": [
     {
-      "title": "How the Internet Works: A Complete 2025 Guide to Protocols & Infrastructure",
-      "url": "https://scopedesign.com/how-internet-works-2025-complete-guide-protocols-infrastructure/",
-      "why_now": "<cite index='12-2,12-10'>Nearly half of web requests used HTTP/2 in 2024, with 20.5% using HTTP/3</cite>—this guide explains the four-layer TCP/IP stack that makes modern web browsing possible, perfect for teens curious about what happens when they click a link."
+      "title": "How the Internet Works: A Complete Guide for 2026",
+      "url": "https://pdfcoffe.net/how-the-internet-works/",
+      "why_now": "Perfect timing as major BGP outages have teenagers asking how their internet actually works. This guide explains everything from DNS to TCP/IP in accessible terms, covering both fundamentals and 2026's emerging technologies like 6G and AI-driven networks."
     },
     {
-      "title": "Mozilla's \"How the Web Works\" Developer Guide",
-      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works",
-      "why_now": "A beginner-friendly explanation using analogies like <cite index='18-6,18-7'>DNS being like an address book for websites</cite>, making complex networking concepts accessible to anyone starting their journey into understanding the internet."
+      "title": "What Happens When You Type a URL in the Browser",
+      "url": "https://singhajit.com/what-happens-when-you-type-url-in-browser/",
+      "why_now": "With recent internet outages making headlines, this technical deep-dive into DNS resolution, TCP handshakes, and HTTP requests helps professionals understand exactly where failures can occur. Essential reading after witnessing how BGP misconfigurations brought down major services."
     },
     {
-      "title": "WPA3 WiFi Security: Apple's 2025 Router Recommendations",
-      "url": "https://support.apple.com/en-us/102766",
-      "why_now": "<cite index='21-13,21-14'>WPA3 Personal is the newest, most secure protocol currently available for Wi-Fi devices</cite> and works with Wi-Fi 6 devices—essential knowledge as home networks upgrade to handle more smart devices and remote work demands."
+      "title": "BGP Vortex: Internet Routing Vortices Create Outages by Preventing Convergence",
+      "url": "https://pulse.internetsociety.org/en/blog/2026/01/bgp-vortex-internet-routing-vortices-create-outages-by-preventing-convergence/",
+      "why_now": "Researchers have discovered a new vulnerability that could impact 96% of internet networks by exploiting BGP routing policies. This isn't theoretical—lab tests show single attacks can cause 37-second outages, making this essential reading for understanding internet stability risks."
     },
     {
-      "title": "APNIC's 2024 BGP Analysis: The Internet's Routing Evolution",
-      "url": "https://labs.apnic.net/index.php/2025/01/02/bgp-in-2024/",
-      "why_now": "For tech professionals: <cite index='9-12,9-14'>The IPv4 routing table grew by 53,000 entries in 2024</cite>, resuming growth patterns from earlier years—understanding these trends helps predict infrastructure scaling challenges for the next decade."
+      "title": "Internet for Beginners: How Devices Connect and How the Internet Works",
+      "url": "https://stordis.com/internet-for-beginners-how-devices-connect-and-how-the-internet-works/",
+      "why_now": "After major routing failures grabbed headlines, many are realizing they don't understand how their Wi-Fi actually connects to the global internet. This guide walks through everything from Ethernet cables to routers to data centers in simple terms that anyone can follow."
     }
   ],
-  "claude_take": "The 2024 Cloudflare BGP incident perfectly illustrates why network fundamentals matter more than ever. As we pile more devices onto home networks and depend on cloud services for everything, understanding how packets actually travel from your laptop to Netflix servers isn't just academic—it's the difference between troubleshooting connection issues yourself versus helplessly calling tech support when things go wrong."
+  "claude_take": "The recent wave of BGP outages isn't just technical news—it's a wake-up call about how fragile our digital world really is. While we've built an internet that feels magical and instant, it's actually held together by protocols from the 1980s that can be broken by a single misconfigured router, affecting millions instantly."
 }
