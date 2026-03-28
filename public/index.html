@@ -88,38 +88,38 @@
     <div class="highlight-card">
       <span class="highlight-label">This week's highlight</span>
       <a href="https://docs.cloud.google.com/run/docs/release-notes" target="_blank" rel="noopener noreferrer" class="highlight-link">
-        Cloud Run Gets Multi-Region Health & Manual Scaling ↗
+        Cloud Run Gets Multi-Container Support and GPU Preview ↗
       </a>
-      <p class="highlight-summary"><cite index="1-11,1-15">Cloud Run now offers multi-region service health with automated failover for external traffic in Preview, plus manual scaling capabilities to override built-in autoscaling.</cite> <cite index="1-25,1-26">New finer-grained IAM roles include Cloud Run Service Invoker and Jobs Executor, making it easier to grant least privilege access to production accounts.</cite></p>
+      <p class="highlight-summary">Google Cloud Run now supports multiple containers (sidecars) for jobs in preview, enabling more complex workload patterns. Additionally, GPU configuration is available in preview, opening up ML/AI workload possibilities on the serverless platform.</p>
     </div>
     <div class="resources-grid">
       
-    <a href="https://docs.cloud.google.com/run/docs/tips/services-cost-optimization" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Cloud Run Cost Optimization Best Practices - Updated March 2026</span>
-      <span class="resource-why"><cite index="11-20,11-21">Cloud Run's two-tier regional pricing model offers significant savings with Tier 1 regions providing lower costs per vCPU and memory compared to Tier 2 regions.</cite> <cite index="11-25">The new Recommender analyzes your traffic patterns and provides recommendations for switching from request-based to instance-based billing when more cost-effective.</cite></span>
+    <a href="https://docs.cloud.google.com/run/docs/release-notes" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Cloud Run Introduces Flexible CUD Pricing and Manual Scaling</span>
+      <span class="resource-why">Cloud Run now supports flexible committed use discounts for CPU-allocated services and jobs, plus manual scaling options. This directly impacts cost optimization strategies for production workloads.</span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://airbyte.com/data-engineering-resources/google-pub-sub-pricing" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Pub/Sub Lite Discontinuation Impact - March 18, 2026 Deadline</span>
-      <span class="resource-why"><cite index="45-8,45-19,45-20">Pub/Sub Lite discontinuation on March 18, 2026 creates substantial cost implications requiring immediate planning, as organizations need to evaluate message lifecycle optimization and alternative architectures to minimize cost impact.</cite> <cite index="45-14,45-15">The discontinuation forces architectural decisions that can increase costs without proper planning, making strategic migration planning critical for maintaining cost efficiency.</cite></span>
+    <a href="https://expertbeacon.com/decoding-gcp-secret-manager-pricing-an-experts-guide-to-costs-optimization-and-more/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Secret Manager Cost Optimization with Cache-First Patterns</span>
+      <span class="resource-why">With Secret Manager charging per access operation beyond 10K monthly, implementing local caching patterns becomes critical for high-traffic applications to avoid unexpected bills.</span>
+      <span class="resource-link-icon">↗</span>
+    </a>
+    <a href="https://oneuptime.com/blog/post/2026-01-26-google-pubsub-event-driven/view" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Event-Driven Architecture Patterns with Pub/Sub Dead Letter Queues</span>
+      <span class="resource-why">Recent guide demonstrates practical dead letter queue implementation for Pub/Sub, essential for reliable event-driven systems that handle failures gracefully in production.</span>
       <span class="resource-link-icon">↗</span>
     </a>
     <a href="https://docs.cloud.google.com/appengine/docs/standard/nodejs/release-notes" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">App Engine Standard Gets Cloud Run Migration Path</span>
-      <span class="resource-why"><cite index="24-3,24-4">App Engine now supports deploying existing standard environment apps to Cloud Run using the gcloud beta app migrate-to-run command in Preview.</cite> <cite index="24-5">Node.js 24 runtime support is now in General Availability, providing a modern runtime option for existing applications.</cite></span>
-      <span class="resource-link-icon">↗</span>
-    </a>
-    <a href="https://docs.cloud.google.com/secret-manager/docs/access-control" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Secret Manager IAM Best Practices - March 2026 Update</span>
-      <span class="resource-why"><cite index="31-19,31-20,31-21">IAM Conditions now allow time-based access control for Secret Manager resources, enabling expirable and scheduled access to secrets based on date/time attributes.</cite> <cite index="31-22,31-23">Resource attributes support conditional access based on secret names and versions, providing granular security control for modern zero-trust architectures.</cite></span>
+      <span class="resource-title">App Engine Standard Migration to Cloud Run in Preview</span>
+      <span class="resource-why">The `gcloud beta app migrate-to-run` command is now available in preview, providing a migration path for teams looking to modernize from App Engine to Cloud Run's more flexible platform.</span>
       <span class="resource-link-icon">↗</span>
     </a>
     </div>
     <div class="claude-take">
       <span class="take-label">Claude's take</span>
-      <p>The March 2026 updates show Google doubling down on cost transparency and developer experience. Cloud Run's new manual scaling and regional pricing guidance address real production pain points, while the Pub/Sub Lite deadline creates an urgent migration priority that many teams aren't prepared for. The App Engine to Cloud Run migration path signals Google's containerization-first strategy moving forward.</p>
+      <p>The serverless ecosystem is maturing with Cloud Run gaining enterprise features like multi-container support and flexible pricing, while observability tools like Secret Manager require careful cost management as applications scale. The migration tooling from App Engine to Cloud Run signals Google's strategic direction toward containerized serverless.</p>
     </div>
-    <div class="section-meta">Updated Saturday, 21 March 2026</div>
+    <div class="section-meta">Updated Saturday, 28 March 2026</div>
   </section>
 
   <section class="topic-section">
