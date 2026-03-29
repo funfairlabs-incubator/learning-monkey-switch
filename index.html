@@ -126,117 +126,117 @@
     <h2 class="topic-title">Next.js & Full-Stack</h2>
     <div class="highlight-card">
       <span class="highlight-label">This week's highlight</span>
-      <a href="https://nextjs.org/blog/next-16" target="_blank" rel="noopener noreferrer" class="highlight-link">
-        Next.js 16 Lands with Cache Components and Turbopack ↗
+      <a href="https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components" target="_blank" rel="noopener noreferrer" class="highlight-link">
+        Critical React Server Components Vulnerability Creates React2Shell Exploits ↗
       </a>
-      <p class="highlight-summary"><cite index="11-1,11-8,11-24">Next.js 16 introduces Cache Components with explicit "use cache" directives, making caching opt-in rather than implicit. Turbopack becomes the stable default bundler, providing 2-5x faster builds.</cite> <cite index="11-28,15-22">This marks a fundamental shift from the unpredictable caching of Next.js 15 to explicit control over what gets cached.</cite></p>
+      <p class="highlight-summary">CVE-2025-55182 represents a 10.0 CVSS remote code execution vulnerability in React Server Components affecting Next.js 15-16. The vulnerability stems from insecure deserialization in the RSC Flight protocol, allowing attackers to achieve unauthenticated RCE through crafted HTTP requests.</p>
     </div>
     <div class="resources-grid">
       
-    <a href="https://nextjs.org/blog/next-15-1" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Critical Security Updates for React Server Components</span>
-      <span class="resource-why"><cite index="9-4,9-7,9-8">A critical vulnerability (CVE-2025-66478) in React Server Components allows remote code execution, affecting standard Next.js applications without code modifications.</cite> Immediate patching required for production apps.</span>
+    <a href="https://nextjs.org/blog/next-16" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Next.js 16 Release: Cache Components with PPR & React Compiler Stable</span>
+      <span class="resource-why">Next.js 16 introduces Cache Components as a new programming model leveraging Partial Pre-Rendering (PPR) and 'use cache' for instant navigation. The built-in React Compiler support is now stable, offering automatic memoization for production apps.</span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://www.developerway.com/posts/react-server-components-performance" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">React 19 Server Components Performance Investigation</span>
-      <span class="resource-why"><cite index="34-20,34-27">This deep-dive analysis compares Client-Side Rendering, SSR, and RSC performance patterns, answering whether Server Components are worth it from a performance perspective.</cite> Essential reading as teams evaluate RSC adoption.</span>
+    <a href="https://tanstack.com/start/latest/docs/framework/react/start-vs-nextjs" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">TanStack Start vs Next.js: The Type-Safe Alternative Gaining Momentum</span>
+      <span class="resource-why">TanStack Start is emerging as a serious Next.js competitor in 2025, offering lightweight runtime, end-to-end type safety, and Vite-powered development. It defaults to interactive components while allowing opt-in Server Components, addressing developer frustrations with Next.js complexity.</span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://dev.to/muhammad_zulqarnainakram/typescript-patterns-every-react-developer-should-know-in-2025-2264" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">TypeScript Patterns Every React Developer Should Know in 2025</span>
-      <span class="resource-why"><cite index="26-2,26-10">Based on migrating large-scale applications with millions of users to TypeScript, this covers patterns that significantly improve code quality and developer experience.</cite> The React ecosystem has standardized on TypeScript patterns.</span>
+    <a href="https://dev.to/krish_kakadiya_5f0eaf6342/react-server-components-tanstack-query-the-2026-data-fetching-power-duo-you-cant-ignore-21fj" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">React Server Components + TanStack Query: The 2026 Hybrid Architecture</span>
+      <span class="resource-why">The hybrid RSC + TanStack Query pattern is becoming the standard for modern React apps in 2026. Teams report 40-70% faster initial loads by combining server-side rendering for static content with client-side caching for interactive features.</span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://nextjs.org/blog/next-16-2" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Next.js 16.2: Faster Startup and React Upgrades</span>
-      <span class="resource-why"><cite index="16-8,16-9">Next.js 16.2 delivers 87% faster startup times and includes React upgrades that make Server Components payload deserialization up to 350% faster.</cite> These performance wins are shipping now in production.</span>
+    <a href="https://aijourn.com/full-stack-javascript-development-in-2026-whats-actually-working/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Full-Stack JavaScript Development Patterns with TypeScript in 2026</span>
+      <span class="resource-why">TypeScript has moved from preference to default for production JavaScript codebases. The guide covers proven patterns for shared types between frontend and backend, with 66% of developers now using JavaScript full-stack according to Stack Overflow 2025 survey.</span>
       <span class="resource-link-icon">↗</span>
     </a>
     </div>
     <div class="claude-take">
       <span class="take-label">Claude's take</span>
-      <p>The Next.js/React ecosystem is maturing rapidly with explicit caching models replacing magic, while TypeScript patterns are becoming standardized across teams. However, the recent RSC security vulnerability highlights that bleeding-edge adoption requires careful risk assessment - sometimes the performance gains aren't worth the architectural complexity and vendor lock-in.</p>
+      <p>The React ecosystem reached an inflection point in 2025-2026, with serious security vulnerabilities in RSC highlighting the complexity costs of server-first architectures. Meanwhile, TanStack Start's rise as a type-safe, developer-centric alternative signals growing demand for explicit control over magical conventions. The real winners are teams adopting hybrid patterns that combine RSC for static content with proven client-side libraries like TanStack Query for interactivity.</p>
     </div>
-    <div class="section-meta">Updated Saturday, 22 March 2025</div>
+    <div class="section-meta">Updated Sunday, 29 March 2026</div>
   </section>
 
   <section class="topic-section">
     <h2 class="topic-title">Developer Tools & Workflow</h2>
     <div class="highlight-card">
       <span class="highlight-label">This week's highlight</span>
-      <a href="https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html" target="_blank" rel="noopener noreferrer" class="highlight-link">
-        GitHub Actions Tightens Up Security After Major Supply Chain Attack ↗
+      <a href="https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/" target="_blank" rel="noopener noreferrer" class="highlight-link">
+        GitHub Agentic Workflows: AI-Powered Repository Automation ↗
       </a>
-      <p class="highlight-summary">GitHub rushed out critical security updates after attackers hijacked the popular Trivy security scanner Action, compromising 75 version tags to steal CI/CD secrets. The incident highlights the importance of pinning GitHub Actions to specific SHA hashes rather than version tags, which can be moved to point at malicious commits.</p>
+      <p class="highlight-summary"><cite index='18-7,18-24'>GitHub's new Agentic Workflows let you automate repository tasks in plain Markdown instead of YAML, executed by AI coding agents within GitHub Actions. Write what you want automated in natural language, and coding agents handle issue triage, documentation updates, code quality checks, and more.</cite> <cite index='18-26'>These workflows run with strong guardrails including sandboxed execution, read-only permissions by default, and required human review for all pull requests.</cite></p>
     </div>
     <div class="resources-grid">
       
-    <a href="https://www.warp.dev/" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Warp 2.0: The Agentic Development Environment</span>
-      <span class="resource-why">Terminal-first AI development gains momentum as Warp transforms from a modern terminal into a full development environment with multi-agent support, GPU acceleration, and enterprise-grade team collaboration features.</span>
+    <a href="https://dev.to/raxxostudios/best-terminal-tools-for-developers-in-2026-4jn1" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Claude Code: AI Terminal Agent for Developers</span>
+      <span class="resource-why"><cite index='4-19,4-20,4-21'>Claude Code runs Anthropic's Claude directly in your terminal as a coding agent that reads your codebase, makes edits, runs commands, and creates commits - it's not a chatbot but an agent operating on actual files.</cite> <cite index='2-17,2-18,2-19'>AI integration demands CLI-first workflows since LLMs work best when composed into pipelines, and CLI tools that accept stdin and produce structured stdout plug directly into AI agent toolchains.</cite></span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://www.scriptbyai.com/best-cli-ai-coding-agents/" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">AI-Powered CLI Coding Agents Roundup for 2026</span>
-      <span class="resource-why">CLI coding agents like Claude Code and Codex are moving beyond simple completions to full codebase understanding, automated workflows, and Git integration, marking a shift toward terminal-native development workflows.</span>
+    <a href="https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">GitHub Actions 2026 Security Roadmap: Secure-by-Default CI/CD</span>
+      <span class="resource-why"><cite index='11-1,11-2'>The 2026 GitHub Actions roadmap shifts the platform toward secure-by-default, verifiable automation to disrupt software supply chain attacks.</cite> <cite index='11-30,11-31,11-32'>New scoped secrets introduce fine-grained controls that bind credentials to explicit execution contexts, with actor rules specifying who can trigger workflows and event rules defining which GitHub Actions events are permitted.</cite></span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://www.windmill.dev/" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Windmill: Developer-First Workflow Automation</span>
-      <span class="resource-why">Y Combinator-backed Windmill bridges the gap between low-code and pro-code automation, allowing developers to turn scripts into production workflows with auto-generated UIs and APIs, supporting 20+ languages with sub-20ms overhead.</span>
+    <a href="https://playcode.io/blog/best-ai-code-editors-2026" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Cursor vs Zed: The AI Editor Battle for 2026</span>
+      <span class="resource-why"><cite index='23-38,23-39'>Cursor is a VS Code fork rebuilt around AI - not an editor with AI added, but an AI tool that happens to be an editor.</cite> <cite index='23-23,23-24'>Meanwhile, Zed is the fastest code editor available, built from scratch in Rust and recently added AI features and collaboration.</cite> <cite index='23-36'>In 2026, AI-powered editors have gone from novelty to necessity.</cite></span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://samexpert.com/github-actions-pricing-backlash-2026/" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">GitHub Actions Pricing Backlash and Retreat</span>
-      <span class="resource-why">GitHub's attempt to charge for self-hosted runners sparked massive developer backlash and a rapid policy reversal, highlighting the tension between platform economics and developer expectations as CI/CD usage scales dramatically.</span>
+    <a href="https://blog.logrocket.com/native-alternatives-vscode/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">The Rise of Native Code Editors: Post-Electron Era</span>
+      <span class="resource-why"><cite index='25-23,25-24'>VSCode's limitations have reshaped the code editor landscape, with a new generation of editors built with compiled, native languages like C++ and Rust, designed to prioritize performance, lower resource consumption, and more predictable behavior.</cite> <cite index='25-31,25-32'>The new open-source, lightweight, cross-platform native editor movement has almost all VSCode features but are fast and lightweight, rapidly becoming popular since they can effortlessly defeat VSCode with impressive performance.</cite></span>
       <span class="resource-link-icon">↗</span>
     </a>
     </div>
     <div class="claude-take">
       <span class="take-label">Claude's take</span>
-      <p>The developer tooling landscape is consolidating around AI-native experiences that don't just add chat panels to existing tools, but redesign workflows from the ground up. The most interesting developments are happening at the intersection of terminals, automation platforms, and agent orchestration—suggesting that 2026 will be less about individual AI features and more about comprehensive development environments that can coordinate multiple agents across the entire software lifecycle.</p>
+      <p>We're witnessing a fundamental shift in developer tooling toward AI-native workflows and performance-first architectures. The convergence of AI agents in terminals, security-hardened CI/CD, and the rejection of Electron's resource overhead signals that 2026 is the year developers stop accepting "good enough" and demand tools that actually enhance productivity rather than consume it.</p>
     </div>
-    <div class="section-meta">Updated Sunday, 22 March 2026</div>
+    <div class="section-meta">Updated Sunday, 29 March 2026</div>
   </section>
 
   <section class="topic-section">
     <h2 class="topic-title">Tech & Learning</h2>
     <div class="highlight-card">
       <span class="highlight-label">This week's highlight</span>
-      <a href="https://techstartups.com/2026/03/17/top-tech-news-today-march-17-2026/" target="_blank" rel="noopener noreferrer" class="highlight-link">
-        AI Infrastructure Race Transforms Industrial Markets ↗
+      <a href="https://aws.amazon.com/blogs/migration-and-modernization/when-software-thinks-and-acts-reimagining-cloud-platform-engineering-for-agentic-ai/" target="_blank" rel="noopener noreferrer" class="highlight-link">
+        AWS Platform Engineering Evolution: Agentic AI Reshapes Cloud Infrastructure ↗
       </a>
-      <p class="highlight-summary">The AI boom is reshaping entire industrial supply chains, from thermal management to data center cooling, creating massive new opportunities for previously overlooked B2B sectors. Companies are scrambling globally for specialized components, turning infrastructure into strategic national capacity.</p>
+      <p class="highlight-summary"><cite index="25-6,25-9,25-10">Agentic AI is forcing a fundamental rethink of cloud platform engineering, transitioning from platforms for applications to platforms for intelligence and delegated action. Systems must now govern AI that thinks, adapts, and makes judgment calls autonomously, with human oversight reserved for critical decisions.</cite> <cite index="22-21,22-24">Real-world implementations like Santander's Catalyst platform demonstrate dramatic results—reducing AI agent deployment from 105 days to 24 hours while proving these systems can support everything from traditional workloads to cutting-edge AI applications.</cite></p>
     </div>
     <div class="resources-grid">
       
-    <a href="https://www.yomly.com/remote-work-statistics/" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Remote Work Reaches 52% of Global Workforce in 2026</span>
-      <span class="resource-why">This represents a fundamental shift from 20% in 2020, with engineering talent increasingly demanding flexibility as companies struggle to retain top performers in a competitive market.</span>
+    <a href="https://www.ibm.com/think/news/ai-tech-trends-predictions-2026" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">IBM's 2026 Tech Predictions: Quantum Advantage Meets Enterprise Reality</span>
+      <span class="resource-why"><cite index="8-14,8-15">IBM publicly states 2026 marks quantum computing's first advantage over classical computers for real problems, unlocking breakthroughs in drug development and materials science.</cite> <cite index="8-27,8-28">Meanwhile, AI agents are evolving from single-purpose tools to 'super agents' with control planes managing multi-environment workflows—a shift enterprise leaders need to understand now.</cite></span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://nordlayer.com/blog/remote-work-trends/" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">AI Agents Managing Complex Workloads by 2027</span>
-      <span class="resource-why">Deloitte reports half of companies will deploy agentic AI for complex tasks with minimal supervision by 2027, fundamentally changing how distributed teams operate and collaborate.</span>
+    <a href="https://nvidia.com/blog/engineering/gtc-2026-infrastructure-stack" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">NVIDIA GTC 2026: The Five-Layer AI Infrastructure Stack Revealed</span>
+      <span class="resource-why"><cite index="4-11,4-12">GTC 2026 showcases AI as a five-layer infrastructure spanning energy, chips, models and applications—with over 1000 sessions demonstrating how coordination across these layers drives history's largest infrastructure expansion.</cite> <cite index="4-16,4-17">The event offers hands-on training in physical AI, developer certification, and startup showcases, making it essential for understanding where AI infrastructure investments are heading.</cite></span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://www.nvidia.com/gtc/" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">NVIDIA GTC 2026: Physical AI and Inference Optimization</span>
-      <span class="resource-why">The premier AI conference is showcasing practical workflows for physical AI development and inference efficiency, areas where challengers think they can pressure NVIDIA's dominance in enterprise applications.</span>
+    <a href="https://fullscale.io/blog/build-strong-remote-engineering-culture/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Building Remote Engineering Culture: The 2026 Playbook</span>
+      <span class="resource-why"><cite index="37-3">Stack Overflow data shows 72% of engineering teams now operate fully distributed, with 68% of technical leaders identifying remote culture as their top priority.</cite> <cite index="37-15">Teams with strong psychological safety demonstrate 43% higher deployment frequency and 65% faster recovery times—proving culture directly impacts engineering metrics in remote environments.</cite></span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://www.the74million.org/article/10-useful-tech-tools-for-educators-in-2026-a-practical-guide/" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">10 Useful Tech Tools for Educators in 2026</span>
-      <span class="resource-why">After testing 200+ EdTech services, this curated list highlights tools like Pathwright and Genially that are actually worth educators' time, cutting through the overwhelming noise of educational technology options.</span>
+    <a href="https://blog.algomaster.io/p/300-engineering-articles-to-level-up-system-design" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">300+ Engineering Articles for System Design Mastery</span>
+      <span class="resource-why"><cite index="19-2,19-3">This curated collection pulls the most valuable engineering writing from 5-6 years of company blogs, creating a one-stop resource for the most interesting engineering insights across the internet.</cite> <cite index="11-14,11-15">Engineering blogs from leading tech companies provide direct insights into solving complex problems at scale, from Meta's AI innovations to GitHub's development workflows—essential reading for staying current with industry best practices.</cite></span>
       <span class="resource-link-icon">↗</span>
     </a>
     </div>
     <div class="claude-take">
       <span class="take-label">Claude's take</span>
-      <p>March 2026 reveals a tech industry maturing beyond hype into real structural changes—remote work is permanent, AI infrastructure is straining global supply chains, and educational tools are finally becoming genuinely useful rather than just trendy. The winners will be those who treat flexibility, efficiency, and practical value as core business requirements, not nice-to-haves.</p>
+      <p><cite index="1-27,1-28">March 2026 reveals a technology industry undergoing rapid structural change, where AI advances and infrastructure shifts are outpacing regulatory frameworks.</cite> The convergence of agentic AI, quantum computing milestones, and mature remote engineering practices signals that 2026 isn't just another year of incremental progress—it's when multiple technological paradigms reach practical maturity simultaneously, demanding new skills and organizational approaches from engineering teams.</p>
     </div>
-    <div class="section-meta">Updated Sunday, 22 March 2026</div>
+    <div class="section-meta">Updated Sunday, 29 March 2026</div>
   </section>
 
   <section class="topic-section">
