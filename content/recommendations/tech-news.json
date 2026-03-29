@@ -1,32 +1,32 @@
 {
   "topic": "Tech & Learning",
-  "generated_at": "2026-03-22",
+  "generated_at": "2026-03-29T00:00:00.000Z",
   "highlight": {
-    "title": "AI Infrastructure Race Transforms Industrial Markets",
-    "summary": "The AI boom is reshaping entire industrial supply chains, from thermal management to data center cooling, creating massive new opportunities for previously overlooked B2B sectors. Companies are scrambling globally for specialized components, turning infrastructure into strategic national capacity.",
-    "url": "https://techstartups.com/2026/03/17/top-tech-news-today-march-17-2026/"
+    "title": "AWS Platform Engineering Evolution: Agentic AI Reshapes Cloud Infrastructure",
+    "summary": "<cite index=\"25-6,25-9,25-10\">Agentic AI is forcing a fundamental rethink of cloud platform engineering, transitioning from platforms for applications to platforms for intelligence and delegated action. Systems must now govern AI that thinks, adapts, and makes judgment calls autonomously, with human oversight reserved for critical decisions.</cite> <cite index=\"22-21,22-24\">Real-world implementations like Santander's Catalyst platform demonstrate dramatic results—reducing AI agent deployment from 105 days to 24 hours while proving these systems can support everything from traditional workloads to cutting-edge AI applications.</cite>",
+    "url": "https://aws.amazon.com/blogs/migration-and-modernization/when-software-thinks-and-acts-reimagining-cloud-platform-engineering-for-agentic-ai/"
   },
   "resources": [
     {
-      "title": "Remote Work Reaches 52% of Global Workforce in 2026",
-      "url": "https://www.yomly.com/remote-work-statistics/",
-      "why_now": "This represents a fundamental shift from 20% in 2020, with engineering talent increasingly demanding flexibility as companies struggle to retain top performers in a competitive market."
+      "title": "IBM's 2026 Tech Predictions: Quantum Advantage Meets Enterprise Reality",
+      "url": "https://www.ibm.com/think/news/ai-tech-trends-predictions-2026",
+      "why_now": "<cite index=\"8-14,8-15\">IBM publicly states 2026 marks quantum computing's first advantage over classical computers for real problems, unlocking breakthroughs in drug development and materials science.</cite> <cite index=\"8-27,8-28\">Meanwhile, AI agents are evolving from single-purpose tools to 'super agents' with control planes managing multi-environment workflows—a shift enterprise leaders need to understand now.</cite>"
     },
     {
-      "title": "AI Agents Managing Complex Workloads by 2027",
-      "url": "https://nordlayer.com/blog/remote-work-trends/",
-      "why_now": "Deloitte reports half of companies will deploy agentic AI for complex tasks with minimal supervision by 2027, fundamentally changing how distributed teams operate and collaborate."
+      "title": "NVIDIA GTC 2026: The Five-Layer AI Infrastructure Stack Revealed",
+      "url": "https://nvidia.com/blog/engineering/gtc-2026-infrastructure-stack",
+      "why_now": "<cite index=\"4-11,4-12\">GTC 2026 showcases AI as a five-layer infrastructure spanning energy, chips, models and applications—with over 1000 sessions demonstrating how coordination across these layers drives history's largest infrastructure expansion.</cite> <cite index=\"4-16,4-17\">The event offers hands-on training in physical AI, developer certification, and startup showcases, making it essential for understanding where AI infrastructure investments are heading.</cite>"
     },
     {
-      "title": "NVIDIA GTC 2026: Physical AI and Inference Optimization",
-      "url": "https://www.nvidia.com/gtc/",
-      "why_now": "The premier AI conference is showcasing practical workflows for physical AI development and inference efficiency, areas where challengers think they can pressure NVIDIA's dominance in enterprise applications."
+      "title": "Building Remote Engineering Culture: The 2026 Playbook",
+      "url": "https://fullscale.io/blog/build-strong-remote-engineering-culture/",
+      "why_now": "<cite index=\"37-3\">Stack Overflow data shows 72% of engineering teams now operate fully distributed, with 68% of technical leaders identifying remote culture as their top priority.</cite> <cite index=\"37-15\">Teams with strong psychological safety demonstrate 43% higher deployment frequency and 65% faster recovery times—proving culture directly impacts engineering metrics in remote environments.</cite>"
     },
     {
-      "title": "10 Useful Tech Tools for Educators in 2026",
-      "url": "https://www.the74million.org/article/10-useful-tech-tools-for-educators-in-2026-a-practical-guide/",
-      "why_now": "After testing 200+ EdTech services, this curated list highlights tools like Pathwright and Genially that are actually worth educators' time, cutting through the overwhelming noise of educational technology options."
+      "title": "300+ Engineering Articles for System Design Mastery",
+      "url": "https://blog.algomaster.io/p/300-engineering-articles-to-level-up-system-design",
+      "why_now": "<cite index=\"19-2,19-3\">This curated collection pulls the most valuable engineering writing from 5-6 years of company blogs, creating a one-stop resource for the most interesting engineering insights across the internet.</cite> <cite index=\"11-14,11-15\">Engineering blogs from leading tech companies provide direct insights into solving complex problems at scale, from Meta's AI innovations to GitHub's development workflows—essential reading for staying current with industry best practices.</cite>"
     }
   ],
-  "claude_take": "March 2026 reveals a tech industry maturing beyond hype into real structural changes—remote work is permanent, AI infrastructure is straining global supply chains, and educational tools are finally becoming genuinely useful rather than just trendy. The winners will be those who treat flexibility, efficiency, and practical value as core business requirements, not nice-to-haves."
+  "claude_take": "<cite index=\"1-27,1-28\">March 2026 reveals a technology industry undergoing rapid structural change, where AI advances and infrastructure shifts are outpacing regulatory frameworks.</cite> The convergence of agentic AI, quantum computing milestones, and mature remote engineering practices signals that 2026 isn't just another year of incremental progress—it's when multiple technological paradigms reach practical maturity simultaneously, demanding new skills and organizational approaches from engineering teams."
 }

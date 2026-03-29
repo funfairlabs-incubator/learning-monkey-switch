@@ -1,32 +1,32 @@
 {
   "topic": "Next.js & Full-Stack",
-  "generated_at": "2025-03-22",
+  "generated_at": "2026-03-29",
   "highlight": {
-    "title": "Next.js 16 Lands with Cache Components and Turbopack",
-    "summary": "<cite index=\"11-1,11-8,11-24\">Next.js 16 introduces Cache Components with explicit \"use cache\" directives, making caching opt-in rather than implicit. Turbopack becomes the stable default bundler, providing 2-5x faster builds.</cite> <cite index=\"11-28,15-22\">This marks a fundamental shift from the unpredictable caching of Next.js 15 to explicit control over what gets cached.</cite>",
-    "url": "https://nextjs.org/blog/next-16"
+    "title": "Critical React Server Components Vulnerability Creates React2Shell Exploits",
+    "summary": "CVE-2025-55182 represents a 10.0 CVSS remote code execution vulnerability in React Server Components affecting Next.js 15-16. The vulnerability stems from insecure deserialization in the RSC Flight protocol, allowing attackers to achieve unauthenticated RCE through crafted HTTP requests.",
+    "url": "https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components"
   },
   "resources": [
     {
-      "title": "Critical Security Updates for React Server Components",
-      "url": "https://nextjs.org/blog/next-15-1",
-      "why_now": "<cite index=\"9-4,9-7,9-8\">A critical vulnerability (CVE-2025-66478) in React Server Components allows remote code execution, affecting standard Next.js applications without code modifications.</cite> Immediate patching required for production apps."
+      "title": "Next.js 16 Release: Cache Components with PPR & React Compiler Stable",
+      "url": "https://nextjs.org/blog/next-16",
+      "why_now": "Next.js 16 introduces Cache Components as a new programming model leveraging Partial Pre-Rendering (PPR) and 'use cache' for instant navigation. The built-in React Compiler support is now stable, offering automatic memoization for production apps."
     },
     {
-      "title": "React 19 Server Components Performance Investigation",
-      "url": "https://www.developerway.com/posts/react-server-components-performance",
-      "why_now": "<cite index=\"34-20,34-27\">This deep-dive analysis compares Client-Side Rendering, SSR, and RSC performance patterns, answering whether Server Components are worth it from a performance perspective.</cite> Essential reading as teams evaluate RSC adoption."
+      "title": "TanStack Start vs Next.js: The Type-Safe Alternative Gaining Momentum",
+      "url": "https://tanstack.com/start/latest/docs/framework/react/start-vs-nextjs",
+      "why_now": "TanStack Start is emerging as a serious Next.js competitor in 2025, offering lightweight runtime, end-to-end type safety, and Vite-powered development. It defaults to interactive components while allowing opt-in Server Components, addressing developer frustrations with Next.js complexity."
     },
     {
-      "title": "TypeScript Patterns Every React Developer Should Know in 2025",
-      "url": "https://dev.to/muhammad_zulqarnainakram/typescript-patterns-every-react-developer-should-know-in-2025-2264",
-      "why_now": "<cite index=\"26-2,26-10\">Based on migrating large-scale applications with millions of users to TypeScript, this covers patterns that significantly improve code quality and developer experience.</cite> The React ecosystem has standardized on TypeScript patterns."
+      "title": "React Server Components + TanStack Query: The 2026 Hybrid Architecture",
+      "url": "https://dev.to/krish_kakadiya_5f0eaf6342/react-server-components-tanstack-query-the-2026-data-fetching-power-duo-you-cant-ignore-21fj",
+      "why_now": "The hybrid RSC + TanStack Query pattern is becoming the standard for modern React apps in 2026. Teams report 40-70% faster initial loads by combining server-side rendering for static content with client-side caching for interactive features."
     },
     {
-      "title": "Next.js 16.2: Faster Startup and React Upgrades",
-      "url": "https://nextjs.org/blog/next-16-2",
-      "why_now": "<cite index=\"16-8,16-9\">Next.js 16.2 delivers 87% faster startup times and includes React upgrades that make Server Components payload deserialization up to 350% faster.</cite> These performance wins are shipping now in production."
+      "title": "Full-Stack JavaScript Development Patterns with TypeScript in 2026",
+      "url": "https://aijourn.com/full-stack-javascript-development-in-2026-whats-actually-working/",
+      "why_now": "TypeScript has moved from preference to default for production JavaScript codebases. The guide covers proven patterns for shared types between frontend and backend, with 66% of developers now using JavaScript full-stack according to Stack Overflow 2025 survey."
     }
   ],
-  "claude_take": "The Next.js/React ecosystem is maturing rapidly with explicit caching models replacing magic, while TypeScript patterns are becoming standardized across teams. However, the recent RSC security vulnerability highlights that bleeding-edge adoption requires careful risk assessment - sometimes the performance gains aren't worth the architectural complexity and vendor lock-in."
+  "claude_take": "The React ecosystem reached an inflection point in 2025-2026, with serious security vulnerabilities in RSC highlighting the complexity costs of server-first architectures. Meanwhile, TanStack Start's rise as a type-safe, developer-centric alternative signals growing demand for explicit control over magical conventions. The real winners are teams adopting hybrid patterns that combine RSC for static content with proven client-side libraries like TanStack Query for interactivity."
 }
