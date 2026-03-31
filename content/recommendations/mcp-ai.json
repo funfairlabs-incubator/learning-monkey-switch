@@ -1,32 +1,32 @@
 {
   "topic": "MCP & AI Tooling",
-  "generated_at": "2026-03-24",
+  "generated_at": "2026-03-31T00:00:00Z",
   "highlight": {
-    "title": "MCP Security Crisis Emerges with 30 CVEs in 60 Days",
-    "summary": "<cite index=\"25-5,26-2,26-16\">Analysis reveals that MCP has become AI's fastest-growing attack surface, with 30 CVEs filed in just 60 days, with the most popular trusted model context protocol servers containing severe cybersecurity vulnerabilities</cite>. <cite index=\"21-9,21-10\">Organizations rushing to connect their LLM-powered apps to external data sources using MCP may be inadvertently creating attack surfaces fundamentally different from anything their existing security controls can handle</cite>.",
-    "url": "https://adversa.ai/blog/top-mcp-security-resources-march-2026/"
+    "title": "MCP Ecosystem Maturation Accelerates with 2026 Roadmap",
+    "summary": "The Model Context Protocol's 2026 roadmap addresses critical production gaps with transport scalability, enterprise auth patterns, and gateway standardization. With 97 million monthly SDK downloads and adoption by all major AI providers, MCP has shifted from experimental to essential infrastructure for AI agent development.",
+    "url": "https://thenewstack.io/model-context-protocol-roadmap-2026/"
   },
   "resources": [
     {
-      "title": "The 2026 MCP Roadmap",
-      "url": "http://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap/",
-      "why_now": "<cite index=\"16-4,16-8\">MCP now runs in production at companies large and small, powers agent workflows, and is shaped by a growing community through Working Groups, with core maintainers narrowing priorities down to the areas that matter most for 2026</cite>."
+      "title": "MCP's biggest growing pains for production use will soon be solved",
+      "url": "https://thenewstack.io/model-context-protocol-roadmap-2026/",
+      "why_now": "Production deployments have surfaced concrete gaps in horizontal scaling, session management, and auth patterns that the 2026 roadmap directly addresses with transport evolution and enterprise readiness priorities."
     },
     {
-      "title": "OpenAI and Microsoft Support Model Context Protocol",
-      "url": "https://cloudwars.com/ai/openai-and-microsoft-support-model-context-protocol-mcp-ushering-in-unprecedented-ai-agent-interoperability/",
-      "why_now": "<cite index=\"14-4,14-10\">OpenAI and Microsoft have become the latest organizations to throw their support behind MCP, with Microsoft releasing Playwright-MCP that enables AI agents to interact with web pages instead of simply answering questions about them</cite>."
+      "title": "GitHub Copilot for Jira — Public preview enhancements",
+      "url": "https://releasebot.io/updates/github",
+      "why_now": "GitHub just enhanced their Copilot agent with MCP integration for Confluence context, showing how major platforms are integrating MCP into enterprise workflows beyond just development environments."
     },
     {
-      "title": "MCP Security in 2026: Lessons From Real Exploits",
-      "url": "https://hackernoon.com/mcp-security-in-2026-lessons-from-real-exploits-and-early-breaches",
-      "why_now": "<cite index=\"23-1,25-6\">MCP became the standard for AI tool integration in 2026, but GitHub token leaks, RCE bugs, and supply chain attacks expose serious risks, with data showing that 38% of 500+ scanned servers completely lack authentication</cite>."
+      "title": "MCP Ecosystem in 2026: What the v1.27 Release Actually Tells Us",
+      "url": "https://www.contextstudios.ai/blog/mcp-ecosystem-in-2026-what-the-v127-release-actually-tells-us",
+      "why_now": "The TypeScript SDK v1.27.1 release with OAuth improvements and SEP governance shows MCP reaching production maturity, with teams running 150+ MCP tools in production hitting auth integration friction that's now being systematically addressed."
     },
     {
-      "title": "Why MCP is Suddenly on Every Executive Agenda",
-      "url": "https://www.cio.com/article/4136548/why-model-context-protocol-is-suddenly-on-every-executive-agenda.html",
-      "why_now": "<cite index=\"8-10,8-12,8-13\">MCP is emerging as a connective infrastructure for enterprise AI, with its sudden relevance coinciding with the rise of agentic AI, addressing both data retrieval needs and standardized methods for AI models to act on behalf of users</cite>."
+      "title": "My Predictions for MCP and AI-Assisted Coding in 2026",
+      "url": "https://dev.to/blackgirlbytes/my-predictions-for-mcp-and-ai-assisted-coding-in-2026-16bm",
+      "why_now": "A GitHub Developer Advocate's insider perspective on MCP Apps becoming standard for agent UIs, and the tension between power-user configuration complexity versus mainstream adoption that's shaping the protocol's evolution."
     }
   ],
-  "claude_take": "<cite index=\"19-1,11-1,8-21\">What began as an experimental protocol has become the de facto integration layer for agentic AI - natively supported by major AI providers and deployed across millions of daily active developer tool users as of early 2026, with broad vendor standardization establishing MCP as the core integration interface across AI-native ecosystems</cite>. <cite index=\"8-21,22-10\">MCP is becoming a control layer for how AI systems interact with enterprise environments, with the protocol's maintainers acknowledging that production readiness for organizations isn't optional anymore—it's the next phase</cite>."
+  "claude_take": "MCP is transitioning from 'nice to have' to 'table stakes' faster than most protocols achieve market penetration—the 2026 roadmap's focus on enterprise auth and horizontal scaling suggests the real production adoption wave is just beginning. In 3-6 months, expect MCP registry standardization and multi-agent orchestration patterns to become the primary differentiation points for AI developer tooling platforms."
 }
