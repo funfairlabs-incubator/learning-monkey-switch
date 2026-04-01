@@ -1,32 +1,32 @@
 {
   "topic": "Architecture & System Design",
-  "generated_at": "2026-03-25",
+  "generated_at": "2026-04-01T10:00:00Z",
   "highlight": {
-    "title": "Netflix's Event-Driven Architecture at Scale",
-    "summary": "Netflix processes billions of real-time events daily through their event-driven architecture, from playback analytics to personalization systems. Their approach shows how theoretical patterns solve practical problems at massive scale.",
-    "url": "https://www.clustox.com/blog/netflix-case-study/"
+    "title": "The Rise of Modular Monoliths: Why Google and Others Are Stepping Back from Microservices",
+    "summary": "<cite index='11-2'>A 2023 paper titled Towards Modern Development of Cloud Applications, published by a team at Google, once again highlights the pitfalls of microservices architecture and the many benefits of the much maligned and misunderstood monolith.</cite> <cite index='14-5,14-7'>A modular monolith is one deployable application split into real modules aligned to the domain. You get the speed and simplicity of a monolith with the order and evolvability of services—without the tax of distributed systems.</cite> This architectural pattern is gaining traction as a pragmatic middle ground that addresses microservices complexity while maintaining scalability.",
+    "url": "https://chrlschn.dev/blog/2024/01/a-practical-guide-to-modular-monoliths/"
   },
   "resources": [
     {
-      "title": "The Complete Guide to System Design in 2026 - DEV Community",
-      "url": "https://dev.to/fahimulhaq/complete-guide-to-system-design-oc7",
-      "why_now": "Updated for 2026 with AI-era considerations, this guide bridges theory and practice using real-world analogies to explain monoliths, microservices, and event-driven patterns."
+      "title": "Understanding Modular Monoliths: A Beginner's Guide",
+      "url": "https://www.kamilgrzybek.com/blog/posts/modular-monolith-primer",
+      "why_now": "<cite index='12-4,12-6'>The module in the Modular Monolith is a business module that is able to fully provide a set of desired features. In this way, frequent changes affect only one module - it becomes more independent, autonomous and is able to provide functionality by itself.</cite> Perfect for understanding how to organize complex applications without microservices overhead."
     },
     {
-      "title": "Microservices Architecture for Beginners: A Friendly Guide",
-      "url": "https://faun.pub/microservices-architecture-for-beginners-a-friendly-guide-0ff0ff85f116",
-      "why_now": "Uses simple house-building analogies to explain complex architectural concepts, making microservices accessible to curious non-technical readers while covering practical implementation details."
+      "title": "Event Sourcing Pattern Explained with Real-World Banking Example",
+      "url": "https://www.geeksforgeeks.org/system-design/event-sourcing-pattern/",
+      "why_now": "<cite index='23-1,23-2,23-7'>A real-world example of Event Sourcing can be seen in a modern banking system. The system creates related events whenever a consumer does an action that impacts their account, like making a deposit, taking money out of their account, moving money to another account.</cite> Essential for understanding how financial systems maintain perfect audit trails."
     },
     {
-      "title": "Real-World Software Architecture Examples for Modern Applications",
-      "url": "https://weare86.com/blog/software-architecture-examples/",
-      "why_now": "Cuts through theoretical noise with concrete examples from companies like Google and Netflix, showing how modular monoliths and hexagonal architecture solve actual business problems."
+      "title": "Netflix's Architectural Evolution: From Monolith to Microservices",
+      "url": "https://bytebytego.com/guides/real-world-case-studies/",
+      "why_now": "<cite index='8-9,8-10'>Real-world case studies are a great way to learn about the architecture, design, and scalability of popular tech companies. Dive into these case studies to understand how companies like Twitter, Netflix, Uber and more have evolved over the years.</cite> Learn from actual architectural decisions and trade-offs made at scale."
     },
     {
-      "title": "Managing Distributed Transactions with the Saga Pattern",
-      "url": "https://temporal.io/blog/mastering-saga-patterns-for-distributed-transactions-in-microservices",
-      "why_now": "Explains how Uber, Netflix, and DigitalOcean handle complex distributed transactions, demonstrating the evolution from academic patterns to production-grade solutions managing billions of operations."
+      "title": "Domain-Driven Design Simplified for Modern Development",
+      "url": "https://sensiolabs.com/blog/2024/understanding-domain-driven-design",
+      "why_now": "<cite index='33-5,33-6'>In today's fast-paced world of software development, aligning technical implementations with business needs is more important than ever. Domain-Driven Design (DDD) offers a structured way to tackle this challenge by emphasizing the importance of business logic and domain knowledge.</cite> Critical for building software that actually solves business problems rather than technical puzzles."
     }
   ],
-  "claude_take": "Architecture patterns aren't just academic exercises—they're battle-tested solutions to real problems at scale. <cite index=\"11-1,13-9\">Netflix processing billions of events daily shows how event-driven architecture handles massive complexity</cite>, while <cite index=\"10-2,10-22,10-23\">Uber's use of the Saga pattern for handling rider-driver-payment interactions without a central database</cite> proves these patterns solve actual distributed systems challenges. The best architectures emerge from genuine business needs, not technology trends."
+  "claude_take": "The architecture world is witnessing a fascinating correction: after years of microservices evangelism, even Google is acknowledging the complexity tax of distributed systems. <cite index='19-39,19-40'>Even Google is jumping on board the modular monolith trend in their recent research paper. Here are the five main challenges Google identified with microservices: Performance - The overhead of serializing data and sending it across the network has a noticeable impact on performance.</cite> The smartest teams are now starting with modular monoliths that can evolve into microservices when genuinely needed—not because it's trendy, but because it's pragmatic."
 }
