@@ -1,32 +1,32 @@
 {
   "topic": "Leadership & Team Craft",
-  "generated_at": "2026-03-26",
+  "generated_at": "2026-04-02",
   "highlight": {
-    "title": "How AI is Rewiring Team Psychological Safety",
-    "summary": "New research reveals that AI integration is creating predictable patterns of team dysfunction, eroding trust and second-guessing in ways traditional team effectiveness principles can address. Harvard's Amy Edmondson and 3M's Jayshree Seth show how leaders must actively foster psychological safety in human-AI collaborative environments.",
-    "url": "https://hbr.org/2026/02/how-to-foster-psychological-safety-when-ai-erodes-trust-on-your-team"
+    "title": "The Psychological Safety Paradox: How Team Consensus Forms and Fades",
+    "summary": "New research from 2024 reveals that psychological safety in teams doesn't follow the linear progression we assumed. Teams can achieve consensus on feeling 'safe' remarkably quickly through early information sharing, yet this safety often deteriorates toward the end of team lifespans, creating a paradoxical challenge for sustained performance.",
+    "url": "https://journals.sagepub.com/doi/10.1177/10464964241288221"
   },
   "resources": [
     {
-      "title": "The 5Cs Framework for Human+AI Leadership",
-      "url": "https://www.ddi.com/blog/leadership-trends-2026",
-      "why_now": "DDI's research identifies five critical capabilities—Connection, Conscience, Creativity, Clarity, and Curiosity—that give leaders the edge in AI-driven environments. With 88% of organizations deploying AI but struggling with individual-level use cases, this framework helps leaders define their unique human value."
+      "title": "Agile Tenacity: The Leadership Quality That Combines Adaptability with Grit",
+      "url": "https://www.imd.org/research-knowledge/leadership/case-studies/agile-tenacity-cultivating-adaptability-resilience-and-grit-for-leadership/",
+      "why_now": "With 2024's economic volatility and AI acceleration, leaders need more than just agility—they need what IMD researchers call 'agile tenacity': the ability to pivot rapidly while maintaining persistent pursuit of long-term goals."
     },
     {
-      "title": "Beyond Quarterly Thinking: The WEF Leadership Impact Scorecard",
-      "url": "https://www.weforum.org/stories/2026/01/rethinking-leadership-2026-young-leaders/",
-      "why_now": "Young global leaders propose a practical tool for measuring leadership impact across generations—assessing whether senior teams became stronger, whether initiatives deliver results five years later, and whether decisions expand future options. Essential as short-term metrics increasingly fail complex challenges."
+      "title": "RAPID vs SPADE: Decision Frameworks for High-Stakes Choices",
+      "url": "https://www.informationweek.com/it-leadership/top-5-decision-making-frameworks-for-effective-leadership",
+      "why_now": "As decision complexity increases and remote work blurs accountability lines, structured frameworks like RAPID and SPADE are becoming essential tools for clarifying who decides what, when, and how in distributed leadership environments."
     },
     {
-      "title": "The Sphere of Influence Mapping Exercise",
-      "url": "https://www.siyglobal.com/blog/7-leadership-trends-for-2026",
-      "why_now": "With 71% of leaders reporting increased stress and spans of control rapidly expanding, this practical development tool helps leaders visualize how their decisions cascade through processes, platforms, and partners—addressing the reality that individual leadership choices now scale across entire systems."
+      "title": "The Knowing-Doing Gap: Why Smart Leaders Still Make Poor Choices",
+      "url": "https://www.imd.org/ibyimd/2024-trends/seven-leadership-trends-to-focus-on-in-2024/",
+      "why_now": "IMD's 2024 research highlights a growing disconnect between what managers intellectually understand about good leadership and how they actually behave—a gap that becomes more dangerous as stakes and complexity increase."
     },
     {
-      "title": "Team Psychological Safety as a Perishable Resource",
-      "url": "https://link.springer.com/article/10.1007/s10869-025-10078-9",
-      "why_now": "Springer research shows psychological safety doesn't arise passively from time together but requires active team processes: connecting, clarifying, supporting, and performing. This challenges assumptions about remote work and provides actionable insights for maintaining team effectiveness in hybrid environments."
+      "title": "Team Psychological Safety's Dynamic Life Cycle: Research Insights",
+      "url": "https://www.cipd.org/globalassets/media/knowledge/knowledge-hub/evidence-reviews/2024-pdfs/8542-psych-safety-trust-practice-summary.pdf",
+      "why_now": "CIPD's 2024 evidence review shows psychological safety isn't static—it varies predictably with team development stages, offering practical insights for leaders managing the inevitable dips in team trust and openness."
     }
   ],
-  "claude_take": "The most striking finding is how AI is exposing fundamental leadership weaknesses rather than replacing leaders—creating an urgency around emotional intelligence and human connection skills. While everyone talks about AI transformation, the real competitive advantage lies in leaders who can maintain psychological safety and human-centered decision-making as their teams become increasingly hybrid human-AI entities."
+  "claude_take": "The most striking development in 2024 leadership thinking is the recognition that our foundational assumptions about team dynamics were oversimplified. Psychological safety isn't built once and maintained—it's a dynamic climate that requires constant cultivation, especially during team transitions. Meanwhile, the concept of 'agile tenacity' captures something crucial: that in an era of constant change, leaders need both the flexibility to pivot and the persistence to see long-term visions through."
 }
