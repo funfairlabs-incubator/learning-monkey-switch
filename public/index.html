@@ -88,38 +88,38 @@
     <div class="highlight-card">
       <span class="highlight-label">This week's highlight</span>
       <a href="https://docs.cloud.google.com/run/docs/release-notes" target="_blank" rel="noopener noreferrer" class="highlight-link">
-        Cloud Run Gets Multi-Container Support and GPU Preview ↗
+        Cloud Run Multi-Region Services GA & Enhanced Flexibility ↗
       </a>
-      <p class="highlight-summary">Google Cloud Run now supports multiple containers (sidecars) for jobs in preview, enabling more complex workload patterns. Additionally, GPU configuration is available in preview, opening up ML/AI workload possibilities on the serverless platform.</p>
+      <p class="highlight-summary">Google has made multi-region Cloud Run services generally available, allowing deployment from a single gcloud command. Combined with service-level minimum instances GA and new committed use discount coverage, Cloud Run now offers stronger cost predictability for production workloads.</p>
     </div>
     <div class="resources-grid">
       
-    <a href="https://docs.cloud.google.com/run/docs/release-notes" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Cloud Run Introduces Flexible CUD Pricing and Manual Scaling</span>
-      <span class="resource-why">Cloud Run now supports flexible committed use discounts for CPU-allocated services and jobs, plus manual scaling options. This directly impacts cost optimization strategies for production workloads.</span>
-      <span class="resource-link-icon">↗</span>
-    </a>
-    <a href="https://expertbeacon.com/decoding-gcp-secret-manager-pricing-an-experts-guide-to-costs-optimization-and-more/" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Secret Manager Cost Optimization with Cache-First Patterns</span>
-      <span class="resource-why">With Secret Manager charging per access operation beyond 10K monthly, implementing local caching patterns becomes critical for high-traffic applications to avoid unexpected bills.</span>
-      <span class="resource-link-icon">↗</span>
-    </a>
-    <a href="https://oneuptime.com/blog/post/2026-01-26-google-pubsub-event-driven/view" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Event-Driven Architecture Patterns with Pub/Sub Dead Letter Queues</span>
-      <span class="resource-why">Recent guide demonstrates practical dead letter queue implementation for Pub/Sub, essential for reliable event-driven systems that handle failures gracefully in production.</span>
-      <span class="resource-link-icon">↗</span>
-    </a>
     <a href="https://docs.cloud.google.com/appengine/docs/standard/nodejs/release-notes" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">App Engine Standard Migration to Cloud Run in Preview</span>
-      <span class="resource-why">The `gcloud beta app migrate-to-run` command is now available in preview, providing a migration path for teams looking to modernize from App Engine to Cloud Run's more flexible platform.</span>
+      <span class="resource-title">App Engine Max Instance Limits & TLS Deprecation for New Projects</span>
+      <span class="resource-why">New App Engine projects after March 2025 default to 20 max instances (vs unlimited), requiring explicit scaling configuration. TLS 1.1 deprecation also forces security updates for existing apps.</span>
+      <span class="resource-link-icon">↗</span>
+    </a>
+    <a href="https://earezki.com/ai-news/2026-04-03-the-zero-cost-cloud-engineer-part-4-cloud-storage-secret-manager-and-the-legacy-access-trap/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Secret Manager Cost Trap: Legacy VM Access Scopes Override IAM</span>
+      <span class="resource-why">Legacy Compute Engine access scopes can block Secret Manager access even with proper IAM roles. The cloud-platform scope is now the modern standard for delegating full authentication to IAM.</span>
+      <span class="resource-link-icon">↗</span>
+    </a>
+    <a href="https://airbyte.com/data-engineering-resources/google-pub-sub-pricing" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Pub/Sub Lite Discontinuation Creates Migration Pressure</span>
+      <span class="resource-why">Pub/Sub Lite ends March 18, 2026, forcing migrations to standard Pub/Sub which can dramatically increase messaging costs without proper architecture planning and message lifecycle optimization.</span>
+      <span class="resource-link-icon">↗</span>
+    </a>
+    <a href="https://cloudchipr.com/blog/google-cloud-functions" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Cloud Run Functions Replaces Cloud Functions 2nd Gen</span>
+      <span class="resource-why">Google renamed Cloud Functions 2nd gen to 'Cloud Run functions' in August 2024. Teams need to understand the unified platform benefits and pricing implications for serverless workloads.</span>
       <span class="resource-link-icon">↗</span>
     </a>
     </div>
     <div class="claude-take">
       <span class="take-label">Claude's take</span>
-      <p>The serverless ecosystem is maturing with Cloud Run gaining enterprise features like multi-container support and flexible pricing, while observability tools like Secret Manager require careful cost management as applications scale. The migration tooling from App Engine to Cloud Run signals Google's strategic direction toward containerized serverless.</p>
+      <p>The biggest operational change is App Engine's new instance limits for new projects, which will catch teams off-guard during scaling events. Meanwhile, the Secret Manager access scope issue represents a classic cloud gotcha that can block deployments despite having 'correct' IAM permissions.</p>
     </div>
-    <div class="section-meta">Updated Saturday, 28 March 2026</div>
+    <div class="section-meta">Updated Saturday, 4 April 2026</div>
   </section>
 
   <section class="topic-section">
