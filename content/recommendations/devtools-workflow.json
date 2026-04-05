@@ -1,32 +1,32 @@
 {
   "topic": "Developer Tools & Workflow",
-  "generated_at": "2026-03-29T00:00:00Z",
+  "generated_at": "2026-04-05T00:00:00Z",
   "highlight": {
-    "title": "GitHub Agentic Workflows: AI-Powered Repository Automation",
-    "summary": "<cite index='18-7,18-24'>GitHub's new Agentic Workflows let you automate repository tasks in plain Markdown instead of YAML, executed by AI coding agents within GitHub Actions. Write what you want automated in natural language, and coding agents handle issue triage, documentation updates, code quality checks, and more.</cite> <cite index='18-26'>These workflows run with strong guardrails including sandboxed execution, read-only permissions by default, and required human review for all pull requests.</cite>",
-    "url": "https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/"
+    "title": "GitHub Agentic Workflows in Technical Preview",
+    "summary": "<cite index=\"14-5,14-6\">Write automation in Markdown instead of YAML. Describe what you want in natural language, and the AI agent figures out how to do it.</cite> <cite index=\"14-24\">Security-first design: Read-only by default with sandboxed execution, network isolation, SHA-pinned dependencies, and sanitized write operations through safe outputs.</cite>",
+    "url": "https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/"
   },
   "resources": [
     {
-      "title": "Claude Code: AI Terminal Agent for Developers",
-      "url": "https://dev.to/raxxostudios/best-terminal-tools-for-developers-in-2026-4jn1",
-      "why_now": "<cite index='4-19,4-20,4-21'>Claude Code runs Anthropic's Claude directly in your terminal as a coding agent that reads your codebase, makes edits, runs commands, and creates commits - it's not a chatbot but an agent operating on actual files.</cite> <cite index='2-17,2-18,2-19'>AI integration demands CLI-first workflows since LLMs work best when composed into pipelines, and CLI tools that accept stdin and produce structured stdout plug directly into AI agent toolchains.</cite>"
+      "title": "Claude Code vs Codex: Terminal AI Tool Battle",
+      "url": "https://www.buildfastwithai.com/blogs/claude-code-vs-codex-2026",
+      "why_now": "<cite index=\"7-10,7-11\">Claude Code hits 80.8% on SWE-bench. Codex uses 3x fewer tokens.</cite> <cite index=\"3-18,3-19,3-20\">Claude Code brings Anthropic's AI directly into your terminal. Unlike web-based chatbots, it runs locally and can read, edit, and create files in your project.</cite>"
     },
     {
-      "title": "GitHub Actions 2026 Security Roadmap: Secure-by-Default CI/CD",
-      "url": "https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/",
-      "why_now": "<cite index='11-1,11-2'>The 2026 GitHub Actions roadmap shifts the platform toward secure-by-default, verifiable automation to disrupt software supply chain attacks.</cite> <cite index='11-30,11-31,11-32'>New scoped secrets introduce fine-grained controls that bind credentials to explicit execution contexts, with actor rules specifying who can trigger workflows and event rules defining which GitHub Actions events are permitted.</cite>"
+      "title": "Socket Supply Chain Security Innovation",
+      "url": "https://socket.dev/blog/socket-named-supply-chain-innovator-in-latio-2026-appsec-market-report",
+      "why_now": "<cite index=\"37-1,37-2\">This is exactly the problem Socket was built to solve. While most tools wait for a CVE to be assigned, Socket detects malicious behavior in packages before they ever make it into a vulnerability database.</cite> <cite index=\"1-30\">The CLI tool that you can run locally is fast enough to include in pre-commit hooks without adding noticeable delay.</cite>"
     },
     {
-      "title": "Cursor vs Zed: The AI Editor Battle for 2026",
-      "url": "https://playcode.io/blog/best-ai-code-editors-2026",
-      "why_now": "<cite index='23-38,23-39'>Cursor is a VS Code fork rebuilt around AI - not an editor with AI added, but an AI tool that happens to be an editor.</cite> <cite index='23-23,23-24'>Meanwhile, Zed is the fastest code editor available, built from scratch in Rust and recently added AI features and collaboration.</cite> <cite index='23-36'>In 2026, AI-powered editors have gone from novelty to necessity.</cite>"
+      "title": "Cursor vs Windsurf: AI Editor Evolution",
+      "url": "https://www.cursorvswindsurf.com/which-to-choose",
+      "why_now": "<cite index=\"22-13,22-14\">Windsurf's SWE-1.5 achieves near-frontier coding quality at dramatically faster inference. For developers who spend all day in an AI IDE, the speed difference is noticeable: less waiting, more flow.</cite> <cite index=\"21-20,21-21,21-22\">Windsurf's Cascade agent is designed for multi-step autonomous tasks: it reads terminal output, iterates on errors, and chains actions. Cursor's Composer does similar work but gives you more control (and less autonomy).</cite>"
     },
     {
-      "title": "The Rise of Native Code Editors: Post-Electron Era",
-      "url": "https://blog.logrocket.com/native-alternatives-vscode/",
-      "why_now": "<cite index='25-23,25-24'>VSCode's limitations have reshaped the code editor landscape, with a new generation of editors built with compiled, native languages like C++ and Rust, designed to prioritize performance, lower resource consumption, and more predictable behavior.</cite> <cite index='25-31,25-32'>The new open-source, lightweight, cross-platform native editor movement has almost all VSCode features but are fast and lightweight, rapidly becoming popular since they can effortlessly defeat VSCode with impressive performance.</cite>"
+      "title": "WordPress @wordpress/build Replaces Webpack",
+      "url": "https://developer.wordpress.org/news/2026/04/wordpress-build-the-next-generation-of-wordpress-plugin-build-tooling/",
+      "why_now": "<cite index=\"9-43,9-44\">It replaces the webpack and Babel pipeline with a significantly faster build engine, auto-generates PHP registration files from package.json conventions, and handles scripts, script modules, and styles in one pass. It works through convention-based folder discovery: a packages/ directory for JavaScript packages and a routes/ directory for admin page routes, each auto-discovered with no configuration.</cite> <cite index=\"9-45\">Gutenberg already uses it to build all of its 100+ packages.</cite>"
     }
   ],
-  "claude_take": "We're witnessing a fundamental shift in developer tooling toward AI-native workflows and performance-first architectures. The convergence of AI agents in terminals, security-hardened CI/CD, and the rejection of Electron's resource overhead signals that 2026 is the year developers stop accepting \"good enough\" and demand tools that actually enhance productivity rather than consume it."
+  "claude_take": "2026 is the year AI moves from autocomplete to autonomous workflows—GitHub Actions now speaks Markdown instead of YAML, CLI tools like Claude Code operate with 80% SWE-bench accuracy, and even WordPress ditched webpack for convention-over-configuration builds. The tooling wars are shifting from feature parity to speed and intelligence."
 }

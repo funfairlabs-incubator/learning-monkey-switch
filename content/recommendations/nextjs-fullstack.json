@@ -1,32 +1,32 @@
 {
   "topic": "Next.js & Full-Stack",
-  "generated_at": "2026-03-29",
+  "generated_at": "2026-04-05T14:30:00Z",
   "highlight": {
-    "title": "Critical React Server Components Vulnerability Creates React2Shell Exploits",
-    "summary": "CVE-2025-55182 represents a 10.0 CVSS remote code execution vulnerability in React Server Components affecting Next.js 15-16. The vulnerability stems from insecure deserialization in the RSC Flight protocol, allowing attackers to achieve unauthenticated RCE through crafted HTTP requests.",
-    "url": "https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components"
+    "title": "Next.js 16.1 Turbopack Stable: AI-Ready Development",
+    "summary": "Next.js 16.1 introduces stable Turbopack with file system caching, AI-ready create-next-app templates, and experimental Agent DevTools. The release delivers 10x faster builds while preparing developers for AI-integrated workflows and agent-powered debugging.",
+    "url": "https://nextjs.org/blog"
   },
   "resources": [
     {
-      "title": "Next.js 16 Release: Cache Components with PPR & React Compiler Stable",
-      "url": "https://nextjs.org/blog/next-16",
-      "why_now": "Next.js 16 introduces Cache Components as a new programming model leveraging Partial Pre-Rendering (PPR) and 'use cache' for instant navigation. The built-in React Compiler support is now stable, offering automatic memoization for production apps."
+      "title": "Next.js 15/16 Migration Guide: Server Components & Partial Prerendering",
+      "url": "https://jishulabs.com/blog/nextjs-15-16-features-migration-guide-2026",
+      "why_now": "Next.js 15+ is now production-ready with React 19 support and Turbopack stability. The migration patterns for Server Components and async request APIs represent breaking changes that senior developers need to understand for 2026 projects."
     },
     {
-      "title": "TanStack Start vs Next.js: The Type-Safe Alternative Gaining Momentum",
-      "url": "https://tanstack.com/start/latest/docs/framework/react/start-vs-nextjs",
-      "why_now": "TanStack Start is emerging as a serious Next.js competitor in 2025, offering lightweight runtime, end-to-end type safety, and Vite-powered development. It defaults to interactive components while allowing opt-in Server Components, addressing developer frustrations with Next.js complexity."
+      "title": "TanStack Start RC: Client-First Alternative to Next.js",
+      "url": "https://byteiota.com/tanstack-start-type-safe-react-framework-for-2026/",
+      "why_now": "TanStack Start challenges Next.js's server-first paradigm with a client-first approach and type-safe RPC. It's gaining traction among teams building interactive applications who find React Server Components too opinionated."
     },
     {
-      "title": "React Server Components + TanStack Query: The 2026 Hybrid Architecture",
-      "url": "https://dev.to/krish_kakadiya_5f0eaf6342/react-server-components-tanstack-query-the-2026-data-fetching-power-duo-you-cant-ignore-21fj",
-      "why_now": "The hybrid RSC + TanStack Query pattern is becoming the standard for modern React apps in 2026. Teams report 40-70% faster initial loads by combining server-side rendering for static content with client-side caching for interactive features."
+      "title": "TypeScript 6.0: Final JavaScript-Based Release Before Go Native 7.0",
+      "url": "https://visualstudiomagazine.com/articles/2026/03/23/typescript-6-0-ships-as-final-javascript-based-release-clears-path-for-go-native-7-0.aspx",
+      "why_now": "TypeScript 6.0 is the bridge to TypeScript 7.0's Go-based compiler promising 10x build performance. Senior developers need to prepare for deprecations and the ecosystem shift to native compilation that fundamentally changes the development workflow."
     },
     {
-      "title": "Full-Stack JavaScript Development Patterns with TypeScript in 2026",
-      "url": "https://aijourn.com/full-stack-javascript-development-in-2026-whats-actually-working/",
-      "why_now": "TypeScript has moved from preference to default for production JavaScript codebases. The guide covers proven patterns for shared types between frontend and backend, with 66% of developers now using JavaScript full-stack according to Stack Overflow 2025 survey."
+      "title": "Full-Stack TypeScript Patterns: T3 Stack Dominance in 2026",
+      "url": "https://www.pkgpulse.com/blog/rise-of-full-stack-typescript-2020-to-2026",
+      "why_now": "The T3 stack (Next.js + TypeScript + tRPC + Prisma) has become the default for type-safe full-stack development. The pattern of schema-to-UI type inference eliminates manual type annotations and represents how modern teams achieve end-to-end type safety."
     }
   ],
-  "claude_take": "The React ecosystem reached an inflection point in 2025-2026, with serious security vulnerabilities in RSC highlighting the complexity costs of server-first architectures. Meanwhile, TanStack Start's rise as a type-safe, developer-centric alternative signals growing demand for explicit control over magical conventions. The real winners are teams adopting hybrid patterns that combine RSC for static content with proven client-side libraries like TanStack Query for interactivity."
+  "claude_take": "We're witnessing a pivotal moment where TypeScript transitions from JavaScript add-on to platform foundation with native execution and dramatically faster compilation. Next.js continues its server-first evolution while alternatives like TanStack Start provide escape routes for teams preferring client-centric architectures."
 }
