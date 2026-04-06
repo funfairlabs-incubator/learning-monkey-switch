@@ -1,32 +1,32 @@
 {
   "topic": "UK Schools & Education",
-  "generated_at": "2026-03-30",
+  "generated_at": "2026-01-06",
   "highlight": {
-    "title": "2026 Schools White Paper: Major Education Reforms Under Consultation",
-    "summary": "The government's 'Every Child Achieving and Thriving' white paper published in February sets out long-term reforms including halving the attainment gap between disadvantaged children and their peers at GCSE level. A consultation on the proposals closes on 18 May 2026.",
-    "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10570/"
+    "title": "Historic On-Screen Assessment Consultation Now Open",
+    "summary": "<cite index='31-2,31-3'>Ofqual is launching a 12-week public consultation on its proposed approach to regulating on-screen exams in GCSEs, AS and A levels, with proposals aiming to support responsible innovation while protecting fairness, standards and the integrity of England's qualifications system.</cite> <cite index='31-1'>The consultation will run until 5 March 2026, and responses will inform Ofqual's final approach to regulating on-screen assessments.</cite>",
+    "url": "https://www.gov.uk/government/consultations/regulating-on-screen-assessment"
   },
   "resources": [
     {
-      "title": "Ofqual Student Guide to Exams and Assessments in 2026",
-      "url": "https://www.gov.uk/government/publications/ofqual-student-guide-to-exams-and-assessments-in-2026",
-      "why_now": "Essential for both parents and students as GCSE exams run 7 May to 23 June 2026, with A-levels following similar dates - includes key changes like formula sheets being provided for maths, physics and combined science."
-    },
-    {
-      "title": "Oak National Academy Free Teaching Resources",
-      "url": "https://www.thenational.academy/",
-      "why_now": "Perfect for parents supporting home learning and teachers - now includes new SATs preparation materials specifically designed for the May 2026 tests, plus AI tools and comprehensive KS1-KS4 curriculum resources."
-    },
-    {
       "title": "KS2 SATs 2026: What Parents Need to Know",
       "url": "https://educationhub.blog.gov.uk/2026/03/ks2-sats-2026-what-parents-need-to-know/",
-      "why_now": "Critical timing for Year 6 parents as KS2 SATs are scheduled for 11-14 May 2026 - government guidance emphasises regular attendance is vital in these final weeks, and provides practical support tips for families."
+      "why_now": "Parents need to know <cite index='21-2'>this year's KS2 assessments take place over four days from 11 to 14 May 2026</cite> and <cite index='21-12'>the government has provided schools with new resources and support, including a Writing Framework for teachers, reading support through English Hubs, and preparation materials through Oak National Academy.</cite>"
     },
     {
-      "title": "Primary Assessment Future Dates 2025-2027",
-      "url": "https://www.gov.uk/guidance/primary-assessments-future-dates",
-      "why_now": "Essential planning resource for parents with children across Key Stages - includes downloadable calendars with confirmed dates for phonics checks (8 June 2026), multiplication tables check (1 June 2026) and optional KS1 tests."
+      "title": "Oak National Academy Free Lessons (KS1-KS4)",
+      "url": "https://www.thenational.academy/pupils",
+      "why_now": "Students can access <cite index='13-1,13-2'>free online lessons from KS1 to KS4, with videos, quizzes and lessons organised by year group and subject</cite> - perfect for independent revision across all secondary year groups."
+    },
+    {
+      "title": "GCSE & A-Level Formula Support Extended to 2027",
+      "url": "https://assets.publishing.service.gov.uk/media/669a123e3ed3b8db5b9d4af3/decisions-on-changes-to-the-assessment-of-mathematics-physics-and-combined-science-gcses-in-2025-2026-and-2027.pdf",
+      "why_now": "Students taking <cite index='9-15'>GCSE mathematics, physics and combined science exams in 2025, 2026 and 2027</cite> will receive formula sheets, providing crucial support for current Year 9-11 students and their parents planning revision strategies."
+    },
+    {
+      "title": "Ofqual Consultation: Shape Digital Exam Future",
+      "url": "https://www.gov.uk/government/consultations/regulating-on-screen-assessment",
+      "why_now": "Parents and teachers can influence <cite index='31-9,31-10'>how up to 2 new on-screen specifications from each exam board will be introduced, though the most popular subjects — those with over 100,000 entries nationally — would not be permitted as on-screen exams at this stage.</cite>"
     }
   ],
-  "claude_take": "With major education reforms proposed and exam season approaching, families need reliable information more than ever. The government's focus on closing attainment gaps while maintaining rigorous standards creates both opportunities and pressure points that parents should understand early."
+  "claude_take": "The education system is at a pivotal moment with digital transformation beginning but proceeding cautiously - the Ofqual consultation represents the biggest change to exam delivery in decades. Meanwhile, government support for struggling students continues with extended formula sheets and enhanced SATs preparation resources, showing commitment to post-pandemic recovery."
 }
