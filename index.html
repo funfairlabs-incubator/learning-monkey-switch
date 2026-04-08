@@ -243,39 +243,39 @@
     <h2 class="topic-title">Architecture & System Design</h2>
     <div class="highlight-card">
       <span class="highlight-label">This week's highlight</span>
-      <a href="https://chrlschn.dev/blog/2024/01/a-practical-guide-to-modular-monoliths/" target="_blank" rel="noopener noreferrer" class="highlight-link">
-        The Rise of Modular Monoliths: Why Google and Others Are Stepping Back from Microservices ↗
+      <a href="https://www.clustox.com/blog/netflix-case-study/" target="_blank" rel="noopener noreferrer" class="highlight-link">
+        Netflix's Billion-Dollar Architecture: How Event-Driven Microservices Power Global Streaming ↗
       </a>
-      <p class="highlight-summary"><cite index='11-2'>A 2023 paper titled Towards Modern Development of Cloud Applications, published by a team at Google, once again highlights the pitfalls of microservices architecture and the many benefits of the much maligned and misunderstood monolith.</cite> <cite index='14-5,14-7'>A modular monolith is one deployable application split into real modules aligned to the domain. You get the speed and simplicity of a monolith with the order and evolvability of services—without the tax of distributed systems.</cite> This architectural pattern is gaining traction as a pragmatic middle ground that addresses microservices complexity while maintaining scalability.</p>
+      <p class="highlight-summary"><cite index='11-21,13-9'>Netflix runs a cloud-native microservices architecture on AWS, supporting hundreds of millions of users across the world with thousands of independent services</cite>. <cite index='18-2,18-3'>By adopting microservices, Netflix handles over 2 billion hours of streaming daily, reducing deployment times from weeks to mere hours</cite>.</p>
     </div>
     <div class="resources-grid">
       
-    <a href="https://www.kamilgrzybek.com/blog/posts/modular-monolith-primer" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Understanding Modular Monoliths: A Beginner's Guide</span>
-      <span class="resource-why"><cite index='12-4,12-6'>The module in the Modular Monolith is a business module that is able to fully provide a set of desired features. In this way, frequent changes affect only one module - it becomes more independent, autonomous and is able to provide functionality by itself.</cite> Perfect for understanding how to organize complex applications without microservices overhead.</span>
+    <a href="https://techbuzzonline.com/microservices-architecture-patterns/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Microservices Architecture Patterns: A Beginner's Guide</span>
+      <span class="resource-why"><cite index='27-15,27-16,27-17'>This guide explains core microservices patterns, service decomposition, and communication styles, written for developers, tech leads, and architects evaluating microservices or planning a migration from a monolith</cite>.</span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://www.geeksforgeeks.org/system-design/event-sourcing-pattern/" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Event Sourcing Pattern Explained with Real-World Banking Example</span>
-      <span class="resource-why"><cite index='23-1,23-2,23-7'>A real-world example of Event Sourcing can be seen in a modern banking system. The system creates related events whenever a consumer does an action that impacts their account, like making a deposit, taking money out of their account, moving money to another account.</cite> Essential for understanding how financial systems maintain perfect audit trails.</span>
+    <a href="https://risingwave.com/blog/event-driven-architecture-complete-guide/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Event-Driven Architecture: A Complete Guide (2026)</span>
+      <span class="resource-why"><cite index='6-1'>In 2026, EDA is the foundation for microservices, real-time analytics, and AI agent systems, typically built on Apache Kafka, Pulsar, or Redpanda as the event backbone</cite>.</span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://bytebytego.com/guides/real-world-case-studies/" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Netflix's Architectural Evolution: From Monolith to Microservices</span>
-      <span class="resource-why"><cite index='8-9,8-10'>Real-world case studies are a great way to learn about the architecture, design, and scalability of popular tech companies. Dive into these case studies to understand how companies like Twitter, Netflix, Uber and more have evolved over the years.</cite> Learn from actual architectural decisions and trade-offs made at scale.</span>
+    <a href="https://www.eventmodelers.de/docs/blog/cqrs-real-world-architecture/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">CQRS in Action - A Real World Simple Architecture</span>
+      <span class="resource-why"><cite index='33-15,33-16'>This real-world example shows how event sourcing and CQRS provide the flexibility to adapt and grow systems without mental tax, addressing the challenge of state-based systems that grow in complexity over time</cite>.</span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://sensiolabs.com/blog/2024/understanding-domain-driven-design" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Domain-Driven Design Simplified for Modern Development</span>
-      <span class="resource-why"><cite index='33-5,33-6'>In today's fast-paced world of software development, aligning technical implementations with business needs is more important than ever. Domain-Driven Design (DDD) offers a structured way to tackle this challenge by emphasizing the importance of business logic and domain knowledge.</cite> Critical for building software that actually solves business problems rather than technical puzzles.</span>
+    <a href="https://www.designgurus.io/blog/19-essential-microservices-patterns-for-system-design-interviews" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">19 Essential Microservices Patterns for System Design Interviews</span>
+      <span class="resource-why"><cite index='29-5,29-6'>Microservices have become the go-to architecture for building scalable and resilient applications across industries, and knowing these patterns demonstrates you're up-to-date with industry best practices</cite>.</span>
       <span class="resource-link-icon">↗</span>
     </a>
     </div>
     <div class="claude-take">
       <span class="take-label">Claude's take</span>
-      <p>The architecture world is witnessing a fascinating correction: after years of microservices evangelism, even Google is acknowledging the complexity tax of distributed systems. <cite index='19-39,19-40'>Even Google is jumping on board the modular monolith trend in their recent research paper. Here are the five main challenges Google identified with microservices: Performance - The overhead of serializing data and sending it across the network has a noticeable impact on performance.</cite> The smartest teams are now starting with modular monoliths that can evolve into microservices when genuinely needed—not because it's trendy, but because it's pragmatic.</p>
+      <p><cite index='2-31'>What's exciting about 2026 is how enterprises are adopting event-driven architecture for microservices interactions at scale</cite>. The patterns that seemed exotic just a few years ago—CQRS, event sourcing, saga patterns—are now proven tools that companies like Netflix use to serve hundreds of millions of users reliably.</p>
     </div>
-    <div class="section-meta">Updated Wednesday, 1 April 2026</div>
+    <div class="section-meta">Updated Wednesday, 8 April 2026</div>
   </section>
 
   <section class="topic-section">
