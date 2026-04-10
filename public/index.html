@@ -321,39 +321,39 @@
     <h2 class="topic-title">Networks & Infrastructure</h2>
     <div class="highlight-card">
       <span class="highlight-label">This week's highlight</span>
-      <a href="https://www.manageengine.com/it-operations-management/cxo-focus/insights/cloudflare-outage.html" target="_blank" rel="noopener noreferrer" class="highlight-link">
-        Cloudflare's Major BGP Outage Exposes Internet's Hidden Fragility ↗
+      <a href="https://pulse.internetsociety.org/en/blog/2026/01/bgp-vortex-internet-routing-vortices-create-outages-by-preventing-convergence/" target="_blank" rel="noopener noreferrer" class="highlight-link">
+        BGP Vortex: The New Internet Vulnerability Making Headlines ↗
       </a>
-      <p class="highlight-summary">In February 2026, a simple configuration change at Cloudflare accidentally withdrew customer routes across their global network, making websites unreachable for six hours despite healthy servers. This incident shows how the internet's routing system—the invisible infrastructure that directs your data—remains surprisingly fragile even at major tech companies.</p>
+      <p class="highlight-summary"><cite index="11-1,11-14">A single BGP vortex can delay internet routing from almost instantaneous to up to 40 seconds, causing outages lasting around 37 seconds</cite>. <cite index="11-3,11-12">21 of the 30 largest internet networks are vulnerable to these attacks, and if exploited together, could impact 96% of all networks globally</cite>. This isn't theoretical—real outages like <cite index="12-1">Cloudflare's February 2026 BGP misconfiguration made services unreachable for roughly six hours</cite>.</p>
     </div>
     <div class="resources-grid">
       
-    <a href="https://www.webasha.com/blog/what-really-happens-when-you-type-a-url-in-your-browser-step-by-step-guide-explained" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">What Really Happens When You Type a URL in Your Browser? Step-by-Step Guide</span>
-      <span class="resource-why">Perfect for beginners curious about the 'magic' behind everyday internet use. Shows the fascinating chain of events—from DNS lookups to TCP connections—that happens in milliseconds when you visit any website.</span>
+    <a href="https://howdns.works/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">How DNS Works (Interactive Comic)</span>
+      <span class="resource-why"><cite index="34-3,34-5">This colorful webcomic explains what happens when you type a website address in your browser</cite>. Perfect starting point for complete beginners to understand the internet's phone book.</span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://dev.to/kaushit/how-networks-work-exploring-the-fundamentals-of-switches-routers-dns-dhcp-nat-vpn-and-more-33d1" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">How Networks Work: Exploring the Fundamentals of Switches, Routers, DNS, DHCP, NAT, VPN</span>
-      <span class="resource-why">Comprehensive technical deep-dive covering the core protocols and hardware that make computer networks function. Essential for understanding how LANs connect to WANs and how data actually moves across the internet.</span>
+    <a href="https://www.educative.io/blog/what-happens-when-we-type-a-url" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">What Happens When You Type a URL? (Educative)</span>
+      <span class="resource-why"><cite index="21-8,21-9">Covers the complete multi-step process from DNS resolution to TLS negotiation to rendering HTML, CSS, and JavaScript on screen</cite>. Updated March 2026 with modern examples including HTTP/3 and QUIC protocols.</span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://blog.benjojo.co.uk/post/bgp-attr-40-junos-arista-session-reset-incident" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">BGP Handling Bug Causes Widespread Internet Routing Instability</span>
-      <span class="resource-why">Real-world case study from May 2025 showing how a single corrupt BGP message triggered mass router shutdowns. Demonstrates the cascading failures that can affect global internet connectivity and why understanding routing protocols matters.</span>
+    <a href="https://book.systemsapproach.org/scaling/global.html" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Computer Networks: A Systems Approach - Global Internet</span>
+      <span class="resource-why"><cite index="9-11,9-24">Explains how BGP advertises complete paths between networks and prevents routing loops by carrying full AS paths in routing messages</cite>. Essential for understanding the technical details behind recent BGP outages.</span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://www.comms-express.com/blog/different-networks-explained/" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Different Types of Networks: LAN, WAN, WLAN, VPN & VLAN Explained</span>
-      <span class="resource-why">Updated for 2026 with Wi-Fi 7 and modern hybrid network architectures. Shows how businesses are combining wired LANs, wireless networks, and VPNs to create resilient, secure infrastructures in the remote-work era.</span>
+    <a href="https://www.cloudflare.com/learning/network-layer/how-does-the-internet-work/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">How Does the Internet Work? (Cloudflare)</span>
+      <span class="resource-why"><cite index="2-4,2-27">Explains packet switching and the two fundamental concepts behind internet function: packets and protocols</cite>. <cite index="2-38,2-39">Uses the Statue of Liberty analogy to show how digital information travels in pieces across the world in milliseconds</cite>.</span>
       <span class="resource-link-icon">↗</span>
     </a>
     </div>
     <div class="claude-take">
       <span class="take-label">Claude's take</span>
-      <p>The internet feels magical until it breaks—then you realize it's actually an incredibly complex system of agreements between thousands of networks, all trusting each other to route data correctly. Recent BGP outages remind us that despite decades of growth, the internet still relies on protocols designed when it was much smaller and more trusting.</p>
+      <p>The recent BGP vulnerabilities and outages show how fragile our internet infrastructure really is—major networks can disappear from the internet entirely due to simple configuration errors. Understanding these fundamentals isn't just academic curiosity; it's essential digital literacy for anyone working in tech or just wanting to understand why their favorite service suddenly goes dark for hours.</p>
     </div>
-    <div class="section-meta">Updated Friday, 3 April 2026</div>
+    <div class="section-meta">Updated Friday, 10 April 2026</div>
   </section>
 
   <section class="topic-section">
