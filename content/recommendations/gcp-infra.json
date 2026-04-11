@@ -1,32 +1,32 @@
 {
   "topic": "GCP & Cloud Infrastructure",
-  "generated_at": "2026-04-04T00:00:00Z",
+  "generated_at": "2026-04-11",
   "highlight": {
-    "title": "Cloud Run Multi-Region Services GA & Enhanced Flexibility",
-    "summary": "Google has made multi-region Cloud Run services generally available, allowing deployment from a single gcloud command. Combined with service-level minimum instances GA and new committed use discount coverage, Cloud Run now offers stronger cost predictability for production workloads.",
+    "title": "Cloud Run GPU Support and Multi-Container Jobs Now Generally Available",
+    "summary": "GCP has made GPU configuration for Cloud Run services and multi-container sidecar support for Cloud Run jobs generally available, opening new possibilities for AI/ML workloads and complex service architectures. The update also includes Identity-Aware Proxy direct integration without load balancers.",
     "url": "https://docs.cloud.google.com/run/docs/release-notes"
   },
   "resources": [
     {
-      "title": "App Engine Max Instance Limits & TLS Deprecation for New Projects",
+      "title": "Compute Flexible Committed Use Discounts Now Cover Cloud Run",
+      "url": "https://docs.cloud.google.com/run/docs/release-notes",
+      "why_now": "A major cost optimization update allowing Cloud Run services with CPU always allocated to benefit from flexible CUDs, potentially reducing compute costs by up to 57% across Compute Engine, GKE, and Cloud Run with a single commitment."
+    },
+    {
+      "title": "GCP Cost Optimization: 7 Essential Tactics for 2026",
+      "url": "https://cast.ai/blog/gcp-cost-optimization/",
+      "why_now": "With cloud costs growing 20-21% year over year and 20-40% of resources remaining underutilized, this comprehensive guide covers Spot VMs, right-sizing, and automated cost optimization strategies specifically relevant for dynamic Cloud Run and GKE workloads."
+    },
+    {
+      "title": "Secret Manager Rotation with Pub/Sub and Cloud Functions Tutorial",
+      "url": "https://oneuptime.com/blog/post/2026-02-17-how-to-set-up-automatic-secret-rotation-using-pubsub-and-cloud-functions-in-gcp/view",
+      "why_now": "Security automation is critical as environments scale, and this practical tutorial demonstrates how to implement automatic credential rotation using GCP's native Secret Manager rotation notifications and Pub/Sub triggers for Cloud Run functions."
+    },
+    {
+      "title": "App Engine to Cloud Run Migration Now in Preview",
       "url": "https://docs.cloud.google.com/appengine/docs/standard/nodejs/release-notes",
-      "why_now": "New App Engine projects after March 2025 default to 20 max instances (vs unlimited), requiring explicit scaling configuration. TLS 1.1 deprecation also forces security updates for existing apps."
-    },
-    {
-      "title": "Secret Manager Cost Trap: Legacy VM Access Scopes Override IAM",
-      "url": "https://earezki.com/ai-news/2026-04-03-the-zero-cost-cloud-engineer-part-4-cloud-storage-secret-manager-and-the-legacy-access-trap/",
-      "why_now": "Legacy Compute Engine access scopes can block Secret Manager access even with proper IAM roles. The cloud-platform scope is now the modern standard for delegating full authentication to IAM."
-    },
-    {
-      "title": "Pub/Sub Lite Discontinuation Creates Migration Pressure",
-      "url": "https://airbyte.com/data-engineering-resources/google-pub-sub-pricing",
-      "why_now": "Pub/Sub Lite ends March 18, 2026, forcing migrations to standard Pub/Sub which can dramatically increase messaging costs without proper architecture planning and message lifecycle optimization."
-    },
-    {
-      "title": "Cloud Run Functions Replaces Cloud Functions 2nd Gen",
-      "url": "https://cloudchipr.com/blog/google-cloud-functions",
-      "why_now": "Google renamed Cloud Functions 2nd gen to 'Cloud Run functions' in August 2024. Teams need to understand the unified platform benefits and pricing implications for serverless workloads."
+      "why_now": "Google is providing a migration path from App Engine standard environment to Cloud Run with the gcloud beta app migrate-to-run command, offering teams a way to modernize legacy App Engine applications to containerized Cloud Run services."
     }
   ],
-  "claude_take": "The biggest operational change is App Engine's new instance limits for new projects, which will catch teams off-guard during scaling events. Meanwhile, the Secret Manager access scope issue represents a classic cloud gotcha that can block deployments despite having 'correct' IAM permissions."
+  "claude_take": "GCP is clearly positioning Cloud Run as the future of serverless compute, with GPU support, better cost optimization through flexible CUDs, and migration paths from App Engine. The focus on cost automation and security practices like automatic secret rotation reflects the maturation of cloud-native development patterns where infrastructure management becomes increasingly automated and policy-driven."
 }
