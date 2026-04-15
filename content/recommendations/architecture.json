@@ -1,32 +1,32 @@
 {
   "topic": "Architecture & System Design",
-  "generated_at": "2026-04-08",
+  "generated_at": "2026-04-15",
   "highlight": {
-    "title": "Netflix's Billion-Dollar Architecture: How Event-Driven Microservices Power Global Streaming",
-    "summary": "<cite index='11-21,13-9'>Netflix runs a cloud-native microservices architecture on AWS, supporting hundreds of millions of users across the world with thousands of independent services</cite>. <cite index='18-2,18-3'>By adopting microservices, Netflix handles over 2 billion hours of streaming daily, reducing deployment times from weeks to mere hours</cite>.",
+    "title": "Netflix's Event-Driven Architecture at Scale",
+    "summary": "Netflix processes billions of real-time events daily through an event-driven microservices architecture that powers its recommendations, analytics, and playback systems. This approach allows services to react asynchronously and at massive scale while maintaining the ability to operate independently, demonstrating how event-driven patterns enable both technical resilience and business agility.",
     "url": "https://www.clustox.com/blog/netflix-case-study/"
   },
   "resources": [
     {
-      "title": "Microservices Architecture Patterns: A Beginner's Guide",
-      "url": "https://techbuzzonline.com/microservices-architecture-patterns/",
-      "why_now": "<cite index='27-15,27-16,27-17'>This guide explains core microservices patterns, service decomposition, and communication styles, written for developers, tech leads, and architects evaluating microservices or planning a migration from a monolith</cite>."
+      "title": "Software Architecture Handbook for Beginners",
+      "url": "https://www.freecodecamp.org/news/an-introduction-to-software-architecture-patterns/",
+      "why_now": "Provides an accessible introduction to core architectural concepts like client-server models and modularity, perfect for curious adults wanting to understand how software systems are organized. The handbook breaks down complex topics into digestible explanations with practical examples."
     },
     {
-      "title": "Event-Driven Architecture: A Complete Guide (2026)",
-      "url": "https://risingwave.com/blog/event-driven-architecture-complete-guide/",
-      "why_now": "<cite index='6-1'>In 2026, EDA is the foundation for microservices, real-time analytics, and AI agent systems, typically built on Apache Kafka, Pulsar, or Redpanda as the event backbone</cite>."
+      "title": "What Is a Modular Monolith?",
+      "url": "https://www.milanjovanovic.tech/blog/what-is-a-modular-monolith",
+      "why_now": "Modular monoliths are emerging as the pragmatic middle ground between traditional monoliths and microservices, especially after Google's recent research validating this approach. Senior engineers need to understand this pattern as it offers the organizational benefits of microservices without the operational complexity."
     },
     {
-      "title": "CQRS in Action - A Real World Simple Architecture",
-      "url": "https://www.eventmodelers.de/docs/blog/cqrs-real-world-architecture/",
-      "why_now": "<cite index='33-15,33-16'>This real-world example shows how event sourcing and CQRS provide the flexibility to adapt and grow systems without mental tax, addressing the challenge of state-based systems that grow in complexity over time</cite>."
+      "title": "Netflix Architecture Deep Dive - System Design Case Study",
+      "url": "https://www.clustox.com/blog/netflix-case-study/",
+      "why_now": "Real-world architecture examples are invaluable for understanding how patterns work at scale. Netflix's evolution from monolith to event-driven microservices showcases practical implementation of multiple patterns working together to handle billions of users and events."
     },
     {
-      "title": "19 Essential Microservices Patterns for System Design Interviews",
-      "url": "https://www.designgurus.io/blog/19-essential-microservices-patterns-for-system-design-interviews",
-      "why_now": "<cite index='29-5,29-6'>Microservices have become the go-to architecture for building scalable and resilient applications across industries, and knowing these patterns demonstrates you're up-to-date with industry best practices</cite>."
+      "title": "Top 10 Software Architecture Patterns for 2025",
+      "url": "https://www.mindinventory.com/blog/software-architecture-patterns/",
+      "why_now": "As we enter 2026, this comprehensive overview of current patterns helps experienced developers stay current with architectural trends. It covers event-driven architecture, microservices evolution, and emerging patterns that are shaping modern system design."
     }
   ],
-  "claude_take": "<cite index='2-31'>What's exciting about 2026 is how enterprises are adopting event-driven architecture for microservices interactions at scale</cite>. The patterns that seemed exotic just a few years ago—CQRS, event sourcing, saga patterns—are now proven tools that companies like Netflix use to serve hundreds of millions of users reliably."
+  "claude_take": "The architecture landscape is consolidating around pragmatic patterns that balance complexity and capability. While microservices dominated the last decade, the pendulum is swinging toward modular monoliths and event-driven designs that offer cleaner boundaries without operational overhead. The real lesson from Netflix and others isn't that you need their scale, but that thoughtful modularization and loose coupling principles apply at any size."
 }
