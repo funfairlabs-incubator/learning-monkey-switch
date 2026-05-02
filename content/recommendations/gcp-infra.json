@@ -1,32 +1,32 @@
 {
   "topic": "GCP & Cloud Infrastructure",
-  "generated_at": "2026-04-11",
+  "generated_at": "2026-05-02T00:00:00Z",
   "highlight": {
-    "title": "Cloud Run GPU Support and Multi-Container Jobs Now Generally Available",
-    "summary": "GCP has made GPU configuration for Cloud Run services and multi-container sidecar support for Cloud Run jobs generally available, opening new possibilities for AI/ML workloads and complex service architectures. The update also includes Identity-Aware Proxy direct integration without load balancers.",
-    "url": "https://docs.cloud.google.com/run/docs/release-notes"
+    "title": "Cloud Run's Billing Caps and AI Integration",
+    "summary": "<cite index=\"2-14,2-15,10-29,10-30\">Cloud Run introduces billing caps to prevent cost overruns by deactivating resources when spending limits are reached. Coupled with GPU support for RTX 6000 Pro and Gemini Enterprise Agent Platform integration, this makes serverless AI workloads more accessible.</cite>",
+    "url": "https://cloud.google.com/blog/products/serverless/whats-new-for-cloud-run-at-next26"
   },
   "resources": [
     {
-      "title": "Compute Flexible Committed Use Discounts Now Cover Cloud Run",
-      "url": "https://docs.cloud.google.com/run/docs/release-notes",
-      "why_now": "A major cost optimization update allowing Cloud Run services with CPU always allocated to benefit from flexible CUDs, potentially reducing compute costs by up to 57% across Compute Engine, GKE, and Cloud Run with a single commitment."
+      "title": "Cloud Run Worker Pools and CREMA for AI Workloads",
+      "url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud",
+      "why_now": "<cite index=\"3-27,3-28,3-29,3-30\">Worker pools are now GA for pull-based workloads like AI inference, with the open-sourced CREMA autoscaler enabling queue-aware scaling based on Pub/Sub backlog or Kafka lag.</cite>"
     },
     {
-      "title": "GCP Cost Optimization: 7 Essential Tactics for 2026",
-      "url": "https://cast.ai/blog/gcp-cost-optimization/",
-      "why_now": "With cloud costs growing 20-21% year over year and 20-40% of resources remaining underutilized, this comprehensive guide covers Spot VMs, right-sizing, and automated cost optimization strategies specifically relevant for dynamic Cloud Run and GKE workloads."
+      "title": "Secret Manager with Pub/Sub Integration Patterns",
+      "url": "https://computingforgeeks.com/google-cloud-secret-manager-tutorial/",
+      "why_now": "<cite index=\"21-2,21-3,21-13,21-14\">Secret Manager's notification-based rotation via Pub/Sub requires Cloud Functions or Cloud Run services to handle the actual credential updates, making automation patterns critical for production systems.</cite>"
     },
     {
-      "title": "Secret Manager Rotation with Pub/Sub and Cloud Functions Tutorial",
-      "url": "https://oneuptime.com/blog/post/2026-02-17-how-to-set-up-automatic-secret-rotation-using-pubsub-and-cloud-functions-in-gcp/view",
-      "why_now": "Security automation is critical as environments scale, and this practical tutorial demonstrates how to implement automatic credential rotation using GCP's native Secret Manager rotation notifications and Pub/Sub triggers for Cloud Run functions."
+      "title": "App Engine Cost Optimization Through Scaling Controls",
+      "url": "https://moldstud.com/articles/p-maximize-efficiency-essential-google-app-engine-tips-for-cost-optimization",
+      "why_now": "<cite index=\"14-5,14-6,14-7,14-8\">Auto-scaling settings aligned with traffic demands can reduce costs by up to 30%, with sustained-use discounts providing additional 30% reduction for long-running workloads.</cite>"
     },
     {
-      "title": "App Engine to Cloud Run Migration Now in Preview",
-      "url": "https://docs.cloud.google.com/appengine/docs/standard/nodejs/release-notes",
-      "why_now": "Google is providing a migration path from App Engine standard environment to Cloud Run with the gcloud beta app migrate-to-run command, offering teams a way to modernize legacy App Engine applications to containerized Cloud Run services."
+      "title": "Event-Driven Microservices Architecture Patterns for 2026",
+      "url": "https://www.elightwalk.com/blog/cloud-native-architecture",
+      "why_now": "<cite index=\"33-15,33-16,33-19\">Event-driven architectures using Apache Kafka and Pulsar are becoming standard for microservices, providing better decoupling and resilience as systems scale.</cite>"
     }
   ],
-  "claude_take": "GCP is clearly positioning Cloud Run as the future of serverless compute, with GPU support, better cost optimization through flexible CUDs, and migration paths from App Engine. The focus on cost automation and security practices like automatic secret rotation reflects the maturation of cloud-native development patterns where infrastructure management becomes increasingly automated and policy-driven."
+  "claude_take": "The big shift is serverless becoming production-ready with proper cost controls and AI integration, while traditional App Engine remains cost-effective for steady workloads when properly configured. Secret management automation through Pub/Sub patterns is becoming essential as teams move beyond manual processes."
 }
