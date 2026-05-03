@@ -1,32 +1,32 @@
 {
   "topic": "Developer Tools & Workflow",
-  "generated_at": "2026-04-05T00:00:00Z",
+  "generated_at": "2026-05-03",
   "highlight": {
-    "title": "GitHub Agentic Workflows in Technical Preview",
-    "summary": "<cite index=\"14-5,14-6\">Write automation in Markdown instead of YAML. Describe what you want in natural language, and the AI agent figures out how to do it.</cite> <cite index=\"14-24\">Security-first design: Read-only by default with sandboxed execution, network isolation, SHA-pinned dependencies, and sanitized write operations through safe outputs.</cite>",
+    "title": "GitHub Actions Agentic Workflows Hit Technical Preview",
+    "summary": "<cite index=\"17-4,17-5,17-6\">GitHub has launched Agentic Workflows that let developers write CI/CD automation in plain Markdown instead of YAML. The feature converts natural language descriptions into standard GitHub Actions workflows using AI agents.</cite>",
     "url": "https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/"
   },
   "resources": [
     {
-      "title": "Claude Code vs Codex: Terminal AI Tool Battle",
-      "url": "https://www.buildfastwithai.com/blogs/claude-code-vs-codex-2026",
-      "why_now": "<cite index=\"7-10,7-11\">Claude Code hits 80.8% on SWE-bench. Codex uses 3x fewer tokens.</cite> <cite index=\"3-18,3-19,3-20\">Claude Code brings Anthropic's AI directly into your terminal. Unlike web-based chatbots, it runs locally and can read, edit, and create files in your project.</cite>"
+      "title": "Claude Code Dominates Terminal-Based AI Development",
+      "url": "https://tokencalculator.com/blog/best-ai-ide-cli-tools-april-2026-claude-code-wins",
+      "why_now": "<cite index=\"3-14,3-15\">Claude Code has emerged as the undisputed leader for CLI-based agentic coding, with Opus 4.6 handling complex multi-file tasks better than competitors.</cite> <cite index=\"1-18,1-19\">The AI development tool landscape is converging around distinct architectures where workflow preference matters more than benchmark scores.</cite>"
     },
     {
-      "title": "Socket Supply Chain Security Innovation",
-      "url": "https://socket.dev/blog/socket-named-supply-chain-innovator-in-latio-2026-appsec-market-report",
-      "why_now": "<cite index=\"37-1,37-2\">This is exactly the problem Socket was built to solve. While most tools wait for a CVE to be assigned, Socket detects malicious behavior in packages before they ever make it into a vulnerability database.</cite> <cite index=\"1-30\">The CLI tool that you can run locally is fast enough to include in pre-commit hooks without adding noticeable delay.</cite>"
+      "title": "ReSharper Extension Now Available for VS Code & Cursor",
+      "url": "https://blog.jetbrains.com/dotnet/2026/03/05/resharper-for-visual-studio-code-cursor-and-compatible-editors-is-out/",
+      "why_now": "<cite index=\"21-2,21-3\">JetBrains officially released ReSharper for VS Code and compatible editors after a year in preview, bringing professional C# code analysis to AI-first environments like Cursor.</cite> <cite index=\"21-7\">The extension remains free for non-commercial use while targeting the growing developer preference for lightweight editors.</cite>"
     },
     {
-      "title": "Cursor vs Windsurf: AI Editor Evolution",
-      "url": "https://www.cursorvswindsurf.com/which-to-choose",
-      "why_now": "<cite index=\"22-13,22-14\">Windsurf's SWE-1.5 achieves near-frontier coding quality at dramatically faster inference. For developers who spend all day in an AI IDE, the speed difference is noticeable: less waiting, more flow.</cite> <cite index=\"21-20,21-21,21-22\">Windsurf's Cascade agent is designed for multi-step autonomous tasks: it reads terminal output, iterates on errors, and chains actions. Cursor's Composer does similar work but gives you more control (and less autonomy).</cite>"
+      "title": "GitHub Actions Gets Major Security & Workflow Upgrades",
+      "url": "https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/",
+      "why_now": "<cite index=\"11-1,11-2\">GitHub's 2026 roadmap shifts Actions toward secure-by-default automation in response to increasing supply chain attacks targeting CI/CD systems.</cite> <cite index=\"12-7,12-8\">New features like OIDC custom properties and service container overrides address long-standing developer frustrations while hardening security.</cite>"
     },
     {
-      "title": "WordPress @wordpress/build Replaces Webpack",
-      "url": "https://developer.wordpress.org/news/2026/04/wordpress-build-the-next-generation-of-wordpress-plugin-build-tooling/",
-      "why_now": "<cite index=\"9-43,9-44\">It replaces the webpack and Babel pipeline with a significantly faster build engine, auto-generates PHP registration files from package.json conventions, and handles scripts, script modules, and styles in one pass. It works through convention-based folder discovery: a packages/ directory for JavaScript packages and a routes/ directory for admin page routes, each auto-discovered with no configuration.</cite> <cite index=\"9-45\">Gutenberg already uses it to build all of its 100+ packages.</cite>"
+      "title": "Zed Editor Launches Agent Client Protocol with JetBrains",
+      "url": "https://www.nxcode.io/resources/news/best-ai-code-editor-2026-cursor-windsurf-copilot-zed-compared",
+      "why_now": "<cite index=\"25-13,25-14\">Zed announced the Agent Client Protocol in January 2026, enabling external AI agents like Claude Code and Codex CLI to work inside Zed without editor lock-in.</cite> <cite index=\"25-9,25-10\">Built in Rust with sub-second startup times and 40% faster edit latency than VS Code, Zed represents the performance-first response to AI-heavy development workflows.</cite>"
     }
   ],
-  "claude_take": "2026 is the year AI moves from autocomplete to autonomous workflows—GitHub Actions now speaks Markdown instead of YAML, CLI tools like Claude Code operate with 80% SWE-bench accuracy, and even WordPress ditched webpack for convention-over-configuration builds. The tooling wars are shifting from feature parity to speed and intelligence."
+  "claude_take": "2026 is shaping up as the year AI coding tools mature beyond simple autocomplete into full workflow automation. The convergence around three architectural approaches—terminal-native (Claude Code), IDE-native (Cursor), and extension-native (Copilot)—suggests the market is stabilizing around distinct use cases rather than one-size-fits-all solutions."
 }

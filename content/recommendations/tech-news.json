@@ -1,32 +1,32 @@
 {
   "topic": "Tech & Learning",
-  "generated_at": "2026-04-05",
+  "generated_at": "2026-05-03",
   "highlight": {
-    "title": "IBM's Quantum Computing Milestone: Quantum Advantage by 2026",
-    "summary": "IBM has unveiled its Quantum Nighthawk processor with 120 qubits and achieved breakthrough quantum error correction capabilities. The company anticipates the first verified quantum advantage applications will emerge by end of 2026, with fault-tolerant quantum computing targeted for 2029.",
-    "url": "https://www.ibm.com/quantum/blog/large-scale-ftqc"
+    "title": "AI Amplifies Your Engineering Culture—For Better or Worse",
+    "summary": "Research reveals AI doesn't fix broken engineering practices—it accelerates them. Teams with strong testing, code review, and architectural discipline see 5x productivity gains, while those lacking fundamentals see more bugs and technical debt.",
+    "url": "https://cjroth.com/blog/2026-02-18-building-an-elite-engineering-culture"
   },
   "resources": [
     {
-      "title": "2026 Tech Trends: Engineering Teams Face ROI Reality Check",
+      "title": "Edge Computing's 2026 Breakthrough: AI Moves from Cloud to Your Desktop",
+      "url": "https://www.thedigitalspeaker.com/ten-technology-trends-2026/",
+      "why_now": "Intel's new Core Ultra processors hit 99 TOPS of AI performance, making local inference finally viable. This isn't just faster computing—it's a complete shift from sending data to the cloud to bringing intelligence where the data lives."
+    },
+    {
+      "title": "How to Learn AI in 2026: The Complete Roadmap",
+      "url": "https://ischool.syracuse.edu/how-to-learn-ai/",
+      "why_now": "With AI literacy becoming table stakes for most tech roles, this guide cuts through the noise with two practical paths: power user (no code required) versus builder (technical depth). Includes specific free resources like Hugging Face courses and Kaggle competitions."
+    },
+    {
+      "title": "2026 Engineering Trends: From Experimentation to ROI",
       "url": "https://waydev.co/2026-tech-trends-a-guide-for-engineering-leaders/",
-      "why_now": "After years of AI experimentation, 2026 marks the year organizations demand measurable ROI from technology investments. Engineering leaders must shift from novelty-driven experiments to disciplined practices that deliver quantifiable business outcomes."
+      "why_now": "After two years of AI pilots, engineering leaders face CFO demands for measurable impact. Forrester predicts 25% of planned AI investments will be deferred to 2027, making disciplined engineering practices the competitive advantage."
     },
     {
-      "title": "How to Become an AI Engineer in 2026: A Self-Study Roadmap",
-      "url": "https://www.kdnuggets.com/how-to-become-an-ai-engineer-in-2026-a-self-study-roadmap",
-      "why_now": "With AI engineering job postings increasing 200-fold since 2021 and companies moving from experimentation to production deployment, this practical roadmap provides the structured learning path families need to understand this critical career opportunity."
-    },
-    {
-      "title": "Best Hands-On Resources to Learn AI Engineering in 2026",
-      "url": "https://www.firecrawl.dev/blog/best-ai-resources",
-      "why_now": "Updated for 2026 to reflect how AI engineering has matured - context engineering and structured output handling are now table stakes rather than advanced topics. These curated resources focus on building real projects rather than just understanding concepts."
-    },
-    {
-      "title": "State of the Product Job Market in Early 2026",
-      "url": "https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9",
-      "why_now": "Despite headlines about AI replacing jobs, product management openings are at their highest levels in three years with over 67,000 engineering roles available globally. The data shows AI is creating more opportunities than it's eliminating, especially in specialized roles."
+      "title": "ENR FutureTech 2026: Construction Tech's Massive Shift",
+      "url": "https://www.globenewswire.com/news-release/2026/05/01/3286053/0/en/ENR-FutureTech-2026-Convenes-Construction-s-Top-Tech-Decision-Makers-as-Final-Few-Tickets-Remain.html",
+      "why_now": "Major construction firms are sending full teams to evaluate AI tools for active projects, not future planning. This represents a fundamental shift from treating construction tech as a 'someday' consideration to immediate deployment needs."
     }
   ],
-  "claude_take": "2026 appears to be a pivotal year where the tech industry transitions from hype-driven experimentation to value-driven implementation. The convergence of quantum computing breakthroughs, mature AI engineering practices, and renewed hiring momentum suggests we're entering a more sustainable phase of technological progress where practical applications finally catch up to the promises."
+  "claude_take": "The pattern is clear: AI is becoming the great amplifier of existing organizational DNA. Companies with strong engineering fundamentals are seeing compound benefits, while those with weak practices are accelerating toward chaos. The winners in 2026 won't be the teams with the most AI tools—they'll be the ones who built the disciplined culture that makes AI actually useful."
 }
