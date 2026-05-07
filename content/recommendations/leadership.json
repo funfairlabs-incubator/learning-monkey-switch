@@ -1,32 +1,32 @@
 {
   "topic": "Leadership & Team Craft",
-  "generated_at": "2026-04-30",
+  "generated_at": "2026-05-07",
   "highlight": {
-    "title": "The Reciprocal Dynamics of Formal and Shared Leadership",
-    "summary": "<cite index=\"2-5,2-26,2-28\">Recent research reveals that shared leadership by teams and empowering leadership by formal leaders create reciprocal relationships over time, advancing our understanding of leadership as a dynamic process between leaders and followers.</cite> <cite index=\"10-7,10-22\">This dynamic perspective recognizes that effective team leadership requires both formal vertical leadership and informal shared leadership that mutually influence each other.</cite>",
+    "title": "Leadership Dynamics in Teams: The Reciprocity of Shared and Empowering Leadership",
+    "summary": "<cite index='1-4,1-5'>Recent theoretical developments indicate that leadership is a dynamic team process, valuing the contributions of leaders and followers alike. This pre-registered study investigates the reciprocal interplay between shared leadership and formal team leadership (i.e., empowering leadership).</cite> <cite index='1-17'>The research aims to better understand how a team of followers can influence their leader's behavior through their informal leadership attempts (i.e., shared leadership).</cite>",
     "url": "https://link.springer.com/article/10.1007/s10869-025-10008-9"
   },
   "resources": [
     {
-      "title": "Gallup's 2025 Report: The Leadership Crisis Behind Falling Engagement",
-      "url": "https://www.gallup.com/workplace/692954/anemic-employee-engagement-points-leadership-challenges.aspx",
-      "why_now": "<cite index=\"22-4,25-4,25-5\">Global employee engagement has dropped to 21% in 2024, costing $438 billion in lost productivity, with managers accounting for 70% of variance in team engagement.</cite> This signals an urgent need for organizations to invest in manager development and coaching capabilities."
+      "title": "To Lead Through Uncertainty, Unlearn Your Assumptions",
+      "url": "https://hbr.org/2026/02/to-lead-through-uncertainty-unlearn-your-assumptions",
+      "why_now": "<cite index='21-2,21-3'>Leaders grow capacity by unlearning, which involves changing prior scripts, such as the assumptions that speed, reassurance, and control are necessary when making complex leadership decisions. It requires relearning ways of being that widen the room for reality and uncertainty.</cite>"
     },
     {
-      "title": "The Neuroscience of Psychological Safety for High Performance",
-      "url": "https://neuroleadership.com/your-brain-at-work-2025-latest-from-the-lab-creating-psych-safety-for-improved-performance",
-      "why_now": "<cite index=\"39-3,39-12,39-18\">New neuroscience research identifies specific behaviors that increase psychological safety and performance, offering leaders three actionable habits: set the stage, invite participation, and respond thoughtfully.</cite> With uncertainty rising, teams need these evidence-based practices now more than ever."
+      "title": "Psychological Safety and Emotional Intelligence: Building Resilient Teams in 2026",
+      "url": "https://www.workplaceasia.com.sg/psychological-safety-and-emotional-intelligence-building-resilient-teams-in-2026/",
+      "why_now": "<cite index='12-1,12-2'>To build psychological safety, enforce a \"vulnerability ritual\"—start meetings with 2-minute personal check-ins (\"Share one win and one worry\"). Research shows this increases speak-up behaviors by 40% within weeks.</cite> This provides immediately actionable tactics for leaders seeking measurable improvements."
     },
     {
-      "title": "Mitigating Cognitive Bias in Organizational Decision-Making",
-      "url": "https://eprints.lse.ac.uk/125404/1/Fasolo-et-al-2024-mitigating-cognitive-bias-to-improve-organizational-decisions.pdf",
-      "why_now": "<cite index=\"12-8,12-10,12-11\">This comprehensive review presents a framework identifying decision, organizational, and individual factors that moderate the effectiveness of bias mitigation approaches across contexts.</cite> As leaders face increasingly complex decisions, understanding these evidence-based debiasing strategies becomes critical for organizational performance."
+      "title": "Leadership in Uncertainty: The Power of Timely Decisions",
+      "url": "https://www.newsanyway.com/2026/05/05/leadership-that-drives-results",
+      "why_now": "<cite index='25-17,25-20'>Confidence develops as a result of making decisions, following through, and seeing outcomes. Not before. \"Confidence is built through action,\" she maintains.</cite> This challenges the common misconception that leaders must feel ready before acting—crucial insight for uncertain times."
     },
     {
-      "title": "Transformational Leadership Challenges in Team Environments",
-      "url": "https://www.emerald.com/jwam/article/doi/10.1108/JWAM-08-2024-0115/1254437/Transformational-leadership-addressing-team",
-      "why_now": "<cite index=\"8-1,8-8,8-19\">Research using decision-making models reveals that preparation is the most critical factor for addressing transformational leadership challenges, with unequal workload distribution being the most pressing team issue.</cite> This provides leaders with specific, actionable guidance on when and how to apply transformational approaches effectively."
+      "title": "How to rethink leadership in 2026, according to young leaders",
+      "url": "https://www.weforum.org/stories/2026/01/rethinking-leadership-2026-young-leaders/",
+      "why_now": "<cite index='27-4,27-6'>The defining skill for the next decade is not what leaders know, but how they make decisions when everything is in motion. Working at the intersection of political leadership development, civil society and large-scale private-sector projects, I learned that the defining skill for the next decade is not what leaders know, but how they make decisions when everything is in motion.</cite>"
     }
   ],
-  "claude_take": "The convergence of falling engagement, rising cognitive demands, and distributed teams creates a perfect storm requiring fundamentally different leadership approaches. The evidence suggests leaders must shift from command-and-control to becoming architects of psychological safety and shared decision-making - not as soft skills, but as competitive necessities for navigating complexity and uncertainty."
+  "claude_take": "The convergence of AI integration and psychological safety isn't coincidental—it's essential. <cite index='3-12,3-13'>DDI's research has identified five capabilities that give leaders the edge in an AI-driven world: Connection, Conscience, Creativity, Clarity, and Curiosity. Together, these 5Cs ensure that technology amplifies, rather than replaces, human leadership.</cite> The most successful leaders of 2026 will be those who master the paradox of leveraging AI's analytical power while deepening their capacity to create the human conditions where teams can think boldly and fail safely."
 }
