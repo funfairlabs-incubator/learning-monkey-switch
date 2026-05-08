@@ -1,32 +1,32 @@
 {
   "topic": "Networks & Infrastructure",
-  "generated_at": "2026-05-01",
+  "generated_at": "2026-05-08",
   "highlight": {
-    "title": "Major BGP Incidents Are Teaching Us About Internet Fragility",
-    "summary": "Recent route leaks and BGP hijacks show how misconfigurations can knock out massive chunks of the internet in minutes. These incidents highlight both the elegance and fragility of the routing system that keeps our connected world running.",
-    "url": "https://blog.cloudflare.com/route-leak-incident-january-22-2026/"
+    "title": "BGP Vortex: The New Internet Routing Vulnerability That Could Take Down 96% of Networks",
+    "summary": "Researchers discovered BGP Vortex, a vulnerability that can flood the internet with routing messages and cause massive outages lasting up to 40 seconds. Just 21 of the world's largest networks are vulnerable, but triggering all identified vortices could impact nearly the entire internet.",
+    "url": "https://pulse.internetsociety.org/en/blog/2026/01/bgp-vortex-internet-routing-vortices-create-outages-by-preventing-convergence/"
   },
   "resources": [
     {
-      "title": "How DNS Works: Simple Guide for Beginners (2026 Update)",
-      "url": "https://petalhost.com/blog/how-dns-works-a-beginner-friendly-guide-for-non-technical-users/",
-      "why_now": "Perfect starting point that explains DNS like calling friends by name instead of phone numbers. Makes the internet's phone book accessible to anyone."
+      "title": "A Beginner's Guide To Computer Networking",
+      "url": "https://zerotomastery.io/blog/introduction-to-networking/",
+      "why_now": "Perfect entry point explaining networks as 'roads between cities' with real-world analogies. Covers the fundamentals like TCP/IP, Wi-Fi vs Ethernet, and routing in digestible terms that make sense to complete beginners."
     },
     {
-      "title": "What Happens When You Type a URL Into Your Browser",
-      "url": "https://aws.amazon.com/blogs/mobile/what-happens-when-you-type-a-url-into-your-browser/",
-      "why_now": "Step-by-step breakdown of the entire journey from typing to page load. Shows how DNS, TCP handshakes, and HTTP work together in real-world scenarios."
+      "title": "What Happens When You Type a URL Into Your Browser?",
+      "url": "https://www.educative.io/blog/what-happens-when-we-type-a-url",
+      "why_now": "Updated March 2026 guide breaking down the entire journey from typing 'google.com' to seeing a webpage. Shows DNS lookups, TCP handshakes, and TLS encryption in action—the perfect real-world example of how all networking concepts work together."
     },
     {
       "title": "8 Hot Networking Trends for 2026",
       "url": "https://www.networkworld.com/article/4126582/8-hot-networking-trends-for-2026.html",
-      "why_now": "AI is reshaping networks with Wi-Fi 7 rollouts and automated operations gaining momentum. Essential for understanding where enterprise networking is heading."
+      "why_now": "Network World's analysis of how AI is transforming networking operations, with autonomous systems handling Tier 1 and Tier 2 infrastructure tasks. Essential reading for understanding where enterprise networking is headed in the AI era."
     },
     {
-      "title": "A Brief History of the Internet's Biggest BGP Incidents",
-      "url": "https://nanog.org/stories/articles/a-brief-history-of-the-internets-biggest-bgp-incidents/",
-      "why_now": "Technical deep-dive into routing failures that brought down YouTube, hijacked crypto funds, and caused global outages. Shows the critical infrastructure most people never think about."
+      "title": "freeCodeCamp Free Computer Networking Course 2026",
+      "url": "https://coursejoiner.com/free-online-courses/freecodecamp-free-computer-networking-course/",
+      "why_now": "Comprehensive free course covering TCP/IP fundamentals, subnetting, and VLSM with hands-on exercises. Perfect for anyone wanting to go beyond basics and gain practical networking skills without expensive certification programs."
     }
   ],
-  "claude_take": "<cite index=\"1-3,2-1,24-1,28-1\">2026 is proving to be a pivotal year for understanding network resilience, with multiple high-profile BGP incidents and AI traffic driving unprecedented infrastructure demands.</cite> <cite index=\"12-19,18-6\">What's fascinating is how DNS—truly the internet's invisible workhorse—remains both elegantly simple and critically important, even as everything else gets more complex.</cite> <cite index=\"31-15,32-13\">The next time a webpage loads instantly, remember that an entire orchestra of protocols performed in perfect harmony, usually in under a second.</cite>"
+  "claude_take": "The internet feels magical until you realize it's held together by 30-year-old protocols like BGP that can crash spectacularly when misconfigured. Understanding how DNS turns google.com into an IP address, or why your Wi-Fi works, isn't just academic—it's essential digital literacy in a world where network outages can shut down entire services we depend on daily."
 }
