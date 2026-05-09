@@ -88,38 +88,38 @@
     <div class="highlight-card">
       <span class="highlight-label">This week's highlight</span>
       <a href="https://cloud.google.com/blog/products/serverless/whats-new-for-cloud-run-at-next26" target="_blank" rel="noopener noreferrer" class="highlight-link">
-        Cloud Run's Billing Caps and AI Integration ↗
+        Cloud Run's Agentic Era: GPU Support and Agent Platform Integration ↗
       </a>
-      <p class="highlight-summary"><cite index="2-14,2-15,10-29,10-30">Cloud Run introduces billing caps to prevent cost overruns by deactivating resources when spending limits are reached. Coupled with GPU support for RTX 6000 Pro and Gemini Enterprise Agent Platform integration, this makes serverless AI workloads more accessible.</cite></p>
+      <p class="highlight-summary"><cite index='3-1,3-7'>Cloud Run now supports NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs for high-performance AI inference on up to 70B+ parameter models, while integrating with Gemini Enterprise Agent Platform for production-grade AI agent deployment.</cite> <cite index='1-13,3-12'>The fully managed remote MCP server is now generally available, enabling easy deployments from developers and AI agents.</cite></p>
     </div>
     <div class="resources-grid">
       
     <a href="https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Cloud Run Worker Pools and CREMA for AI Workloads</span>
-      <span class="resource-why"><cite index="3-27,3-28,3-29,3-30">Worker pools are now GA for pull-based workloads like AI inference, with the open-sourced CREMA autoscaler enabling queue-aware scaling based on Pub/Sub backlog or Kafka lag.</cite></span>
+      <span class="resource-title">Cloud Run Worker Pools and CREMA: Powering Serverless AI at Scale</span>
+      <span class="resource-why"><cite index='4-27,4-28'>Worker pools provide 'always-on' environments for pull-based, non-HTTP workloads like AI inference, scaling based on external signals rather than request traffic.</cite> <cite index='4-30'>Google open-sourced CREMA (Cloud Run External Metrics Autoscaler) built on KEDA for queue-aware autoscaling.</cite></span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://computingforgeeks.com/google-cloud-secret-manager-tutorial/" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Secret Manager with Pub/Sub Integration Patterns</span>
-      <span class="resource-why"><cite index="21-2,21-3,21-13,21-14">Secret Manager's notification-based rotation via Pub/Sub requires Cloud Functions or Cloud Run services to handle the actual credential updates, making automation patterns critical for production systems.</cite></span>
+    <a href="https://www.usage.ai/blog/gcp-cost-optimization-best-practices" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">GCP Cost Optimization Best Practices & Why They Don't Scale</span>
+      <span class="resource-why"><cite index='11-4,12-17'>Traditional cost optimization (rightsizing VMs, spot instances) can cut compute costs by up to 91%, but fails at scale.</cite> <cite index='19-5,19-6'>Most GCP cost optimization guidance only addresses early-stage efficiency and doesn't handle how costs behave as environments stabilize.</cite></span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://moldstud.com/articles/p-maximize-efficiency-essential-google-app-engine-tips-for-cost-optimization" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">App Engine Cost Optimization Through Scaling Controls</span>
-      <span class="resource-why"><cite index="14-5,14-6,14-7,14-8">Auto-scaling settings aligned with traffic demands can reduce costs by up to 30%, with sustained-use discounts providing additional 30% reduction for long-running workloads.</cite></span>
+    <a href="https://cloud.google.com/blog/products/identity-security/whats-new-in-iam-security-governance-and-runtime-defense/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Agent Identity and IAM for the Agentic Enterprise Era</span>
+      <span class="resource-why"><cite index='21-2,21-6'>Traditional IAM controls aren't built for autonomous AI agents that interact with sensitive data at machine speed.</cite> <cite index='21-17,21-18'>Agent Identity now supports IAM Allow/Deny policies (GA) and Gemini-powered IAM Role Picker for least-privilege access.</cite></span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://www.elightwalk.com/blog/cloud-native-architecture" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Event-Driven Microservices Architecture Patterns for 2026</span>
-      <span class="resource-why"><cite index="33-15,33-16,33-19">Event-driven architectures using Apache Kafka and Pulsar are becoming standard for microservices, providing better decoupling and resilience as systems scale.</cite></span>
+    <a href="https://docs.cloud.google.com/pubsub/docs/release-notes" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Pub/Sub Client Library Deprecations and Migration Path</span>
+      <span class="resource-why"><cite index='31-1,31-2,31-5'>The v2 Pub/Sub Ruby client library is deprecated effective July 31st, 2026, losing security and bug fixes.</cite> <cite index='31-19,31-22,31-23'>The v1 Go client library is also deprecated with the same timeline, requiring migration to v2 versions.</cite></span>
       <span class="resource-link-icon">↗</span>
     </a>
     </div>
     <div class="claude-take">
       <span class="take-label">Claude's take</span>
-      <p>The big shift is serverless becoming production-ready with proper cost controls and AI integration, while traditional App Engine remains cost-effective for steady workloads when properly configured. Secret management automation through Pub/Sub patterns is becoming essential as teams move beyond manual processes.</p>
+      <p>2026 marks GCP's pivot to AI-first infrastructure with Cloud Run leading the charge through GPU support and agent orchestration. While traditional cost optimization tactics still matter, the real challenge is architecting for unpredictable AI workloads that demand both performance and cost efficiency at scale.</p>
     </div>
-    <div class="section-meta">Updated Saturday, 2 May 2026</div>
+    <div class="section-meta">Updated Saturday, 9 May 2026</div>
   </section>
 
   <section class="topic-section">
