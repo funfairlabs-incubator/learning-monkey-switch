@@ -1,32 +1,32 @@
 {
   "topic": "Next.js & Full-Stack",
-  "generated_at": "2026-05-03",
+  "generated_at": "2026-05-10T00:00:00Z",
   "highlight": {
-    "title": "Next.js 16.2: Turbopack Stable with 400% Faster Dev Server",
-    "summary": "<cite index=\"10-2,10-15,7-15,7-16\">Next.js 16.2 introduces stable Turbopack builds with Server Fast Refresh, 400% faster dev server performance, and comprehensive AI developer tools including experimental Agent DevTools for terminal access to React DevTools.</cite>",
-    "url": "https://tech-insider.org/nextjs-tutorial-full-stack-app-2026/"
+    "title": "Next.js Now Includes AGENTS.md by Default - AI-First Development",
+    "summary": "<cite index=\"1-15\">The default setup enables TypeScript, Tailwind CSS, ESLint, App Router, and Turbopack, with import alias @/*, and includes AGENTS.md (with a CLAUDE.md that references it) to guide coding agents to write up-to-date Next.js code.</cite> This represents a fundamental shift toward AI-first development workflows in modern web applications.",
+    "url": "https://nextjs.org/docs/app/getting-started/installation"
   },
   "resources": [
     {
-      "title": "React Compiler v1.0: Automatic Memoization Goes Stable",
-      "url": "https://react.dev/blog/2025/10/07/react-compiler-1",
-      "why_now": "<cite index=\"27-6,27-7,27-8\">The React Compiler's first stable release eliminates manual useMemo and useCallback optimization, automatically optimizing components and hooks through build-time memoization, now battle-tested on major Meta apps.</cite>"
+      "title": "React 19 Server Components: Production Patterns for High-Performance Apps",
+      "url": "https://dev.to/vikrant_bagal_afae3e25ca7/react-19-server-components-production-patterns-for-high-performance-apps-in-2026-3278",
+      "why_now": "<cite index=\"16-2\">React 19 Server Components represent a fundamental shift in web architecture from \"client-side data fetching\" to a \"server-first\" model with 74% reduction in JS bundle size and 45% improvement in time to interactive.</cite>"
     },
     {
-      "title": "Full-Stack TypeScript Pattern Evolution: From T3 Stack to Zero-Codegen",
-      "url": "https://www.pkgpulse.com/blog/rise-of-full-stack-typescript-2020-to-2026",
-      "why_now": "<cite index=\"35-7,35-8,35-9\">The T3 stack (Next.js + TypeScript + tRPC + Prisma/Drizzle + Tailwind) became the dominant pattern for full-stack TypeScript, providing end-to-end type safety from database schema to UI components without manual annotations.</cite>"
+      "title": "Better Auth vs NextAuth: The Authentication Battle of 2026",
+      "url": "https://medium.com/@andy.a.g/better-auth-vs-nextauth-why-i-switched-and-never-looked-back-e53e250915de",
+      "why_now": "<cite index=\"35-8,35-9\">NextAuth started falling apart when building B2B SaaS that needed email OTP, two-factor authentication, passkeys, organization support, and multi-session management - Better Auth v1.5.3 solved all these issues.</cite>"
     },
     {
-      "title": "tRPC v12: Total Type Safety Without REST Boundaries",
-      "url": "https://blog.weskill.org/2026/04/total-type-safety-typescript-trpc-in.html",
-      "why_now": "<cite index=\"34-11,34-12,34-25\">tRPC v12 eliminates the frontend-backend boundary with compile-time type inference, zero runtime cost validation, and native React Server Components support, making the \"String-Based API\" approach obsolete in 2026.</cite>"
+      "title": "The JavaScript Stack in 2026: What Every Developer Needs to Know",
+      "url": "https://www.javascriptdoctor.blog/2026/05/the-javascript-stack-in-2026-what-every_9.html",
+      "why_now": "<cite index=\"22-28,22-29\">With React Server Components, server actions, and edge functions blurring where code actually runs, understanding the client-server boundary deeply shapes security, performance, and architecture simultaneously.</cite>"
     },
     {
-      "title": "Next.js 15 vs 16: Breaking Changes and Migration Strategy",
-      "url": "https://jishulabs.com/blog/nextjs-15-16-features-migration-guide-2026",
-      "why_now": "<cite index=\"8-2,8-3,8-6\">Next.js versions 15 and 16 represent the most significant updates since App Router introduction, with Turbopack delivering 10x faster builds and Partial Prerendering enabling hybrid static-dynamic rendering patterns.</cite>"
+      "title": "TypeScript Developer Guide 2026: Why Every Full Stack Developer Needs It",
+      "url": "https://yashrajjain.in/blog/typescript-developer-guide-2026",
+      "why_now": "<cite index=\"25-4,25-6\">In 2026, writing production JavaScript without TypeScript feels like driving without a seatbelt - TypeScript has evolved from a nice-to-have tool into the de facto standard for full stack development.</cite>"
     }
   ],
-  "claude_take": "<cite index=\"17-22,17-23,17-24\">2026 marks TypeScript as the baseline for professional React development, with full-stack type safety becoming non-negotiable through tools like tRPC and server functions that blur client-server boundaries.</cite> <cite index=\"27-19,4-1,4-2\">The React Compiler's stable release and Next.js's performance leap signal a maturation phase where manual optimization becomes automated, allowing developers to focus on features rather than performance tuning.</cite>"
+  "claude_take": "The ecosystem has reached an inflection point where React 19 Server Components aren't experimental anymore - they're production-ready with proven 40-70% performance gains. The most interesting development is Next.js shipping with AI guidance files by default, signaling that LLM-assisted development is becoming the expected workflow, not an edge case."
 }

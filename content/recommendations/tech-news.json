@@ -1,32 +1,32 @@
 {
   "topic": "Tech & Learning",
-  "generated_at": "2026-05-03",
+  "generated_at": "2026-05-10T00:00:00Z",
   "highlight": {
-    "title": "AI Amplifies Your Engineering Culture—For Better or Worse",
-    "summary": "Research reveals AI doesn't fix broken engineering practices—it accelerates them. Teams with strong testing, code review, and architectural discipline see 5x productivity gains, while those lacking fundamentals see more bugs and technical debt.",
+    "title": "Building An Elite AI Engineering Culture In 2026",
+    "summary": "<cite index=\"12-2,12-3,12-35,12-36\">Senior engineers realize nearly five times the productivity gains from AI tools compared to junior engineers, with the ability to leverage fundamentals as a massive force multiplier. The winning formula in early 2026 is structured context, tiered rigor, and smaller teams with higher leverage, not just moving fast and letting AI figure it out.</cite>",
     "url": "https://cjroth.com/blog/2026-02-18-building-an-elite-engineering-culture"
   },
   "resources": [
     {
-      "title": "Edge Computing's 2026 Breakthrough: AI Moves from Cloud to Your Desktop",
+      "title": "How to Learn Coding in 2026: A Practical Guide That Actually Works",
+      "url": "https://dev.to/farhadrahimiklie/how-to-learn-coding-in-2026-a-practical-guide-that-actually-works-3f2l",
+      "why_now": "<cite index=\"21-1,21-2,21-43,21-44\">Learning to code fundamentally changed in 2026 - while AI makes writing code easy, understanding why code fails is the real challenge, requiring a focus on debugging and systems thinking over memorization.</cite>"
+    },
+    {
+      "title": "12 Technology Trends That Will Shape the Agenda in 2026",
+      "url": "https://dobetter.esade.edu/en/technology-trends-2026",
+      "why_now": "<cite index=\"3-10,3-17,3-18\">2026 is the year AI-driven transformation begins to gain real momentum, with AI agents capable of autonomous research and discovery multiplying innovative capacity in science and engineering, while competitive advantage shifts from scarce talent access to the ability to scale it artificially.</cite>"
+    },
+    {
+      "title": "MIT's 6.S191: Introduction to Deep Learning",
+      "url": "https://introtodeeplearning.com/",
+      "why_now": "<cite index=\"31-29,31-30,31-31,31-32\">MIT's 6.S191 is considered the best high-density crash course in deep learning available today, taught during MIT's January Independent Activities Period with substantial generative AI content added in recent editions and reproducible labs on Colab for intensive one-week learning.</cite>"
+    },
+    {
+      "title": "Ten Technology Trends for 2026",
       "url": "https://www.thedigitalspeaker.com/ten-technology-trends-2026/",
-      "why_now": "Intel's new Core Ultra processors hit 99 TOPS of AI performance, making local inference finally viable. This isn't just faster computing—it's a complete shift from sending data to the cloud to bringing intelligence where the data lives."
-    },
-    {
-      "title": "How to Learn AI in 2026: The Complete Roadmap",
-      "url": "https://ischool.syracuse.edu/how-to-learn-ai/",
-      "why_now": "With AI literacy becoming table stakes for most tech roles, this guide cuts through the noise with two practical paths: power user (no code required) versus builder (technical depth). Includes specific free resources like Hugging Face courses and Kaggle competitions."
-    },
-    {
-      "title": "2026 Engineering Trends: From Experimentation to ROI",
-      "url": "https://waydev.co/2026-tech-trends-a-guide-for-engineering-leaders/",
-      "why_now": "After two years of AI pilots, engineering leaders face CFO demands for measurable impact. Forrester predicts 25% of planned AI investments will be deferred to 2027, making disciplined engineering practices the competitive advantage."
-    },
-    {
-      "title": "ENR FutureTech 2026: Construction Tech's Massive Shift",
-      "url": "https://www.globenewswire.com/news-release/2026/05/01/3286053/0/en/ENR-FutureTech-2026-Convenes-Construction-s-Top-Tech-Decision-Makers-as-Final-Few-Tickets-Remain.html",
-      "why_now": "Major construction firms are sending full teams to evaluate AI tools for active projects, not future planning. This represents a fundamental shift from treating construction tech as a 'someday' consideration to immediate deployment needs."
+      "why_now": "<cite index=\"5-19,5-20,5-21\">2026 marks a hard architectural pivot where the real breakthrough isn't bigger clouds but closer supercompute, with intelligence relocating from distant datacenters into compact AI appliances, turning every factory and clinic into a potential micro-supercomputer with unprecedented control over latency and innovation.</cite>"
     }
   ],
-  "claude_take": "The pattern is clear: AI is becoming the great amplifier of existing organizational DNA. Companies with strong engineering fundamentals are seeing compound benefits, while those with weak practices are accelerating toward chaos. The winners in 2026 won't be the teams with the most AI tools—they'll be the ones who built the disciplined culture that makes AI actually useful."
+  "claude_take": "2026 represents a maturation point where AI tools amplify rather than replace engineering fundamentals - those who master both technical depth and AI augmentation will dominate, while the industry shifts toward edge computing and smaller, more leveraged teams. The learning landscape has evolved from tutorial consumption to hands-on building with AI as a thinking partner, not a crutch."
 }

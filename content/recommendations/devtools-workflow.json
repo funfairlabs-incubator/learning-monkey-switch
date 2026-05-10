@@ -1,32 +1,32 @@
 {
   "topic": "Developer Tools & Workflow",
-  "generated_at": "2026-05-03",
+  "generated_at": "2026-05-10T00:00:00.000Z",
   "highlight": {
-    "title": "GitHub Actions Agentic Workflows Hit Technical Preview",
-    "summary": "<cite index=\"17-4,17-5,17-6\">GitHub has launched Agentic Workflows that let developers write CI/CD automation in plain Markdown instead of YAML. The feature converts natural language descriptions into standard GitHub Actions workflows using AI agents.</cite>",
+    "title": "GitHub Agentic Workflows: AI-Powered Repository Automation",
+    "summary": "<cite index=\"17-3,17-4\">GitHub Agentic Workflows let you automate repository tasks using AI agents that run within GitHub Actions. Write workflows in plain Markdown instead of complex YAML, and let AI handle intelligent decision-making for issue triage, pull request reviews, CI failure analysis, and repository maintenance.</cite> <cite index=\"17-5,17-6\">By adding Markdown files to .github/workflows/, you can describe automation goals in natural language. The gh aw CLI converts these into standard GitHub Actions workflows that execute using GitHub Copilot CLI or other coding agents.</cite>",
     "url": "https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/"
   },
   "resources": [
     {
-      "title": "Claude Code Dominates Terminal-Based AI Development",
-      "url": "https://tokencalculator.com/blog/best-ai-ide-cli-tools-april-2026-claude-code-wins",
-      "why_now": "<cite index=\"3-14,3-15\">Claude Code has emerged as the undisputed leader for CLI-based agentic coding, with Opus 4.6 handling complex multi-file tasks better than competitors.</cite> <cite index=\"1-18,1-19\">The AI development tool landscape is converging around distinct architectures where workflow preference matters more than benchmark scores.</cite>"
+      "title": "Cursor 3.0 with Composer 2 and Agent-First Architecture",
+      "url": "https://cursor.com/",
+      "why_now": "<cite index=\"21-1\">In March 2026, Cursor also released its Agent Client Protocol (ACP), bringing its agent into JetBrains IDEs like IntelliJ IDEA and PyCharm.</cite> <cite index=\"24-7,24-8\">Agents use their own computers to build, test, and demo features end to end for you to review.</cite>"
     },
     {
-      "title": "ReSharper Extension Now Available for VS Code & Cursor",
-      "url": "https://blog.jetbrains.com/dotnet/2026/03/05/resharper-for-visual-studio-code-cursor-and-compatible-editors-is-out/",
-      "why_now": "<cite index=\"21-2,21-3\">JetBrains officially released ReSharper for VS Code and compatible editors after a year in preview, bringing professional C# code analysis to AI-first environments like Cursor.</cite> <cite index=\"21-7\">The extension remains free for non-commercial use while targeting the growing developer preference for lightweight editors.</cite>"
+      "title": "Claude Code: AI Terminal Agent for Autonomous Development",
+      "url": "https://fazm.ai/blog/ai-developer-tools-release-notes-changelog-april-2026",
+      "why_now": "<cite index=\"2-2,2-3\">Claude Code shipped over 30 releases in five weeks. Cursor launched version 3.0 with parallel agents.</cite> <cite index=\"7-29,7-30\">Anthropic's CLI-based coding assistant runs directly in your terminal and operates on your actual codebase. Unlike editor-integrated tools, Claude Code can execute commands, run tests, manage git workflows, and make multi-file changes autonomously.</cite>"
     },
     {
-      "title": "GitHub Actions Gets Major Security & Workflow Upgrades",
+      "title": "Modern CLI Tool Stack: fzf, ripgrep, bat, and Helix",
+      "url": "https://www.toolshelf.dev/blog/best-cli-tools-2026",
+      "why_now": "<cite index=\"3-8,3-9\">If you install one tool from this list, make it fzf. It's a general-purpose fuzzy finder that plugs into everything: shell history search (Ctrl+R), file navigation, git branch switching, even Kubernetes pod selection.</cite> <cite index=\"3-1,3-3\">For terminal-based editing, Helix and Neovim are the top contenders in 2026: Helix — Selection-first editing with LSP built in. Great for developers who want a powerful terminal editor without the Neovim configuration investment.</cite>"
+    },
+    {
+      "title": "GitHub Actions Security Roadmap: Secure-by-Default CI/CD",
       "url": "https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/",
-      "why_now": "<cite index=\"11-1,11-2\">GitHub's 2026 roadmap shifts Actions toward secure-by-default automation in response to increasing supply chain attacks targeting CI/CD systems.</cite> <cite index=\"12-7,12-8\">New features like OIDC custom properties and service container overrides address long-standing developer frustrations while hardening security.</cite>"
-    },
-    {
-      "title": "Zed Editor Launches Agent Client Protocol with JetBrains",
-      "url": "https://www.nxcode.io/resources/news/best-ai-code-editor-2026-cursor-windsurf-copilot-zed-compared",
-      "why_now": "<cite index=\"25-13,25-14\">Zed announced the Agent Client Protocol in January 2026, enabling external AI agents like Claude Code and Codex CLI to work inside Zed without editor lock-in.</cite> <cite index=\"25-9,25-10\">Built in Rust with sub-second startup times and 40% faster edit latency than VS Code, Zed represents the performance-first response to AI-heavy development workflows.</cite>"
+      "why_now": "<cite index=\"14-14,14-15,14-16\">The 2026 GitHub Actions roadmap responds directly. We're shifting the platform toward secure-by-default, verifiable automation with a focus on disrupting these attacks. GitHub Actions remains flexible.</cite> <cite index=\"11-16,11-17\">Action allowlisting is now available across all GitHub plans, bringing security controls to Free, Team, and Enterprise customers. You can define exactly which actions and reusable workflows run in your repositories to enforce least privilege principles, protect against potentially compromised actions, and maintain consistent policies.</cite>"
     }
   ],
-  "claude_take": "2026 is shaping up as the year AI coding tools mature beyond simple autocomplete into full workflow automation. The convergence around three architectural approaches—terminal-native (Claude Code), IDE-native (Cursor), and extension-native (Copilot)—suggests the market is stabilizing around distinct use cases rather than one-size-fits-all solutions."
+  "claude_take": "The developer tooling landscape is consolidating around AI-native workflows rather than AI as a plugin. The most significant shift is from traditional YAML configuration to natural language automation, with GitHub's Agentic Workflows and Cursor's Composer 2 leading this transition."
 }
