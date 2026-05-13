@@ -1,32 +1,32 @@
 {
   "topic": "Architecture & System Design",
-  "generated_at": "2026-04-15",
+  "generated_at": "2026-05-13",
   "highlight": {
-    "title": "Netflix's Event-Driven Architecture at Scale",
-    "summary": "Netflix processes billions of real-time events daily through an event-driven microservices architecture that powers its recommendations, analytics, and playback systems. This approach allows services to react asynchronously and at massive scale while maintaining the ability to operate independently, demonstrating how event-driven patterns enable both technical resilience and business agility.",
+    "title": "Netflix's $1.52 Trillion Technical Debt Story",
+    "summary": "Netflix's journey from a 2008 outage to running 1,000+ microservices shows how architectural decisions shape business success. Their migration from monolithic to microservices architecture eliminated single points of failure and enabled handling 15x traffic spikes while reducing costs by 30%.",
     "url": "https://www.clustox.com/blog/netflix-case-study/"
   },
   "resources": [
     {
-      "title": "Software Architecture Handbook for Beginners",
-      "url": "https://www.freecodecamp.org/news/an-introduction-to-software-architecture-patterns/",
-      "why_now": "Provides an accessible introduction to core architectural concepts like client-server models and modularity, perfect for curious adults wanting to understand how software systems are organized. The handbook breaks down complex topics into digestible explanations with practical examples."
+      "title": "Software Architecture: The Complete Beginner's Guide",
+      "url": "https://tecnovy.com/en/software-architecture-ultimate-guide",
+      "why_now": "<cite index=\"26-4,26-13\">This guide provides clear starting points for understanding software architecture basics, making systems easier to scale, secure, test, and maintain</cite>. Perfect for curious adults who want to understand how software systems work without getting lost in technical jargon."
     },
     {
-      "title": "What Is a Modular Monolith?",
-      "url": "https://www.milanjovanovic.tech/blog/what-is-a-modular-monolith",
-      "why_now": "Modular monoliths are emerging as the pragmatic middle ground between traditional monoliths and microservices, especially after Google's recent research validating this approach. Senior engineers need to understand this pattern as it offers the organizational benefits of microservices without the operational complexity."
+      "title": "SOLID Principles with Real-World Examples",
+      "url": "https://www.splunk.com/en_us/blog/learn/solid-design-principle.html",
+      "why_now": "<cite index=\"32-21,32-22\">SOLID principles help write code that's easier to maintain, test, and extend as projects grow, with better separation of concerns</cite>. These timeless principles apply whether you're building a simple app or Netflix-scale systems."
     },
     {
-      "title": "Netflix Architecture Deep Dive - System Design Case Study",
+      "title": "Netflix Architecture Case Study: Building for 300M Users",
       "url": "https://www.clustox.com/blog/netflix-case-study/",
-      "why_now": "Real-world architecture examples are invaluable for understanding how patterns work at scale. Netflix's evolution from monolith to event-driven microservices showcases practical implementation of multiple patterns working together to handle billions of users and events."
+      "why_now": "<cite index=\"11-5,11-8\">Netflix serves over 300 million subscribers across 190+ countries, handling billions of viewing hours monthly and more than a trillion events per day</cite>. Their architectural decisions offer battle-tested lessons for any growing system."
     },
     {
-      "title": "Top 10 Software Architecture Patterns for 2025",
-      "url": "https://www.mindinventory.com/blog/software-architecture-patterns/",
-      "why_now": "As we enter 2026, this comprehensive overview of current patterns helps experienced developers stay current with architectural trends. It covers event-driven architecture, microservices evolution, and emerging patterns that are shaping modern system design."
+      "title": "Software Architecture Patterns That Scale in 2026",
+      "url": "https://www.index.dev/blog/software-architecture-patterns-guide",
+      "why_now": "<cite index=\"2-19,2-20\">The right pattern depends on your specific situation: team size, growth trajectory, deployment constraints, and business timeline</cite>. This guide helps experienced engineers choose architecture patterns based on actual needs, not trends."
     }
   ],
-  "claude_take": "The architecture landscape is consolidating around pragmatic patterns that balance complexity and capability. While microservices dominated the last decade, the pendulum is swinging toward modular monoliths and event-driven designs that offer cleaner boundaries without operational overhead. The real lesson from Netflix and others isn't that you need their scale, but that thoughtful modularization and loose coupling principles apply at any size."
+  "claude_take": "<cite index=\"3-19\">Technical debt from poor architecture has grown to $1.52 trillion impact on the U.S. economy, highlighting why choosing the right architectural pattern early is critical</cite>. The gap between \"working code\" and \"maintainable systems\" has never been more expensive to ignore, making architectural literacy essential for everyone in tech."
 }
