@@ -1,32 +1,32 @@
 {
   "topic": "Tech & Learning",
-  "generated_at": "2026-05-10T00:00:00Z",
+  "generated_at": "2026-05-17",
   "highlight": {
-    "title": "Building An Elite AI Engineering Culture In 2026",
-    "summary": "<cite index=\"12-2,12-3,12-35,12-36\">Senior engineers realize nearly five times the productivity gains from AI tools compared to junior engineers, with the ability to leverage fundamentals as a massive force multiplier. The winning formula in early 2026 is structured context, tiered rigor, and smaller teams with higher leverage, not just moving fast and letting AI figure it out.</cite>",
-    "url": "https://cjroth.com/blog/2026-02-18-building-an-elite-engineering-culture"
+    "title": "The Pragmatic Engineer: How AI Changed Engineering Roles in 2026",
+    "summary": "Based on 900+ developer responses, this survey reveals how AI tools are reshaping engineering work. Teams are hitting spending concerns while dealing with new role dynamics—engineers orchestrating more than coding, managers getting more hands-on, and a concerning rise in 'AI slop' from less experienced developers relying too heavily on tools.",
+    "url": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026"
   },
   "resources": [
     {
-      "title": "How to Learn Coding in 2026: A Practical Guide That Actually Works",
-      "url": "https://dev.to/farhadrahimiklie/how-to-learn-coding-in-2026-a-practical-guide-that-actually-works-3f2l",
-      "why_now": "<cite index=\"21-1,21-2,21-43,21-44\">Learning to code fundamentally changed in 2026 - while AI makes writing code easy, understanding why code fails is the real challenge, requiring a focus on debugging and systems thinking over memorization.</cite>"
+      "title": "GitHub Universe 2026: Call for Speakers Opens",
+      "url": "https://github.blog/news-insights/company-news/github-universe-is-back-we-want-you-to-take-the-stage/",
+      "why_now": "GitHub's flagship developer conference returns to San Francisco Oct 28-29, with speaker submissions due May 1. The focus on 'Ship & Tell' format for startup builders and AI-powered workflows reflects where the industry conversation is heading."
     },
     {
-      "title": "12 Technology Trends That Will Shape the Agenda in 2026",
-      "url": "https://dobetter.esade.edu/en/technology-trends-2026",
-      "why_now": "<cite index=\"3-10,3-17,3-18\">2026 is the year AI-driven transformation begins to gain real momentum, with AI agents capable of autonomous research and discovery multiplying innovative capacity in science and engineering, while competitive advantage shifts from scarce talent access to the ability to scale it artificially.</cite>"
+      "title": "Learn to Code in 2026: Why Everything Changed",
+      "url": "https://medium.com/@thinkchain/how-im-learning-to-code-in-2026-and-why-everything-changed-de1a6d40b47e",
+      "why_now": "This developer's reflection on learning in the AI era captures a critical tension: AI makes coding faster but threatens to erode fundamental skills. The advice to 'resist shortcuts' while leveraging AI tools is increasingly relevant for new developers."
     },
     {
-      "title": "MIT's 6.S191: Introduction to Deep Learning",
-      "url": "https://introtodeeplearning.com/",
-      "why_now": "<cite index=\"31-29,31-30,31-31,31-32\">MIT's 6.S191 is considered the best high-density crash course in deep learning available today, taught during MIT's January Independent Activities Period with substantial generative AI content added in recent editions and reproducible labs on Colab for intensive one-week learning.</cite>"
+      "title": "5 Programming Languages to Master in 2026",
+      "url": "https://www.pluralsight.com/resources/blog/upskilling/five-great-programming-languages-2026",
+      "why_now": "As AI tools handle more routine coding, this guide emphasizes languages that remain human-critical: Python for AI/data, SQL for databases, and JavaScript for web development. The 'Human in the Loop' concept becomes central to career planning."
     },
     {
-      "title": "Ten Technology Trends for 2026",
-      "url": "https://www.thedigitalspeaker.com/ten-technology-trends-2026/",
-      "why_now": "<cite index=\"5-19,5-20,5-21\">2026 marks a hard architectural pivot where the real breakthrough isn't bigger clouds but closer supercompute, with intelligence relocating from distant datacenters into compact AI appliances, turning every factory and clinic into a potential micro-supercomputer with unprecedented control over latency and innovation.</cite>"
+      "title": "Best Tech Engineering Blogs Worth Following",
+      "url": "https://draft.dev/learn/engineering-blogs",
+      "why_now": "With rapid AI changes, staying current through quality engineering blogs becomes essential. This curated list of 30 blogs—from Meta's deep technical content to Stripe's API design insights—helps developers learn from real-world scale challenges."
     }
   ],
-  "claude_take": "2026 represents a maturation point where AI tools amplify rather than replace engineering fundamentals - those who master both technical depth and AI augmentation will dominate, while the industry shifts toward edge computing and smaller, more leveraged teams. The learning landscape has evolved from tutorial consumption to hands-on building with AI as a thinking partner, not a crutch."
+  "claude_take": "The 2026 engineering landscape feels like a watershed moment where AI tools have moved from 'nice to have' to essential, but the real differentiator is knowing when NOT to use them. The most interesting tension isn't human vs AI—it's experienced developers who can orchestrate AI effectively vs those who become dependent on it for thinking."
 }

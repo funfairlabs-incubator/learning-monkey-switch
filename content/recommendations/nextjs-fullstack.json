@@ -1,32 +1,32 @@
 {
   "topic": "Next.js & Full-Stack",
-  "generated_at": "2026-05-10T00:00:00Z",
+  "generated_at": "2026-05-17",
   "highlight": {
-    "title": "Next.js Now Includes AGENTS.md by Default - AI-First Development",
-    "summary": "<cite index=\"1-15\">The default setup enables TypeScript, Tailwind CSS, ESLint, App Router, and Turbopack, with import alias @/*, and includes AGENTS.md (with a CLAUDE.md that references it) to guide coding agents to write up-to-date Next.js code.</cite> This represents a fundamental shift toward AI-first development workflows in modern web applications.",
-    "url": "https://nextjs.org/docs/app/getting-started/installation"
+    "title": "React Compiler 1.0 Brings Automatic Memoization to Production",
+    "summary": "Meta's React Compiler has gone stable, delivering up to 12% faster initial loads and 2.5x quicker interactions through automatic memoization. The compiler eliminates manual useMemo/useCallback boilerplate while maintaining zero-configuration setup.",
+    "url": "https://www.infoq.com/news/2025/12/react-compiler-meta/"
   },
   "resources": [
     {
-      "title": "React 19 Server Components: Production Patterns for High-Performance Apps",
-      "url": "https://dev.to/vikrant_bagal_afae3e25ca7/react-19-server-components-production-patterns-for-high-performance-apps-in-2026-3278",
-      "why_now": "<cite index=\"16-2\">React 19 Server Components represent a fundamental shift in web architecture from \"client-side data fetching\" to a \"server-first\" model with 74% reduction in JS bundle size and 45% improvement in time to interactive.</cite>"
+      "title": "Next.js 16 Makes Turbopack Default with 10x Faster Development",
+      "url": "https://nextjs.org/blog/next-16",
+      "why_now": "Turbopack is now stable for production builds in Next.js 16, delivering 5-10x faster Fast Refresh and 2-5x faster builds. Over 50% of Next.js development sessions already use it."
     },
     {
-      "title": "Better Auth vs NextAuth: The Authentication Battle of 2026",
-      "url": "https://medium.com/@andy.a.g/better-auth-vs-nextauth-why-i-switched-and-never-looked-back-e53e250915de",
-      "why_now": "<cite index=\"35-8,35-9\">NextAuth started falling apart when building B2B SaaS that needed email OTP, two-factor authentication, passkeys, organization support, and multi-session management - Better Auth v1.5.3 solved all these issues.</cite>"
+      "title": "TypeScript 5.9+ Patterns That Delete Bug Classes in React 19",
+      "url": "https://medium.com/@Nexumo_/7-typescript-patterns-that-delete-bug-classes-in-react-19-d04870e2f579",
+      "why_now": "React 19's stricter mental model around Server/Client boundaries requires more precise TypeScript patterns. These discriminated union and branded type techniques prevent entire categories of runtime errors."
     },
     {
-      "title": "The JavaScript Stack in 2026: What Every Developer Needs to Know",
-      "url": "https://www.javascriptdoctor.blog/2026/05/the-javascript-stack-in-2026-what-every_9.html",
-      "why_now": "<cite index=\"22-28,22-29\">With React Server Components, server actions, and edge functions blurring where code actually runs, understanding the client-server boundary deeply shapes security, performance, and architecture simultaneously.</cite>"
+      "title": "Full Stack React 2025: Next.js + TypeScript 5.9 Monorepo Architecture",
+      "url": "https://medium.com/@mernstackdevbykevin/full-stack-react-in-2025-combining-next-js-c96bd2d74c9c",
+      "why_now": "Production teams at Vercel, Stripe, and Shopify are standardizing on Turborepo + pnpm + TypeScript 5.9 monorepos. This stack eliminates dependency hell and provides unified tooling for full-stack TypeScript development."
     },
     {
-      "title": "TypeScript Developer Guide 2026: Why Every Full Stack Developer Needs It",
-      "url": "https://yashrajjain.in/blog/typescript-developer-guide-2026",
-      "why_now": "<cite index=\"25-4,25-6\">In 2026, writing production JavaScript without TypeScript feels like driving without a seatbelt - TypeScript has evolved from a nice-to-have tool into the de facto standard for full stack development.</cite>"
+      "title": "Next.js 15.5 TypeScript Improvements: Typed Routes and Route Export Validation",
+      "url": "https://nextjs.org/blog/next-15-5",
+      "why_now": "Next.js 15.5 adds compile-time route type safety and automatic PageProps/LayoutProps generation. These TypeScript improvements work with both Webpack and Turbopack, catching invalid routes before production."
     }
   ],
-  "claude_take": "The ecosystem has reached an inflection point where React 19 Server Components aren't experimental anymore - they're production-ready with proven 40-70% performance gains. The most interesting development is Next.js shipping with AI guidance files by default, signaling that LLM-assisted development is becoming the expected workflow, not an edge case."
+  "claude_take": "The React ecosystem is hitting a productivity inflection point in 2025. React Compiler eliminates manual optimization work, Turbopack delivers genuine speed gains, and mature TypeScript patterns are preventing entire bug categories. The toolchain has finally caught up to the complexity of modern full-stack applications."
 }
