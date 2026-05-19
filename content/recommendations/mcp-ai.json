@@ -1,32 +1,32 @@
 {
   "topic": "MCP & AI Tooling",
-  "generated_at": "2026-05-12",
+  "generated_at": "2026-05-19T00:00:00.000Z",
   "highlight": {
-    "title": "MCP Apps Official Launch: Interactive UIs Meet AI Conversations",
-    "summary": "<cite index=\"14-3,16-2,16-4\">On January 26, 2026, \"MCP Apps,\" the first official extension to the Model Context Protocol (MCP), was officially released. Tools can now return interactive UI components that render directly in the conversation: dashboards, forms, visualizations, multi-step workflows, and more.</cite> <cite index=\"17-3\">In a rare display of collaboration, Anthropic and OpenAI partner to release the MCP Apps Extension, bringing standardized interactive UI capabilities to the Model Context Protocol.</cite>",
-    "url": "https://blog.modelcontextprotocol.io/posts/2026-01-26-mcp-apps/"
+    "title": "MCP Apps Extension Goes Live - Interactive UI Standard for AI Tools",
+    "summary": "<cite index=\"1-11,1-12,2-1,2-2,2-3\">MCP Apps (formerly mcp-ui) is now officially formalized under SEP-1865 specification, allowing MCP servers to deliver interactive React-based dashboards, forms, and data visualizations directly to host applications like Claude and ChatGPT</cite>. <cite index=\"11-1,11-6,11-8\">This extension standardizes UI resources via the ui:// URI scheme, maintains security through sandboxed HTML rendering, and enables bi-directional communication using MCP's JSON-RPC protocol</cite>.",
+    "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/1865"
   },
   "resources": [
     {
-      "title": "MCP Moves to Linux Foundation Under Agentic AI Foundation",
-      "url": "https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation",
-      "why_now": "<cite index=\"32-3,32-7\">Anthropic is donating MCP to the Agentic AI Foundation under the Linux Foundation, ensuring vendor-neutral governance. MCP has achieved over 97 million monthly SDK downloads, 10,000 active servers and first-class client support across major AI platforms.</cite>"
+      "title": "MCP Reaches 97M Monthly Downloads - Infrastructure-Scale Adoption",
+      "url": "https://www.digitalapplied.com/blog/mcp-97-million-downloads-model-context-protocol-mainstream",
+      "why_now": "<cite index=\"9-1,9-9,9-11\">MCP hit 97 million monthly SDK downloads in March 2026 (4,750% growth in 16 months) and has become the de facto standard for AI agent tool integration</cite>. <cite index=\"9-12,9-13\">The ecosystem now includes 5,800+ community servers across every major business category, meaning most integration needs can be deployed rather than built from scratch</cite>."
     },
     {
-      "title": "MCP Dev Summit 2026: Enterprise-Scale Infrastructure Focus",
-      "url": "https://aaif.io/blog/mcp-is-now-enterprise-infrastructure-everything-that-happened-at-mcp-dev-summit-north-america-2026/",
-      "why_now": "<cite index=\"36-5,36-6,36-23\">With 1,200 people at this year's MCP Dev Summit (double from the previous one), it's clear that MCP will just keep growing. The questions are becoming more challenging: How do you run it at 10,000-service scale? David Soria Parra started with the number that stops people cold: more than 110 million SDK downloads every single month.</cite>"
+      "title": "Microsoft Ships MCP Generally Available in Copilot Studio",
+      "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/model-context-protocol-mcp-is-now-generally-available-in-microsoft-copilot-studio/",
+      "why_now": "<cite index=\"10-5,10-6\">Microsoft made MCP integration generally available in Copilot Studio in March 2026, allowing makers to add AI apps and agents with just a few clicks while automatically updating as systems evolve</cite>. <cite index=\"10-21,10-22\">Enhanced tracing and analytics now show which MCP server and specific tool was invoked at runtime, improving debugging capabilities</cite>."
     },
     {
-      "title": "AI Engineering Trends 2025: MCP Becomes Universal Infrastructure",
-      "url": "https://thenewstack.io/ai-engineering-trends-in-2025-agents-mcp-and-vibe-coding/",
-      "why_now": "<cite index=\"29-16,29-25,29-26\">In terms of AI technologies in full blossom now, the Model Context Protocol (MCP) was everywhere in 2025 — running an MCP server has become almost as popular as running a web server. Last November, Anthropic launched the Model Context Protocol (MCP), an open source protocol designed to streamline how AI models access data, tools and services. The goal was to make MCP the universal method for AI agents to trigger external actions — and that's basically what happened over the course of 2025.</cite>"
+      "title": "MCP Production Roadmap Addresses Scalability Challenges",
+      "url": "https://thenewstack.io/model-context-protocol-roadmap-2026/",
+      "why_now": "<cite index=\"3-6,3-7\">As MCP adoption spreads to serious production environments, maintainers identified four priority areas for development effort including transport evolution and scalability for distributed infrastructure</cite>. <cite index=\"3-9,3-10\">Current stateful sessions make it harder to deploy MCP servers behind load balancers, requiring rework of connection handling for enterprise scale</cite>."
     },
     {
-      "title": "GitHub's 9 Open Source MCP Projects Accelerating Developer Productivity",
-      "url": "https://github.blog/open-source/accelerate-developer-productivity-with-these-9-open-source-ai-and-mcp-projects/",
-      "why_now": "<cite index=\"26-15,26-17\">GitHub Copilot and VS Code teams, along with the Microsoft Open Source Program Office (OSPO), sponsored these nine open source MCP projects that provide new frameworks, tools, and assistants to unlock AI-native workflows. Building on top of the core technology, we are seeing projects, such as browser extensions and tools within code editors, enabling AI-native workflows and unlocking a new category of agentic tooling.</cite>"
+      "title": "AI Code Editor Wars Heat Up - Cursor vs Windsurf with MCP Integration",
+      "url": "https://daily.dev/blog/cursor-vs-vs-code-vs-windsurf-ai-code-editor-comparison/",
+      "why_now": "<cite index=\"20-13,20-14,20-15\">Windsurf reached over 1 million developers and was named #1 AI Developer Tool by LogRocket in February 2026, with its Cascade tool achieving 84% success rate in multi-file refactoring</cite>. <cite index=\"24-12,24-13,24-21\">Windsurf's MCP integration allows AI to interact with databases, APIs, and deployment infrastructure directly from the editor, capabilities Cursor currently lacks out of the box</cite>."
     }
   ],
-  "claude_take": "<cite index=\"21-10,21-11,21-12\">The Model Context Protocol, introduced by Anthropic in 2024, became the fastest adopted standard that RedMonk has ever seen. It followed an immediate S-curve adoption that reminds of Docker's rapid market saturation. By end of year it was donated to the Linux Foundation's Agentic AI Foundation.</cite> Over the next 3-6 months, expect MCP to evolve from developer tooling protocol to critical enterprise infrastructure, with production-grade security, multi-agent orchestration capabilities, and industry-specific extensions driving the next wave of truly autonomous AI workflows."
+  "claude_take": "<cite index=\"8-13,8-14\">MCP's donation to the Linux Foundation's Agentic AI Foundation alongside projects from OpenAI and Block signals the protocol has reached critical infrastructure status</cite>. The next 3-6 months will likely see MCP Apps become the dominant pattern for interactive AI tooling as every major provider adopts the standard, while the scalability roadmap addresses enterprise deployment bottlenecks that currently limit production usage."
 }
