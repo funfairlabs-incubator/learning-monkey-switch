@@ -1,32 +1,32 @@
 {
   "topic": "Tech & Learning",
-  "generated_at": "2026-05-17",
+  "generated_at": "2026-05-24T00:00:00Z",
   "highlight": {
-    "title": "The Pragmatic Engineer: How AI Changed Engineering Roles in 2026",
-    "summary": "Based on 900+ developer responses, this survey reveals how AI tools are reshaping engineering work. Teams are hitting spending concerns while dealing with new role dynamics—engineers orchestrating more than coding, managers getting more hands-on, and a concerning rise in 'AI slop' from less experienced developers relying too heavily on tools.",
-    "url": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026"
+    "title": "Anthropic's 2026 Agentic Coding Report: The Tectonic Shift in Software Development",
+    "summary": "Anthropic's comprehensive report reveals that AI agents are fundamentally reshaping the software development lifecycle, with engineering roles evolving from hands-on coding to agent supervision and system design. The report identifies eight key trends including multi-agent coordination, end-to-end autonomous workflows, and expansion beyond traditional engineering teams, marking what they call a 'tectonic shift' comparable to the introduction of the GUI.",
+    "url": "https://tessl.io/blog/8-trends-shaping-software-engineering-in-2026-according-to-anthropics-agentic-coding-report/"
   },
   "resources": [
     {
-      "title": "GitHub Universe 2026: Call for Speakers Opens",
-      "url": "https://github.blog/news-insights/company-news/github-universe-is-back-we-want-you-to-take-the-stage/",
-      "why_now": "GitHub's flagship developer conference returns to San Francisco Oct 28-29, with speaker submissions due May 1. The focus on 'Ship & Tell' format for startup builders and AI-powered workflows reflects where the industry conversation is heading."
+      "title": "Engineering Culture 3.0: Key Principles for 2026 Teams",
+      "url": "https://www.techtalent.ro/engineering-culture-3-0-key-principles-for-2026-teams/",
+      "why_now": "As AI transforms development workflows, engineering culture is entering a new era focused on purpose-driven work, psychological safety, and outcome-focused delivery. Essential reading for leaders building resilient teams that thrive alongside AI agents."
     },
     {
-      "title": "Learn to Code in 2026: Why Everything Changed",
-      "url": "https://medium.com/@thinkchain/how-im-learning-to-code-in-2026-and-why-everything-changed-de1a6d40b47e",
-      "why_now": "This developer's reflection on learning in the AI era captures a critical tension: AI makes coding faster but threatens to erode fundamental skills. The advice to 'resist shortcuts' while leveraging AI tools is increasingly relevant for new developers."
+      "title": "Best Free Coding Courses and Resources in 2026 (Learn-to-Portfolio Path)",
+      "url": "https://www.nucamp.co/blog/best-free-coding-courses-and-resources-in-2026-learn-to-portfolio-path/",
+      "why_now": "With the learning landscape rapidly evolving and AI coding tools becoming standard, this guide offers a strategic 4-week path through the overwhelming maze of free resources to build real portfolio projects. Perfect for families navigating the new AI-first programming education landscape."
     },
     {
-      "title": "5 Programming Languages to Master in 2026",
-      "url": "https://www.pluralsight.com/resources/blog/upskilling/five-great-programming-languages-2026",
-      "why_now": "As AI tools handle more routine coding, this guide emphasizes languages that remain human-critical: Python for AI/data, SQL for databases, and JavaScript for web development. The 'Human in the Loop' concept becomes central to career planning."
+      "title": "10 Best AI Agents for Software Development in 2026",
+      "url": "https://www.index.dev/blog/ai-agents-for-software-development",
+      "why_now": "AI coding agents have moved from hype to production reality, with top agents achieving 71-73% success rates on complex software engineering tasks. This practical guide cuts through marketing to show which tools actually deliver results for different workflows."
     },
     {
-      "title": "Best Tech Engineering Blogs Worth Following",
-      "url": "https://draft.dev/learn/engineering-blogs",
-      "why_now": "With rapid AI changes, staying current through quality engineering blogs becomes essential. This curated list of 30 blogs—from Meta's deep technical content to Stripe's API design insights—helps developers learn from real-world scale challenges."
+      "title": "Building An Elite AI Engineering Culture In 2026",
+      "url": "https://cjroth.com/blog/2026-02-18-building-an-elite-engineering-culture",
+      "why_now": "Data shows senior engineers realize 5x productivity gains from AI compared to juniors, but only teams with strong fundamentals see benefits. This analysis reveals how elite teams achieve $3-5M revenue per employee by combining AI leverage with disciplined engineering practices."
     }
   ],
-  "claude_take": "The 2026 engineering landscape feels like a watershed moment where AI tools have moved from 'nice to have' to essential, but the real differentiator is knowing when NOT to use them. The most interesting tension isn't human vs AI—it's experienced developers who can orchestrate AI effectively vs those who become dependent on it for thinking."
+  "claude_take": "The biggest story isn't the technology—it's the human adaptation. While AI agents can now write, test, and debug code autonomously, the real competitive advantage goes to organizations that master the cultural shift from individual coding to team orchestration. The companies winning in 2026 aren't replacing engineers; they're amplifying the ones who understand that context engineering and architectural judgment have become the scarcest skills."
 }

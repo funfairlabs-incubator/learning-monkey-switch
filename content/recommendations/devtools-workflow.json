@@ -1,32 +1,32 @@
 {
   "topic": "Developer Tools & Workflow",
-  "generated_at": "2026-05-17",
+  "generated_at": "2026-05-24T10:00:00Z",
   "highlight": {
-    "title": "GitHub Agentic Workflows Go Live",
-    "summary": "<cite index=\"15-1,15-4\">GitHub Agentic Workflows let you automate repository tasks using AI agents that run within GitHub Actions, with workflows written in plain Markdown instead of complex YAML for intelligent decision-making in issue triage, pull request reviews, and CI failure analysis.</cite> <cite index=\"15-8,15-10\">The feature is available through the gh aw CLI extension, allowing teams to describe automation goals in natural language and let AI agents figure out implementation.</cite>",
+    "title": "GitHub Agentic Workflows Now in Technical Preview",
+    "summary": "<cite index=\"11-1,11-2,11-3\">GitHub Agentic Workflows let you automate repository tasks using AI agents that run within GitHub Actions. Write workflows in plain Markdown instead of complex YAML, and let AI handle intelligent decision-making for issue triage, pull request reviews, CI failure analysis, and repository maintenance.</cite> <cite index=\"15-8\">GitHub Agentic Workflows deliver repository automation, running the coding agents you know and love, in GitHub Actions, with strong guardrails and security-first design principles.</cite>",
     "url": "https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/"
   },
   "resources": [
     {
-      "title": "Claude Code Dominates CLI Agent Wars",
-      "url": "https://tokencalculator.com/blog/best-ai-ide-cli-tools-april-2026-claude-code-wins",
-      "why_now": "<cite index=\"4-14,4-15\">Claude Code is the undisputed king of CLI-based agentic coding with Opus 4.6 handling complex multi-file tasks, test generation, and repository-wide refactors better than anything else on the market.</cite> <cite index=\"4-4\">If the trend continues, Codex could pull even with Claude Code by mid-2026, making this a critical time to evaluate terminal-based AI tools.</cite>"
+      "title": "Claude Code: The Terminal-Native AI Coding Agent",
+      "url": "https://www.developersdigest.tech/blog/best-cli-tools-for-ai-development-2026",
+      "why_now": "<cite index=\"5-2,5-3\">Claude Code from Anthropic is the standout CLI tool of 2026. It runs in your terminal and can read, write, and refactor code across your project.</cite> <cite index=\"6-39,6-40,6-42\">Anthropic's Claude Code plans, reads, edits, and runs commands across your codebase with permission prompts and tool use built in. It is the AI coding CLI that feels closest to having a senior engineer in your tmux pane. Reach for it when you want an agent that can actually finish a multi-file task, not just autocomplete a line.</cite>"
     },
     {
-      "title": "Modern CLI Tools Renaissance Continues",
-      "url": "https://www.toolshelf.dev/blog/best-cli-tools-2026",
-      "why_now": "<cite index=\"3-8,3-9\">If you install one tool from this list, make it fzf - it's a general-purpose fuzzy finder that plugs into everything: shell history search, file navigation, git branch switching, even Kubernetes pod selection.</cite> <cite index=\"5-5,5-6\">The command line has quietly entered its renaissance with new tools that are faster, more beautiful, and surprisingly fun to use.</cite>"
+      "title": "LocalStack 2026.04.0: Production-Ready AWS Emulation",
+      "url": "https://blog.localstack.cloud/localstack-for-aws-release-2026-04-0/",
+      "why_now": "<cite index=\"24-3,24-13\">LocalStack for AWS 2026.04.0 launches App Inspector, our new observability layer for local cloud development, alongside Athena and S3 Tables federation via Glue catalogs. This is the second monthly release on our calendar versioning cadence, and it ships the launch of App Inspector, our new observability layer for local cloud development.</cite> The shift to requiring auth tokens has consolidated the platform but improved developer experience with better tooling."
     },
     {
-      "title": "Cursor vs VS Code: The AI-Native Editor Battle",
-      "url": "https://www.mgsoftware.nl/en/tools/best-ide-code-editors",
-      "why_now": "<cite index=\"24-17\">The shift toward agent-based coding workflows in early 2026, where the editor itself executes multi-step refactors and runs tests autonomously, has made AI-native editors hard to beat for any team that ships frequently.</cite> <cite index=\"24-14,24-15\">At MG Software we use Cursor as our primary code editor due to its deep AI integration that significantly increases development speed while maintaining compatibility with VS Code extensions.</cite>"
+      "title": "Dagger + LocalStack: Composable CI/CD Pipelines",
+      "url": "https://github.com/localstack/localstack-dagger-module",
+      "why_now": "<cite index=\"21-14,21-15\">Dagger lets you write CI/CD pipelines as code in TypeScript, Go, or Python, running identically on your laptop and in CI. Replaces YAML configuration with type-safe, testable pipeline logic that works with any CI provider.</cite> <cite index=\"25-1,25-2,25-3\">A Dagger module for running LocalStack (Community and Pro image) as a service within your Dagger pipelines. This module simplifies integrating LocalStack into your development and testing workflows.</cite>"
     },
     {
-      "title": "GitHub Actions Gets Security-First Overhaul",
-      "url": "https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/",
-      "why_now": "<cite index=\"14-17,14-18\">The 2026 GitHub Actions roadmap responds directly to supply chain attacks by shifting the platform toward secure-by-default, verifiable automation with a focus on disrupting these attacks.</cite> <cite index=\"14-5,14-6\">These protections scale across repositories without per-workflow configuration, with enterprises applying consistent policies organization-wide using rulesets and repository custom properties.</cite>"
+      "title": "act: Debug GitHub Actions Locally",
+      "url": "https://devtoolsguide.com/",
+      "why_now": "<cite index=\"21-1,21-8\">Learn how to use act to run GitHub Actions workflows locally, speed up CI development cycles, and debug failing pipelines without cloud commits.</cite> With GitHub Actions becoming more complex and <cite index=\"11-5,16-18\">the gh aw CLI converts these into standard GitHub Actions workflows. That new architecture is rolled out, powering 71 million jobs per day</cite>, local testing becomes essential for rapid iteration."
     }
   ],
-  "claude_take": "The developer tooling landscape is consolidating around AI-first experiences, with terminal-native agents like Claude Code and AI-integrated editors like Cursor fundamentally changing how we write code. GitHub's move to natural language workflow definitions signals that even infrastructure automation is becoming more accessible, while the CLI renaissance proves that performance and user experience improvements still matter in our foundational tools."
+  "claude_take": "2026 marks the convergence of AI agents and developer tooling - from Claude Code bringing autonomous coding to the terminal, to GitHub's Agentic Workflows making repository automation accessible through natural language. The shift toward local-first development tools like Dagger and LocalStack reflects developers' need for faster feedback loops and reduced cloud dependencies, while maintaining production parity."
 }
