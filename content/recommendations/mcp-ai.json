@@ -1,32 +1,32 @@
 {
   "topic": "MCP & AI Tooling",
-  "generated_at": "2026-05-19T00:00:00.000Z",
+  "generated_at": "2026-05-26",
   "highlight": {
-    "title": "MCP Apps Extension Goes Live - Interactive UI Standard for AI Tools",
-    "summary": "<cite index=\"1-11,1-12,2-1,2-2,2-3\">MCP Apps (formerly mcp-ui) is now officially formalized under SEP-1865 specification, allowing MCP servers to deliver interactive React-based dashboards, forms, and data visualizations directly to host applications like Claude and ChatGPT</cite>. <cite index=\"11-1,11-6,11-8\">This extension standardizes UI resources via the ui:// URI scheme, maintains security through sandboxed HTML rendering, and enables bi-directional communication using MCP's JSON-RPC protocol</cite>.",
-    "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/1865"
+    "title": "MCP 2026-07-28 Release Candidate Delivers Stateless Production-Ready Protocol",
+    "summary": "<cite index='4-1,4-5'>The headline change is that MCP is now stateless at the protocol layer</cite>, completing a major revision that addresses enterprise scalability concerns. <cite index='4-12'>This release gives MCP the foundation we expect it to grow on for a long time: a protocol that runs statelessly on commodity HTTP infrastructure, an extensions framework where capabilities like Tasks and MCP Apps can ship on their own timeline</cite>.",
+    "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/"
   },
   "resources": [
     {
-      "title": "MCP Reaches 97M Monthly Downloads - Infrastructure-Scale Adoption",
-      "url": "https://www.digitalapplied.com/blog/mcp-97-million-downloads-model-context-protocol-mainstream",
-      "why_now": "<cite index=\"9-1,9-9,9-11\">MCP hit 97 million monthly SDK downloads in March 2026 (4,750% growth in 16 months) and has become the de facto standard for AI agent tool integration</cite>. <cite index=\"9-12,9-13\">The ecosystem now includes 5,800+ community servers across every major business category, meaning most integration needs can be deployed rather than built from scratch</cite>."
+      "title": "Red Hat Announces MCP Server for RHEL Developer Preview",
+      "url": "https://www.dbta.com/Editorial/News-Flashes/Red-Hat-Announces-Developer-Preview-for-New-MCP-Server-for-Red-Hat-Enterprise-Linux-173028.aspx",
+      "why_now": "<cite index='6-2,6-3'>Red Hat is announcing the developer preview of a new Model Context Protocol (MCP) server for Enterprise Linux (RHEL). This new MCP server is designed to bridge the gap between RHEL and Large Language Models (LLMs), enabling a new era of smarter troubleshooting</cite>, showing MCP's enterprise traction."
     },
     {
-      "title": "Microsoft Ships MCP Generally Available in Copilot Studio",
-      "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/model-context-protocol-mcp-is-now-generally-available-in-microsoft-copilot-studio/",
-      "why_now": "<cite index=\"10-5,10-6\">Microsoft made MCP integration generally available in Copilot Studio in March 2026, allowing makers to add AI apps and agents with just a few clicks while automatically updating as systems evolve</cite>. <cite index=\"10-21,10-22\">Enhanced tracing and analytics now show which MCP server and specific tool was invoked at runtime, improving debugging capabilities</cite>."
+      "title": "The 2026 MCP Roadmap: Enterprise Readiness and Transport Scalability",
+      "url": "https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap/",
+      "why_now": "<cite index='1-20'>Enterprises are deploying MCP and running into a predictable set of problems: audit trails, SSO-integrated auth, gateway behavior, and configuration portability</cite>. <cite index='1-6'>It now runs in production at companies large and small, powers agent workflows</cite>, requiring mature governance structures."
     },
     {
-      "title": "MCP Production Roadmap Addresses Scalability Challenges",
-      "url": "https://thenewstack.io/model-context-protocol-roadmap-2026/",
-      "why_now": "<cite index=\"3-6,3-7\">As MCP adoption spreads to serious production environments, maintainers identified four priority areas for development effort including transport evolution and scalability for distributed infrastructure</cite>. <cite index=\"3-9,3-10\">Current stateful sessions make it harder to deploy MCP servers behind load balancers, requiring rework of connection handling for enterprise scale</cite>."
+      "title": "AI Tooling for Software Engineers in 2026: Agent Adoption Reaches 55%",
+      "url": "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026",
+      "why_now": "<cite index='11-1,11-3'>AI agent usage rising: 55% of respondents now regularly use AI agents, with staff+ engineers leading adoption on 63.5% usage</cite>. <cite index='11-17,11-18'>Claude Code has gone from zero to be the #1 tool in only eight months. Released in May 2025, it's already the most-used AI coding tool</cite>, indicating rapid tooling shifts."
     },
     {
-      "title": "AI Code Editor Wars Heat Up - Cursor vs Windsurf with MCP Integration",
-      "url": "https://daily.dev/blog/cursor-vs-vs-code-vs-windsurf-ai-code-editor-comparison/",
-      "why_now": "<cite index=\"20-13,20-14,20-15\">Windsurf reached over 1 million developers and was named #1 AI Developer Tool by LogRocket in February 2026, with its Cascade tool achieving 84% success rate in multi-file refactoring</cite>. <cite index=\"24-12,24-13,24-21\">Windsurf's MCP integration allows AI to interact with databases, APIs, and deployment infrastructure directly from the editor, capabilities Cursor currently lacks out of the box</cite>."
+      "title": "Developer AI Tooling in 2026: Terminal-Native and Agent-First Workflows",
+      "url": "https://platform.uno/blog/ai-tooling-trends-shaping-how-we-build/",
+      "why_now": "<cite index='12-21,12-22'>There's a quiet renaissance happening at the command line. Tools like Claude Code, GitHub Copilot CLI, and Codex CLI are bringing AI directly into the developer's most powerful interface: the terminal</cite>. <cite index='12-6,12-8'>The best AI developer tools in 2026 are the ones that fit into how developers already think and work, rather than asking developers to conform to how AI works. MCP respects the fact that context lives in existing tools</cite>."
     }
   ],
-  "claude_take": "<cite index=\"8-13,8-14\">MCP's donation to the Linux Foundation's Agentic AI Foundation alongside projects from OpenAI and Block signals the protocol has reached critical infrastructure status</cite>. The next 3-6 months will likely see MCP Apps become the dominant pattern for interactive AI tooling as every major provider adopts the standard, while the scalability roadmap addresses enterprise deployment bottlenecks that currently limit production usage."
+  "claude_take": "<cite index='16-11,16-12'>In 2024, the industry was dominated by copilots: tools that draft, suggest, and assist. In 2026, the standard is shifting to agents: tools that research, act, and iterate without step-by-step human direction</cite>. MCP's evolution toward stateless, production-ready infrastructure positions it as the connective tissue for multi-agent systems, while the explosive growth in terminal-native AI tooling suggests developers are demanding workflow integration over flashy interfaces. The next 6 months will likely see MCP become the de facto standard for agent interoperability as enterprises demand governance and reliability at scale."
 }
