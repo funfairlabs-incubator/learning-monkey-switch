@@ -1,32 +1,32 @@
 {
   "topic": "Architecture & System Design",
-  "generated_at": "2026-05-20",
+  "generated_at": "2024-05-27",
   "highlight": {
-    "title": "Event-Driven Architecture Takes Center Stage",
-    "summary": "Event-driven architecture has emerged as the dominant pattern for modern applications, enabling systems to handle real-time data processing asynchronously. Companies like Netflix, fintech firms, and e-commerce platforms use event-driven patterns to process millions of operations without blocking, achieving 40% better throughput under high concurrency compared to synchronous approaches.",
-    "url": "https://encore.cloud/resources/event-driven-architecture"
+    "title": "Netflix's Microservices Architecture: How Over 1,000 Services Power Global Streaming",
+    "summary": "Netflix transformed from a DVD rental service to a streaming giant by completely rebuilding their architecture from a monolithic system to over 1,000 independent microservices. This radical shift enables them to handle millions of users worldwide while deploying code multiple times per day without disrupting the viewing experience.",
+    "url": "https://www.clustox.com/blog/netflix-case-study/"
   },
   "resources": [
     {
-      "title": "Hexagonal Architecture: Principles and Benefits - 2026",
-      "url": "https://www.aalpha.net/blog/hexagonal-architecture/",
-      "why_now": "With teams increasingly adopting microservices, hexagonal architecture (ports and adapters) provides a beginner-friendly approach to separate business logic from external dependencies. The pattern is seeing renewed interest as companies seek testable, maintainable architectures."
+      "title": "10 Event-Driven Architecture Examples: Real-World Use Cases",
+      "url": "https://estuary.dev/blog/event-driven-architecture-examples/",
+      "why_now": "Event-driven architecture is becoming critical as 90% of the world's largest companies will use real-time data by 2025, making this pattern essential for handling instant responses in everything from IoT sensors to financial fraud detection."
     },
     {
-      "title": "8 Essential Microservices Architecture Patterns for 2026",
-      "url": "https://www.wondermentapps.com/blog/example-microservices-architecture/",
-      "why_now": "This comprehensive guide covers battle-tested patterns like API Gateway, Database Per Service, and Saga orchestration with real implementation examples. Essential reading as organizations mature their microservices strategies beyond the initial hype."
+      "title": "Beginner's Guide To Software Architecture With Design Patterns",
+      "url": "https://zerotomastery.io/blog/software-architecture-design-patterns/",
+      "why_now": "Perfect entry point for curious non-technical readers to understand how software is built, explaining fundamental concepts like why systems need blueprints and how patterns solve common problems before they become critical failures."
     },
     {
-      "title": "Real-World Software Architecture Case Studies",
-      "url": "https://bytebytego.com/guides/real-world-case-studies/",
-      "why_now": "ByteByteGo's case study collection examines how Netflix, Twitter, Uber, and other tech giants evolved their architectures. These concrete examples help teams understand trade-offs and decisions behind successful large-scale systems."
+      "title": "10 Real-World Serverless Architecture Examples",
+      "url": "https://www.zeepalm.com/blog/10-real-world-serverless-architecture-examples",
+      "why_now": "Serverless is transforming web development in 2024, with companies like iRobot and FINRA cutting costs by 50%+ while handling massive scale, showing how this pattern eliminates infrastructure management headaches."
     },
     {
-      "title": "Software Architecture Gathering 2026",
-      "url": "https://www.software-architecture-gathering.com/",
-      "why_now": "The premier European conference (November 16-19, Berlin) brings together practitioners sharing real-world failures, trade-offs, and concrete takeaways. Perfect timing as teams need practical guidance navigating AI integration and distributed systems complexity."
+      "title": "The Software Architecture Handbook",
+      "url": "https://www.freecodecamp.org/news/an-introduction-to-software-architecture-patterns/",
+      "why_now": "Comprehensive free resource that bridges the gap between basic concepts and complex implementation, crucial as software systems become increasingly distributed and teams need shared architectural vocabulary."
     }
   ],
-  "claude_take": "The shift toward event-driven patterns reflects a fundamental change in how we think about system coordination—from orchestrated to choreographed interactions. While the technical benefits are clear, the real challenge isn't implementing these patterns but debugging them when things go wrong, as distributed event flows can turn simple bugs into multi-hour investigations."
+  "claude_take": "The most fascinating trend I see is how architecture patterns are no longer just technical decisions—they're business strategy. Netflix's microservices transformation shows that the right architecture can enable a company to completely pivot industries, while event-driven patterns let organizations respond to market changes in real-time rather than quarterly planning cycles."
 }
