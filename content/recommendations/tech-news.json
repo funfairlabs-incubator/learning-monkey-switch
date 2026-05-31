@@ -1,32 +1,32 @@
 {
   "topic": "Tech & Learning",
-  "generated_at": "2026-05-24T00:00:00Z",
+  "generated_at": "2026-05-31T00:00:00Z",
   "highlight": {
-    "title": "Anthropic's 2026 Agentic Coding Report: The Tectonic Shift in Software Development",
-    "summary": "Anthropic's comprehensive report reveals that AI agents are fundamentally reshaping the software development lifecycle, with engineering roles evolving from hands-on coding to agent supervision and system design. The report identifies eight key trends including multi-agent coordination, end-to-end autonomous workflows, and expansion beyond traditional engineering teams, marking what they call a 'tectonic shift' comparable to the introduction of the GUI.",
-    "url": "https://tessl.io/blog/8-trends-shaping-software-engineering-in-2026-according-to-anthropics-agentic-coding-report/"
+    "title": "From DevOps to DevEx: The Platform Engineering Revolution",
+    "summary": "Platform engineering has emerged as a critical discipline reshaping how organizations approach developer productivity. According to the 2024 DORA Report, teams focusing on developer experience through platform engineering see 30-40% improvements in productivity and 50% faster onboarding times.",
+    "url": "https://cloud.google.com/blog/products/devops-sre/announcing-the-2024-dora-report"
   },
   "resources": [
     {
-      "title": "Engineering Culture 3.0: Key Principles for 2026 Teams",
-      "url": "https://www.techtalent.ro/engineering-culture-3-0-key-principles-for-2026-teams/",
-      "why_now": "As AI transforms development workflows, engineering culture is entering a new era focused on purpose-driven work, psychological safety, and outcome-focused delivery. Essential reading for leaders building resilient teams that thrive alongside AI agents."
+      "title": "Draft.dev's Best Engineering Blogs for 2026",
+      "url": "https://draft.dev/learn/engineering-blogs",
+      "why_now": "With the rapid evolution of tech, staying current through quality engineering blogs is more crucial than ever. This comprehensive evaluation scores 30 engineering blogs on technical depth and usefulness, helping developers focus their learning time on the highest-quality sources."
     },
     {
-      "title": "Best Free Coding Courses and Resources in 2026 (Learn-to-Portfolio Path)",
-      "url": "https://www.nucamp.co/blog/best-free-coding-courses-and-resources-in-2026-learn-to-portfolio-path/",
-      "why_now": "With the learning landscape rapidly evolving and AI coding tools becoming standard, this guide offers a strategic 4-week path through the overwhelming maze of free resources to build real portfolio projects. Perfect for families navigating the new AI-first programming education landscape."
+      "title": "Frontend Masters: Premium Learning Courses",
+      "url": "https://frontendmasters.com/",
+      "why_now": "As highlighted in recent learning resource reviews, Frontend Masters features courses from industry experts at Netflix, Spotify, and Google. With the increasing complexity of modern development, having access to real-world expertise from top-tier companies is becoming essential for skill advancement."
     },
     {
-      "title": "10 Best AI Agents for Software Development in 2026",
-      "url": "https://www.index.dev/blog/ai-agents-for-software-development",
-      "why_now": "AI coding agents have moved from hype to production reality, with top agents achieving 71-73% success rates on complex software engineering tasks. This practical guide cuts through marketing to show which tools actually deliver results for different workflows."
+      "title": "The 2024 DORA Report on AI and Platform Engineering",
+      "url": "https://cloud.google.com/blog/products/devops-sre/announcing-the-2024-dora-report",
+      "why_now": "This year's DORA research reveals critical insights about AI's complex impact on developer productivity and the growing importance of platform engineering. With 39% of developers expressing low trust in AI-generated code, understanding these nuanced findings is essential for teams navigating the AI integration landscape."
     },
     {
-      "title": "Building An Elite AI Engineering Culture In 2026",
-      "url": "https://cjroth.com/blog/2026-02-18-building-an-elite-engineering-culture",
-      "why_now": "Data shows senior engineers realize 5x productivity gains from AI compared to juniors, but only teams with strong fundamentals see benefits. This analysis reveals how elite teams achieve $3-5M revenue per employee by combining AI leverage with disciplined engineering practices."
+      "title": "GitHub's Professional Programming Resource Collection",
+      "url": "https://github.com/charlax/professional-programming",
+      "why_now": "This curated collection addresses the increasing need for structured learning paths in an industry overwhelmed with scattered resources. As software complexity grows, having a well-organized repository of proven learning materials becomes invaluable for both junior and senior engineers."
     }
   ],
-  "claude_take": "The biggest story isn't the technology—it's the human adaptation. While AI agents can now write, test, and debug code autonomously, the real competitive advantage goes to organizations that master the cultural shift from individual coding to team orchestration. The companies winning in 2026 aren't replacing engineers; they're amplifying the ones who understand that context engineering and architectural judgment have become the scarcest skills."
+  "claude_take": "The engineering landscape in 2024 is defined by a fascinating tension: while AI promises to boost productivity, developer trust in AI-generated code remains surprisingly low. Platform engineering has emerged as the antidote to increasing complexity, focusing on developer experience rather than just operational efficiency. The abundance of learning resources now requires curation—quality trumps quantity as teams seek trusted, expert-led content over endless tutorials."
 }

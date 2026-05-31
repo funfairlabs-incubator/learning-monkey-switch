@@ -1,32 +1,32 @@
 {
   "topic": "Next.js & Full-Stack",
-  "generated_at": "2026-05-24",
+  "generated_at": "2026-05-31",
   "highlight": {
-    "title": "Next.js 16.2 Performance Revolution: 400% Faster Dev Times",
-    "summary": "Next.js 16.2 shipped in March 2026 with Turbopack integration delivering 400% faster startup times and 50% rendering speed improvements. Combined with React 19's stability and automatic memoization through the React Compiler, full-stack TypeScript development has reached a new level of productivity.",
-    "url": "https://tech-insider.org/nextjs-tutorial-full-stack-app-2026/"
+    "title": "Next.js 16.2: AI-Ready Development",
+    "summary": "<cite index=\"3-11,3-12\">Next.js 16.2 introduces AI-ready create-next-app templates, browser log forwarding for debugging, dev server lock file handling, and experimental Agent DevTools.</cite> <cite index=\"10-2\">Turbopack delivers 400% faster dev server startup with Server Fast Refresh and improved file system caching.</cite>",
+    "url": "https://releasebot.io/updates/vercel/next-js"
   },
   "resources": [
     {
-      "title": "Next.js Project Structure 2026: Production-Ready Full-Stack Template",
-      "url": "https://www.groovyweb.co/blog/nextjs-project-structure-full-stack",
-      "why_now": "This February 2026 guide covers the exact folder structure used across 200+ client projects, including the new /agents directory pattern for AI workflows and production-proven Server Action patterns that most other guides miss."
+      "title": "TypeScript 5.7: Path Rewriting & Performance",
+      "url": "https://www.unraveljs.com/typescript-5-7-released",
+      "why_now": "<cite index=\"13-6,13-13\">The path rewriting feature for relative imports makes it worth upgrading for modern Node.js projects, while TypeScript can now rewrite relative import paths when compiling.</cite>"
     },
     {
-      "title": "React 19 & TypeScript: Enterprise Production Guide",
-      "url": "https://yashrajjain.in/blog/typescript-developer-guide-2026",
-      "why_now": "React 19 is now stable for enterprise use with enhanced TypeScript support, better type inference for Server Components, and the Activity API for state preservation - making TypeScript expertise non-negotiable for senior positions in 2026."
+      "title": "Full-Stack Architecture Stack Guide for 2026",
+      "url": "https://arno.surfacew.com/posts/nextjs-architecture",
+      "why_now": "<cite index=\"24-1\">This guide was restructured around twelve universal architecture concerns translated from cross-language backend best practices into concrete Next.js mappings.</cite>"
     },
     {
-      "title": "Server Actions with Typed Error Contracts: Complete Tutorial",
-      "url": "https://nerdleveltech.com/nextjs-16-server-actions-react-19-optimistic-ui-tutorial",
-      "why_now": "Next.js 16's Server Actions now ship with encrypted IDs and React 19's useActionState hook, enabling production-grade mutation handling with proper error boundaries and optimistic UI - patterns that eliminate API route complexity."
+      "title": "AI-Native SaaS Architecture Patterns",
+      "url": "https://lushbinary.com/blog/ai-native-saas-architecture-patterns-developer-guide/",
+      "why_now": "<cite index=\"23-12,23-14\">Building AI-native SaaS in 2026 requires different architecture than traditional web apps, handling non-deterministic outputs and per-user AI costs.</cite>"
     },
     {
-      "title": "The JavaScript Stack in 2026: Meta-Framework Decision Guide",
-      "url": "https://www.javascriptdoctor.blog/2026/05/the-javascript-stack-in-2026-what-every_9.html",
-      "why_now": "Published this month, this analysis covers the current ecosystem reality: Next.js dominance, TanStack Start's rise as a client-first alternative, and the T3 Stack's end-to-end type safety becoming the new production standard for TypeScript teams."
+      "title": "React & Next.js Evolution Roadmap 2026",
+      "url": "https://www.mikul.me/blog/react-nextjs-2026-what-to-expect",
+      "why_now": "<cite index=\"7-27,7-33,7-34\">2026 will be about depth rather than new features - if you haven't migrated to React 19, Next.js 16, or Turbopack, this is the year to complete that work.</cite>"
     }
   ],
-  "claude_take": "The React ecosystem has fundamentally shifted in 2026 - it's no longer about learning React as a UI library, but mastering React as a full-stack application platform. Server Components and Server Actions have eliminated the traditional API layer for most use cases, while TypeScript has become mandatory rather than optional. The biggest opportunity for senior developers right now is understanding the client-server boundary deeply, as this architectural knowledge determines application performance, security, and maintainability in ways that were impossible with traditional SPAs."
+  "claude_take": "<cite index=\"6-12\">React 19's compiler, TypeScript 5.7's stricter inference, and Node 22 LTS aren't cosmetic upgrades - they change how your code runs.</cite> The ecosystem is consolidating around mature patterns rather than chasing new frameworks, making this an ideal time to master the fundamentals that will remain relevant long-term."
 }

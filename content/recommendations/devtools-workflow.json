@@ -1,32 +1,32 @@
 {
   "topic": "Developer Tools & Workflow",
-  "generated_at": "2026-05-24T10:00:00Z",
+  "generated_at": "2026-05-31",
   "highlight": {
-    "title": "GitHub Agentic Workflows Now in Technical Preview",
-    "summary": "<cite index=\"11-1,11-2,11-3\">GitHub Agentic Workflows let you automate repository tasks using AI agents that run within GitHub Actions. Write workflows in plain Markdown instead of complex YAML, and let AI handle intelligent decision-making for issue triage, pull request reviews, CI failure analysis, and repository maintenance.</cite> <cite index=\"15-8\">GitHub Agentic Workflows deliver repository automation, running the coding agents you know and love, in GitHub Actions, with strong guardrails and security-first design principles.</cite>",
-    "url": "https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/"
+    "title": "Zed 1.0: The Rust-Powered Editor That Redefined 'Fast'",
+    "summary": "<cite index=\"27-19,27-20,27-21\">Zed editor arrived at a version 1.0 milestone on April 29, 2026 — and it's making serious waves in the developer community. Built from scratch in Rust, GPU-accelerated, open source, and natively multiplayer, Zed isn't just another code editor.</cite> <cite index=\"27-5\">Zed launched Parallel Agents on April 22, 2026 — making it the first and currently only code editor with native parallel agent support.</cite>",
+    "url": "https://zed.dev/"
   },
   "resources": [
     {
-      "title": "Claude Code: The Terminal-Native AI Coding Agent",
-      "url": "https://www.developersdigest.tech/blog/best-cli-tools-for-ai-development-2026",
-      "why_now": "<cite index=\"5-2,5-3\">Claude Code from Anthropic is the standout CLI tool of 2026. It runs in your terminal and can read, write, and refactor code across your project.</cite> <cite index=\"6-39,6-40,6-42\">Anthropic's Claude Code plans, reads, edits, and runs commands across your codebase with permission prompts and tool use built in. It is the AI coding CLI that feels closest to having a senior engineer in your tmux pane. Reach for it when you want an agent that can actually finish a multi-file task, not just autocomplete a line.</cite>"
+      "title": "GitHub Actions: Enhanced Automation Capabilities for 2025",
+      "url": "https://github.blog/changelog/2025-11-06-new-releases-for-github-actions-november-2025/",
+      "why_now": "<cite index=\"12-1,12-5\">You can now use up to 10 nested reusable workflows and call up to 50 workflows in total from a given workflow run. These new limits make it easier to scale your automation and streamline collaboration.</cite> <cite index=\"12-6,12-7\">GitHub Actions M2 powered macOS runners are now generally available. Use the macos-latest-xlarge, macos-15-xlarge, macos-14-xlarge, or macos-13-xlarge labels to run your workflows on M2 machines and gain improved performance and GPU acceleration.</cite>"
     },
     {
-      "title": "LocalStack 2026.04.0: Production-Ready AWS Emulation",
-      "url": "https://blog.localstack.cloud/localstack-for-aws-release-2026-04-0/",
-      "why_now": "<cite index=\"24-3,24-13\">LocalStack for AWS 2026.04.0 launches App Inspector, our new observability layer for local cloud development, alongside Athena and S3 Tables federation via Glue catalogs. This is the second monthly release on our calendar versioning cadence, and it ships the launch of App Inspector, our new observability layer for local cloud development.</cite> The shift to requiring auth tokens has consolidated the platform but improved developer experience with better tooling."
+      "title": "Hyperfine: Statistical Benchmarking for Performance Engineering",
+      "url": "https://github.com/sharkdp/hyperfine",
+      "why_now": "<cite index=\"2-8,2-9,2-10\">hyperfine does statistical benchmarking from the command line. It handles warmup runs, multiple iterations, and gives you confidence intervals. Essential for validating that your \"optimization\" actually helped.</cite> <cite index=\"33-6\">Instead of running time once and guessing, Hyperfine runs your command many times, handles cache warm-up, detects statistical outliers, and tells you with confidence which approach is faster.</cite>"
     },
     {
-      "title": "Dagger + LocalStack: Composable CI/CD Pipelines",
-      "url": "https://github.com/localstack/localstack-dagger-module",
-      "why_now": "<cite index=\"21-14,21-15\">Dagger lets you write CI/CD pipelines as code in TypeScript, Go, or Python, running identically on your laptop and in CI. Replaces YAML configuration with type-safe, testable pipeline logic that works with any CI provider.</cite> <cite index=\"25-1,25-2,25-3\">A Dagger module for running LocalStack (Community and Pro image) as a service within your Dagger pipelines. This module simplifies integrating LocalStack into your development and testing workflows.</cite>"
+      "title": "Helix Editor: Selection-First Editing Without Plugin Dependencies",
+      "url": "https://helix-editor.com/",
+      "why_now": "<cite index=\"2-1,2-2,2-3\">Helix — Selection-first editing with LSP built in. No plugin ecosystem needed for basics. Great for developers who want a powerful terminal editor without the Neovim configuration investment.</cite> Modern developers are seeking fast, zero-config alternatives to heavily customized Vim/Neovim setups."
     },
     {
-      "title": "act: Debug GitHub Actions Locally",
-      "url": "https://devtoolsguide.com/",
-      "why_now": "<cite index=\"21-1,21-8\">Learn how to use act to run GitHub Actions workflows locally, speed up CI development cycles, and debug failing pipelines without cloud commits.</cite> With GitHub Actions becoming more complex and <cite index=\"11-5,16-18\">the gh aw CLI converts these into standard GitHub Actions workflows. That new architecture is rolled out, powering 71 million jobs per day</cite>, local testing becomes essential for rapid iteration."
+      "title": "Devbox: Simplified Nix for Development Environments",
+      "url": "https://www.jetify.com/devbox",
+      "why_now": "<cite index=\"5-6,5-7\">Devbox solves the \"Nix is too hard\" problem by providing a developer-friendly interface that gives you Nix's benefits without requiring you to become a Nix expert. Here's what Devbox actually does: you define the tools and dependencies your project needs in a simple devbox.json file.</cite> <cite index=\"5-1,5-2\">Devbox, which emerged from Jetify (formerly Jetpack.io) in late 2024 and matured significantly in 2025, approaches the problem from a fresh angle. It's a development environment manager that uses Nix under the hood but hides the complexity behind a simple CLI and a clean workflow.</cite>"
     }
   ],
-  "claude_take": "2026 marks the convergence of AI agents and developer tooling - from Claude Code bringing autonomous coding to the terminal, to GitHub's Agentic Workflows making repository automation accessible through natural language. The shift toward local-first development tools like Dagger and LocalStack reflects developers' need for faster feedback loops and reduced cloud dependencies, while maintaining production parity."
+  "claude_take": "2026 is seeing a clear shift toward performance-first developer tools that don't sacrifice features for speed. Zed's parallel agent architecture and Rust foundation represent a new paradigm where developers no longer need to choose between rich functionality and responsiveness. The tooling ecosystem is maturing around statistical rigor (like hyperfine's approach to benchmarking) and simplified complexity management (like Devbox abstracting Nix), suggesting the industry has learned that developer experience requires both power and accessibility."
 }
