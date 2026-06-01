@@ -1,32 +1,32 @@
 {
   "topic": "UK Schools & Education",
-  "generated_at": "2026-05-25",
+  "generated_at": "2026-06-01",
   "highlight": {
-    "title": "GCSE & A-Level Formula Sheets Continue Through 2027",
-    "summary": "Students won't need to memorise formulae for maths, physics and combined science GCSEs in 2026-2027, with sheets provided in exam papers. This decision supports those whose education was disrupted and helps students with special educational needs focus on application rather than memorisation.",
-    "url": "https://www.gov.uk/government/publications/ofqual-student-guide-to-exams-and-assessments-in-2026"
+    "title": "2026 GCSE Maths Formula Sheets Confirmed Through 2027",
+    "summary": "<cite index='19-2,19-5'>Students taking GCSE Maths, Physics, and Combined Science in 2026 will continue to have formula and equation sheets provided in exams, with this support confirmed through 2027. This allows students to focus more on problem-solving and application rather than memorisation.</cite>",
+    "url": "https://www.aqa.org.uk/news/gcse-maths-and-gcse-sciences-formulae-and-equation-sheets-for-2025-2027"
   },
   "resources": [
     {
-      "title": "BBC Bitesize GCSE & A-Level Revision App",
-      "url": "https://play.google.com/store/apps/details?id=uk.co.bbc.bitesize&hl=en_GB",
-      "why_now": "Perfect for students preparing for May-June 2026 exams with flashcards, quizzes and exam board-specific content across all major GCSE subjects."
-    },
-    {
-      "title": "Oak National Academy KS3 & KS4 Curriculum Resources",
+      "title": "Oak National Academy Free Teaching Resources KS1-KS4",
       "url": "https://www.thenational.academy/",
-      "why_now": "Ideal for both students and parents as Oak provides free, structured lesson resources for Years 7-11 plus their new AI lesson assistant Aila for personalised study support."
+      "why_now": "For both parents and students - <cite index='11-1,11-2,12-7'>Oak provides free, time-saving teacher resources including worksheets, quizzes and slides from KS1 to KS4, with resources giving a strong foundation for lessons</cite>"
     },
     {
-      "title": "Ofqual Student Guide to 2026 Exams",
-      "url": "https://www.gov.uk/government/publications/ofqual-student-guide-to-exams-and-assessments-in-2026",
-      "why_now": "Essential reading for parents to understand key exam dates (7 May - 23 June 2026), access arrangements, and contingency planning for GCSE and A-Level students."
+      "title": "GCSE Exam Dates 2026 Complete Timetable",
+      "url": "https://thirdspacelearning.com/blog/gcse-dates-2026/",
+      "why_now": "For both parents and students - <cite index='18-33,18-35'>GCSE results day is Thursday 20 August 2026, and students typically take between 8-10 GCSE exams including core subjects</cite> so planning revision schedules around confirmed dates is essential now"
     },
     {
-      "title": "KS3 SATs Past Papers & Revision Materials",
-      "url": "https://www.sats-papers.co.uk/",
-      "why_now": "Valuable for Year 8-9 students and parents as many schools use internal assessments based on these formats, plus free access to 25+ years of papers with mark schemes."
+      "title": "Year 6 SATs 2026 Dates and Parent Information",
+      "url": "https://elevenace.com/uk-education-news-roundup-23-april-2026/",
+      "why_now": "For parents of Y6 students - <cite index='3-19,3-20'>Year 6 Key Stage 2 SATs take place in May 2026, with results released to schools on Tuesday 7 July 2026, and families are urged to plan revision schedules around these confirmed dates</cite>"
+    },
+    {
+      "title": "National Curriculum Changes 2028 - House of Lords Library",
+      "url": "https://lordslibrary.parliament.uk/national-curriculum-and-assessment-review/",
+      "why_now": "For parents planning ahead - <cite index='6-6,6-7'>The curriculum review final report was published in November 2025, with the government confirming a revised curriculum will be published in 2027 for first teaching in 2028</cite>, affecting students currently in Y8 and below"
     }
   ],
-  "claude_take": "The continuation of formula sheets through 2027 is excellent news for reducing exam anxiety and allowing students to focus on understanding rather than rote memorisation. Parents should take advantage of the wealth of free UK government resources like Oak National Academy and BBC Bitesize rather than expensive alternatives - these are specifically designed for the UK curriculum and regularly updated."
+  "claude_take": "<cite index='3-5,4-6'>The big news for families is that compulsory financial education arrives in 2028, giving children practical money skills from primary through secondary school.</cite> <cite index='3-12,3-13'>From September 2026, academies must follow the national curriculum and all academy teachers need QTS, creating more consistency across schools.</cite> The emphasis on formula sheets continuing through 2027 signals a genuine shift toward understanding over memorisation - exactly what stressed families need during exam season."
 }
