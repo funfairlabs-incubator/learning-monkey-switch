@@ -1,32 +1,32 @@
 {
   "topic": "GCP & Cloud Infrastructure",
-  "generated_at": "2026-05-30",
+  "generated_at": "2026-06-06",
   "highlight": {
-    "title": "Cloud Run Billing Caps Coming Soon",
-    "summary": "Google announced Cloud Run will soon support billing caps that automatically deactivate resources when monthly spend limits are reached. This addresses a major concern for developers worried about runaway costs from autoscaling serverless workloads.",
+    "title": "Cloud Run Gets GPU Support & Multi-Region Deployments",
+    "summary": "<cite index=\"5-7\">NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are now available on Cloud Run</cite> for high-performance AI inference. <cite index=\"1-8\">Multi-region service deployment is now possible from a single gcloud CLI command</cite>, and <cite index=\"1-9\">service-level minimum instances are now generally available</cite> for better cold-start control.",
     "url": "https://cloud.google.com/blog/products/serverless/whats-new-for-cloud-run-at-next26"
   },
   "resources": [
     {
-      "title": "Secret Manager Cost Optimization Guide",
-      "url": "https://www.nektarinsights.com/insights/gcp-secret-manager-costs",
-      "why_now": "A developer's real story of an $84 secret version cleanup that dropped Secret Manager costs by 97% - essential reading for teams automating credential rotation on Cloud Run."
+      "title": "Cloud Run Pricing Guide 2025: Cost Optimization Strategies",
+      "url": "https://cloudchipr.com/blog/cloud-run-pricing",
+      "why_now": "<cite index=\"12-26,12-27\">Tuning concurrency is a key cost optimization lever in 2025</cite>, and <cite index=\"15-5,15-6\">Compute Flex CUDs now provide broader service coverage and higher discount rates than Cloud Run-specific CUDs</cite>."
     },
     {
-      "title": "BigQuery Fluid Scaling: 34% Cost Reduction",
-      "url": "https://www.usage.ai/blogs/gcp/monthly-updates/gcp-april-2026/",
-      "why_now": "BigQuery fluid scaling launched at Cloud Next '26 delivers automatic cost savings for autoscaling workloads without configuration changes - the most direct cost optimization Google announced."
-    },
-    {
-      "title": "Cloud Run's New AI Agent Integration",
-      "url": "https://medium.com/google-cloud/the-ultimate-cloud-run-guide-2026-recap-0fad50402f30",
-      "why_now": "Cloud Run's MCP server integration and ephemeral storage features position it as the compute fabric for AI agents, fundamentally shifting from generic serverless to stateful agent workloads."
-    },
-    {
-      "title": "GCP Secret Manager: Complete Security Tutorial",
+      "title": "Google Secret Manager Complete Tutorial 2026",
       "url": "https://computingforgeeks.com/google-cloud-secret-manager-tutorial/",
-      "why_now": "Practical guide covering IAM roles, versioning gotchas, and GKE Workload Identity integration - fills the gap between basic tutorials and production-grade secret management patterns."
+      "why_now": "<cite index=\"21-22\">No JSON key files should touch production GKE clusters in 2026</cite> - the guide shows proper Workload Identity integration patterns. <cite index=\"21-24,21-25\">The free tier covers six active versions and 10,000 access operations monthly</cite>, making it cost-effective for most workloads."
+    },
+    {
+      "title": "Cloud Native Architecture Patterns 2026 Guide",
+      "url": "https://clearfuze.com/blog/cloud-native-architecture-patterns/",
+      "why_now": "<cite index=\"38-1\">AI-assisted pattern selection and enhanced observability integration with OpenTelemetry</cite> are key 2026 trends. <cite index=\"37-6,37-7\">Event-driven systems will be default for high-scale applications by 2026</cite>, making these patterns essential for modern GCP deployments."
+    },
+    {
+      "title": "GCP Cost Optimization for Data-Heavy Applications 2025",
+      "url": "https://www.binadox.com/blog/gcp-cost-optimization-for-data-heavy-applications-in-2025/",
+      "why_now": "<cite index=\"13-21,13-22\">GKE Autopilot charges by vCPU-seconds containers request, not actual usage</cite>, and <cite index=\"13-22,13-23\">GKE 2025 exposes cost-optimization metrics in Cloud Monitoring for right-sizing workloads</cite>."
     }
   ],
-  "claude_take": "The serverless landscape is consolidating around AI-first primitives, with Cloud Run billing caps addressing developers' biggest fear about serverless: unpredictable costs. Secret Manager's hidden cost traps and BigQuery's fluid scaling represent the maturation of GCP's cost controls - moving from reactive billing alerts to proactive spend management."
+  "claude_take": "GCP's 2026 direction is clear: serverless gets serious GPU power while cost optimization becomes more sophisticated through automated rightsizing and flexible CUDs. The shift to event-driven architectures isn't just trendy—it's becoming table stakes for any serious cloud application, especially with improved Secret Manager and IAM patterns making security seamless."
 }
