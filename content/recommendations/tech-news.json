@@ -1,32 +1,32 @@
 {
   "topic": "Tech & Learning",
-  "generated_at": "2026-05-31T00:00:00Z",
+  "generated_at": "2026-06-07",
   "highlight": {
-    "title": "From DevOps to DevEx: The Platform Engineering Revolution",
-    "summary": "Platform engineering has emerged as a critical discipline reshaping how organizations approach developer productivity. According to the 2024 DORA Report, teams focusing on developer experience through platform engineering see 30-40% improvements in productivity and 50% faster onboarding times.",
-    "url": "https://cloud.google.com/blog/products/devops-sre/announcing-the-2024-dora-report"
+    "title": "AI Infrastructure Reality Check: From Models to Atoms",
+    "summary": "June 2026 marked the moment when AI competition shifted from building smarter models to controlling physical infrastructure—chips, power grids, data centers, and talent. <cite index='32-5,32-6'>The AI race is no longer just about who has the smartest chatbot. It is now a global contest for chips, capital, energy, water, regulation, and control of the next computing platform.</cite>",
+    "url": "https://techstartups.com/2026/06/03/top-tech-news-today-june-3-2026/"
   },
   "resources": [
     {
-      "title": "Draft.dev's Best Engineering Blogs for 2026",
+      "title": "Building An Elite AI Engineering Culture In 2026",
+      "url": "https://cjroth.com/blog/2026-02-18-building-an-elite-engineering-culture",
+      "why_now": "<cite index='26-2,26-3'>Senior engineers realize nearly five times the productivity gains of junior engineers with AI tools, and understanding how to leverage AI as a force multiplier while maintaining code quality is becoming essential</cite>. The shift from 'vibe coding' to structured AI workflows is happening now."
+    },
+    {
+      "title": "State of the Software Engineering Job Market in 2026",
+      "url": "https://newsletter.pragmaticengineer.com/p/state-of-the-job-market-2026",
+      "why_now": "<cite index='2-20,2-21'>AI engineering demand is only going in one direction: upwards, at a fierce tick</cite>, while the broader tech job market shows complex dynamics. Understanding these shifts is crucial for career planning in an AI-dominated landscape."
+    },
+    {
+      "title": "The Best Engineering Blogs for 2026",
       "url": "https://draft.dev/learn/engineering-blogs",
-      "why_now": "With the rapid evolution of tech, staying current through quality engineering blogs is more crucial than ever. This comprehensive evaluation scores 30 engineering blogs on technical depth and usefulness, helping developers focus their learning time on the highest-quality sources."
+      "why_now": "<cite index='21-25,21-26,21-27'>Engineering blogs showcase industry trends, demonstrate best practices, and provide insights into different engineering cultures. They help you understand how top tech companies solve complex problems, learn new technologies, and discover career paths</cite>."
     },
     {
-      "title": "Frontend Masters: Premium Learning Courses",
-      "url": "https://frontendmasters.com/",
-      "why_now": "As highlighted in recent learning resource reviews, Frontend Masters features courses from industry experts at Netflix, Spotify, and Google. With the increasing complexity of modern development, having access to real-world expertise from top-tier companies is becoming essential for skill advancement."
-    },
-    {
-      "title": "The 2024 DORA Report on AI and Platform Engineering",
-      "url": "https://cloud.google.com/blog/products/devops-sre/announcing-the-2024-dora-report",
-      "why_now": "This year's DORA research reveals critical insights about AI's complex impact on developer productivity and the growing importance of platform engineering. With 39% of developers expressing low trust in AI-generated code, understanding these nuanced findings is essential for teams navigating the AI integration landscape."
-    },
-    {
-      "title": "GitHub's Professional Programming Resource Collection",
-      "url": "https://github.com/charlax/professional-programming",
-      "why_now": "This curated collection addresses the increasing need for structured learning paths in an industry overwhelmed with scattered resources. As software complexity grows, having a well-organized repository of proven learning materials becomes invaluable for both junior and senior engineers."
+      "title": "Software Engineer Learning Resources: The Premium Guide",
+      "url": "https://medium.com/@alexjamesdunlop/software-engineer-learning-resources-the-premium-guide-730d5a50eeed",
+      "why_now": "With AI automating routine coding tasks, <cite index='11-27,11-31'>focused learning resources that help engineers channel their learning energy and stop wasting time on low-quality tutorials</cite> are more valuable than ever for staying ahead of the curve."
     }
   ],
-  "claude_take": "The engineering landscape in 2024 is defined by a fascinating tension: while AI promises to boost productivity, developer trust in AI-generated code remains surprisingly low. Platform engineering has emerged as the antidote to increasing complexity, focusing on developer experience rather than just operational efficiency. The abundance of learning resources now requires curation—quality trumps quantity as teams seek trusted, expert-led content over endless tutorials."
+  "claude_take": "The engineering world is experiencing a fundamental shift from digital-first to infrastructure-first thinking. While everyone's been focused on prompt engineering and AI assistants, the real winners are those securing the physical foundations—power, chips, and talent pipelines. The most interesting cultural change? Engineering teams are becoming smaller but more leveraged, with AI amplifying the productivity gap between senior and junior engineers by 5x."
 }
