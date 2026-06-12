@@ -1,32 +1,32 @@
 {
   "topic": "Networks & Infrastructure",
-  "generated_at": "2026-06-05",
+  "generated_at": "2026-06-12",
   "highlight": {
-    "title": "What Actually Happens When You Type a URL and Press Enter",
-    "summary": "Your browser performs a DNS lookup to find the server's IP address, establishes a secure connection, and fetches the webpage—all in under a second. Modern browsers now use encrypted DNS by default and HTTP/3 protocol for faster connections.",
-    "url": "https://zaina-hala.medium.com/what-actually-happens-when-you-type-a-url-and-press-enter-the-2026-edition-35af25884483"
+    "title": "BGP Vortex: New Internet Vulnerability Creates 37-Second Outages",
+    "summary": "Security researchers discovered that <cite index=\"11-2,11-3\">a BGP Vortex exploits widely used routing policies to trigger persistent oscillations between major Internet networks that can lead to Internet outages. 21/30 largest networks are susceptible to BGP Vortex attacks</cite>. <cite index=\"11-14\">A single vortex could delay route propagation from almost instantaneous to up to 40 seconds, resulting in communication outages lasting approximately 37 seconds</cite>.",
+    "url": "https://pulse.internetsociety.org/en/blog/2026/01/bgp-vortex-internet-routing-vortices-create-outages-by-preventing-convergence/"
   },
   "resources": [
     {
-      "title": "Zero to Mastery: A Beginner's Guide to Computer Networking",
-      "url": "https://zerotomastery.io/blog/introduction-to-networking/",
-      "why_now": "<cite index=\"4-19,4-20\">The concept of a computer network might seem complex, but in reality, it's fundamentally quite straightforward. A computer network is just a group of computers and devices linked together in a way that allows them to communicate and share resources with each other.</cite> Perfect for teenagers getting started with networking fundamentals."
+      "title": "What Happens When You Type a URL and Press Enter: The 2026 Edition",
+      "url": "https://zaina-hala.medium.com/what-actually-happens-when-you-type-a-url-and-press-enter-the-2026-edition-35af25884483",
+      "why_now": "Perfect for curious teens - explains the entire journey from typing a URL to seeing pixels on screen, covering DNS, HTTP/3, CDNs, and edge computing with real timing examples (200ms to 1.5 seconds for well-optimized sites)."
     },
     {
-      "title": "What is DNS? The Complete 2026 Guide to How the Internet Works",
-      "url": "https://blog.webhostmost.com/what-is-dns/",
-      "why_now": "<cite index=\"11-28,11-29\">DNS is the translator between human-friendly names and machine-friendly addresses. Without it, the internet would be a chaotic mess of numbers and zero websites would open by name.</cite> Understanding DNS is crucial as it's involved in every web request you make."
+      "title": "How DNS Works: Visual Guide",
+      "url": "https://howdns.works/",
+      "why_now": "A fun, colorful webcomic that explains DNS step-by-step - ideal for visual learners who want to understand how domain names become IP addresses without getting overwhelmed by technical jargon."
     },
     {
-      "title": "Recent BGP Route Leak and Cloudflare Outage Analysis",
-      "url": "https://blog.cloudflare.com/route-leak-incident-january-22-2026/",
-      "why_now": "<cite index=\"23-2,23-3\">An automated routing policy configuration error caused us to leak some Border Gateway Protocol prefixes unintentionally from a router at our Miami data center.</cite> Real-world examples like this show how internet infrastructure can break and affect millions of users."
+      "title": "The Complete DNS Guide 2026: Records, Setup & Troubleshooting",
+      "url": "https://skynethosting.net/blog/complete-dns-guide/",
+      "why_now": "Comprehensive technical resource covering DNS propagation (now 1-4 hours vs old '48 hour' myth), TTL settings, and real troubleshooting scenarios - essential for anyone managing websites or networks in 2026."
     },
     {
-      "title": "FreeCodeCamp: 12-Hour Computer Networking Deep Dive",
-      "url": "https://www.freecodecamp.org/news/computer-networking-fundamentals/",
-      "why_now": "<cite index=\"10-4,10-5\">For many technical jobs it is important to understand computer networking. We just posted a massive 12-hour course that will give you a deep dive into computer networking.</cite> Comprehensive technical resource covering IPv4, error control, flow control, and advanced networking concepts."
+      "title": "Cloudflare Route Leak Incident: February 20, 2026 BGP Failure Analysis",
+      "url": "https://www.manageengine.com/it-operations-management/cxo-focus/insights/cloudflare-outage.html",
+      "why_now": "Real-world case study showing how BGP routing failures can make healthy systems unreachable for hours - demonstrates why understanding internet infrastructure matters even for application developers."
     }
   ],
-  "claude_take": "The internet feels magical until it breaks—then you realize it's held together by protocols, routing tables, and the digital equivalent of traffic signs. Recent BGP incidents show how a single misconfigured router can take down major services worldwide, making these fundamentals more relevant than ever for understanding our interconnected world."
+  "claude_take": "<cite index=\"2-18,2-21\">Submarine cables carry 99% of intercontinental Internet traffic</cite> yet most people think the internet is 'wireless' - understanding the physical infrastructure helps explain why BGP outages can be so devastating. <cite index=\"32-40,32-41\">The internet in 2026 is faster, more encrypted, and more distributed than ever. HTTP/3 and QUIC are replacing the TCP connections that powered the web for decades</cite>, making networking knowledge more crucial as systems become more complex."
 }
