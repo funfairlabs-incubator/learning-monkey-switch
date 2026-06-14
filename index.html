@@ -126,117 +126,117 @@
     <h2 class="topic-title">Next.js & Full-Stack</h2>
     <div class="highlight-card">
       <span class="highlight-label">This week's highlight</span>
-      <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer" class="highlight-link">
-        Next.js 16 Released: Turbopack Now Default with React 19 Production-Ready ↗
+      <a href="https://nextjs.org/blog/next-15-1" target="_blank" rel="noopener noreferrer" class="highlight-link">
+        Next.js 15.1 with React 19 Stable Support ↗
       </a>
-      <p class="highlight-summary"><cite index="10-3">In October 2025, Vercel released Next.js 16.</cite> This major release makes <cite index="32-7,36-1">Turbopack is now the default bundler in Next.js</cite> and includes <cite index="32-10">an incremental bundler optimized for JavaScript and TypeScript, written in Rust</cite>. <cite index="15-5,15-6">React 19 is stable and well-suited for enterprise production in 2026. It was released in December 2024 and has since received patches and minor updates, including React 19.2.</cite></p>
+      <p class="highlight-summary">Next.js 15.1 officially brings stable React 19 support to both App and Pages routers, ending the RC phase. The update includes the stable 'after' API for post-response streaming execution and new forbidden/unauthorized APIs for granular auth handling.</p>
     </div>
     <div class="resources-grid">
       
-    <a href="https://dev.to/vikrant_bagal_afae3e25ca7/react-19-server-components-production-patterns-for-high-performance-apps-in-2026-3278" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">React 19 Server Components: Production Patterns for High-Performance Apps</span>
-      <span class="resource-why"><cite index="13-1,13-2">React 19 Server Components represent a fundamental shift in web architecture—from "client-side data fetching" to a "server-first" model. The patterns that work in production focus on: Strategic caching with intelligent invalidation · Parallel data fetching to avoid waterfalls · Granular error handling with user retry options · Progressive migration with measurable rollouts · The performance gains are real: smaller bundles, faster loading, and better user experiences.</cite></span>
+    <a href="https://vocal.media/01/react-19-release-features-2025-complete-developer-guide" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">React 19 Server Actions + TypeScript: Complete Form Pattern Guide</span>
+      <span class="resource-why">React 19's Actions API with useActionState hook eliminates 98% of form boilerplate while providing built-in TypeScript support. This represents a fundamental shift from manual state management to declarative server-side form handling.</span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://dev.to/whoffagents/typescript-58-features-every-developer-should-know-in-2026-37oj" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">TypeScript 5.8: Features Every Developer Should Know in 2026</span>
-      <span class="resource-why"><cite index="24-1,24-24,24-25">TypeScript 5.8 adds granular checking for return expressions in conditional branches. Previously, the return type was checked at the function level — meaning a wrong type buried in a ternary could slip past with a misleading error location.</cite> This dramatically improves type safety for complex conditional patterns common in server components.</span>
+    <a href="https://www.webdev.today/web-development/t3-stack-relevant-2026-engineering-report" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">tRPC v11 + Server Components: The 2026 Full-Stack TypeScript Architecture</span>
+      <span class="resource-why">tRPC v11 adapts to the Server Components era with server-invokable patterns that maintain type safety while enabling direct RSC calls. Critical for teams building complex dashboards that need both SSR and rich client interactions.</span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://nextjs.org/blog/turbopack-for-development-stable" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Turbopack Dev is Now Stable - Performance Breakthrough for Next.js</span>
-      <span class="resource-why"><cite index="34-1,34-10,34-11">In real-world Next.js applications, we've seen 67-100% faster application refresh and 400-900% faster compile time inside Next.js. These results scale from the smallest "hello world" starter project to large sites like vercel.com.</cite> Development speed improvements this significant are transforming developer workflow patterns.</span>
+    <a href="https://starterpick.com/blog/t3-stack-2026" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Drizzle ORM vs Prisma: The TypeScript Performance Battle</span>
+      <span class="resource-why">Drizzle ORM is becoming the preferred choice for serverless TypeScript apps due to smaller bundle sizes and faster cold starts. The shift from Prisma represents a maturation toward edge-first database patterns.</span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://www.telerik.com/blogs/react-design-patterns-best-practices" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">React Design Patterns and Best Practices for 2025</span>
-      <span class="resource-why"><cite index="16-1,16-4,16-6">React 19 introduced several new hooks, which include useActionState, useFormStatus, useOptimistic and the new use API. With React 19's stable release in late 2024 and the continued maturation of the ecosystem, developers now have access to powerful features that streamline development workflows and enhance application performance. We'll examine how modern component patterns, state management approaches, TypeScript integration and the latest React 19 features can help you build more robust and maintainable applications.</cite></span>
+    <a href="https://blog.railway.com/p/deploy-full-stack-typescript-apps-architectures-execution-models-and-deployment-choices" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Full-Stack TypeScript Patterns: Shared Types and Monorepo Architecture</span>
+      <span class="resource-why">Modern TypeScript apps are consolidating around single-codebase patterns using frameworks like Next.js and TanStack Start. This approach reduces interface maintenance while keeping UI and API changes aligned through shared type systems.</span>
       <span class="resource-link-icon">↗</span>
     </a>
     </div>
     <div class="claude-take">
       <span class="take-label">Claude's take</span>
-      <p>The convergence of React 19's stable release, TypeScript 5.8's improved type safety, and Next.js 16's Rust-powered Turbopack represents the most significant shift in full-stack development patterns since hooks were introduced. The performance gains aren't incremental—they're transformational, with development cycles now measured in milliseconds rather than seconds. Senior engineers should prioritize migrating to this stack not just for performance, but because the ecosystem momentum is irreversible.</p>
+      <p>The React/Next.js ecosystem is reaching a stability inflection point where experimental features (Server Components, Actions) are becoming production-ready, while the TypeScript tooling has matured enough to support true end-to-end type safety from database to UI. This convergence makes 2026 the year where full-stack TypeScript moves from 'nice-to-have' to 'table stakes' for serious web applications.</p>
     </div>
-    <div class="section-meta">Updated Sunday, 7 June 2026</div>
+    <div class="section-meta">Updated Sunday, 14 June 2026</div>
   </section>
 
   <section class="topic-section">
     <h2 class="topic-title">Developer Tools & Workflow</h2>
     <div class="highlight-card">
       <span class="highlight-label">This week's highlight</span>
-      <a href="https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/" target="_blank" rel="noopener noreferrer" class="highlight-link">
-        GitHub Agentic Workflows Enter Technical Preview ↗
+      <a href="https://blog.canadianwebhosting.com/github-actions-2026-security-roadmap-5-features-that-will-change-how-you-ship-code/" target="_blank" rel="noopener noreferrer" class="highlight-link">
+        GitHub Actions 2026 Security Roadmap: The Biggest CI/CD Overhaul in History ↗
       </a>
-      <p class="highlight-summary">GitHub launched Agentic Workflows allowing developers to automate repository tasks using AI agents within GitHub Actions. Write workflows in plain Markdown instead of complex YAML, and let AI handle intelligent decision-making for issue triage, pull request reviews, and repository maintenance.</p>
+      <p class="highlight-summary">GitHub just announced the most comprehensive security update in Actions history, introducing immutable dependency tracking, centralized execution controls, and real-time telemetry streaming. After Q1 2026's supply chain attacks hit 23,000+ repositories through mutable action references, GitHub's response targets root causes with secure-by-default primitives rather than band-aid fixes.</p>
     </div>
     <div class="resources-grid">
       
-    <a href="https://code.visualstudio.com/updates/v1_123" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">VS Code 1.123: AI-Native with 1M Token Context</span>
-      <span class="resource-why"><cite index="21-11,21-12">Support for 1M context windows for Anthropic and OpenAI models with automatically synced chat sessions across machines</cite> makes VS Code the first editor to truly handle massive codebases through AI assistance.</span>
+    <a href="https://www.developersdigest.tech/blog/best-cli-tools-for-ai-development-2026" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Anthropic's Claude Code CLI: Terminal-First AI Agent for Developers</span>
+      <span class="resource-why">Claude Code represents the terminal's evolution from command-line interface to AI workspace, offering autonomous file editing and project understanding that outpaces traditional IDE extensions. The February 2026 general availability makes it the first production-ready AI agent designed specifically for CLI workflows.</span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://www.windowscentral.com/microsoft/windows-11/4-tools-for-windows-11-that-stood-out-to-me-during-build-2026" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Windows 11 Gets Developer-Focused CLI Tools</span>
-      <span class="resource-why"><cite index="4-22,4-24">Coreutils for Windows brings Linux-style command-line utilities directly to Windows 11, based on the open-source uutils project</cite> and <cite index="4-15,4-16">Intelligent Terminal integrates AI agents directly into the terminal experience for context-aware assistance</cite>.</span>
+    <a href="https://code.visualstudio.com/updates/v1_109" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">VS Code January 2026: Multi-Agent Development Becomes Native</span>
+      <span class="resource-why">Microsoft positioned VS Code as the 'home for multi-agent development' with native agent session management, background delegation, and browser-driving agents. This isn't just AI autocomplete—it's orchestrating multiple specialized agents across local, cloud, and background execution contexts.</span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://pinggy.io/blog/top_cli_based_ai_coding_agents/" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Claude Code vs OpenAI Codex: The CLI Agent Showdown</span>
-      <span class="resource-why"><cite index="8-6,8-8">OpenAI shipped a Codex refresh on GPT-5.5 that several recent rankings now put at #1, while Claude Code moved to Opus 4.7</cite> and <cite index="8-14,8-16">OpenCode crossed 150K GitHub stars supporting 75+ LLM endpoints out of the box</cite>.</span>
+    <a href="https://www.marktechpost.com/2026/05/19/google-launches-antigravity-2-0-at-i-o-2026-a-standalone-agent-first-platform-with-cli-sdk-managed-execution-and-enterprise-support/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Google Antigravity 2.0: CLI-First Platform with Agent Orchestration</span>
+      <span class="resource-why">Google's May I/O 2026 pivot from IDE-centric to agent-orchestration represents a fundamental shift in developer tooling philosophy. The CLI-first approach with scheduled background agents moves beyond single-turn assistance toward persistent automation pipelines.</span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://github.blog/news-insights/product-news/lets-talk-about-github-actions/" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">GitHub Actions Gets Parallel Steps & Security Overhaul</span>
-      <span class="resource-why"><cite index="13-8,13-9">GitHub will start work on parallel steps, one of the most requested features, with plans to ship before mid-2026</cite> while <cite index="14-8,14-23">new repos default to read-only permissions with tighter security defaults</cite> addressing supply chain attacks.</span>
+    <a href="https://github.blog/changelog/2026-02-05-github-actions-early-february-2026-updates/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Runner Scale Set Client: Custom Autoscaling Outside Kubernetes</span>
+      <span class="resource-why">GitHub's new open-source client enables custom autoscaling solutions beyond Actions Runner Controller, addressing enterprise needs for infrastructure-specific runner management. This fills a critical gap for organizations running CI/CD on non-Kubernetes platforms while maintaining GitHub's native scaling APIs.</span>
       <span class="resource-link-icon">↗</span>
     </a>
     </div>
     <div class="claude-take">
       <span class="take-label">Claude's take</span>
-      <p>The developer tooling landscape in 2026 centers around AI-native workflows that blur the lines between writing code and orchestrating agents. The most significant shift is tools like VS Code and GitHub Actions evolving from code editors and CI/CD platforms into agent orchestration environments where developers describe intent in natural language rather than imperative YAML or complex configurations.</p>
+      <p>The developer tooling landscape is undergoing its biggest architectural shift since the move from desktop IDEs to web-based editors—AI agents are becoming first-class citizens in our development environments. While 2025 was about AI-powered autocomplete, 2026 is about autonomous task execution, multi-agent orchestration, and CLI tools that understand entire project contexts rather than just individual files.</p>
     </div>
-    <div class="section-meta">Updated Sunday, 7 June 2026</div>
+    <div class="section-meta">Updated Sunday, 14 June 2026</div>
   </section>
 
   <section class="topic-section">
     <h2 class="topic-title">Tech & Learning</h2>
     <div class="highlight-card">
       <span class="highlight-label">This week's highlight</span>
-      <a href="https://techstartups.com/2026/06/03/top-tech-news-today-june-3-2026/" target="_blank" rel="noopener noreferrer" class="highlight-link">
-        AI Infrastructure Reality Check: From Models to Atoms ↗
+      <a href="https://blogs.nvidia.com/blog/industry-ai-predictions-2025/" target="_blank" rel="noopener noreferrer" class="highlight-link">
+        Google Unveils Willow Quantum Chip and Industry AI Predictions for 2025 ↗
       </a>
-      <p class="highlight-summary">June 2026 marked the moment when AI competition shifted from building smarter models to controlling physical infrastructure—chips, power grids, data centers, and talent. <cite index='32-5,32-6'>The AI race is no longer just about who has the smartest chatbot. It is now a global contest for chips, capital, energy, water, regulation, and control of the next computing platform.</cite></p>
+      <p class="highlight-summary"><cite index="1-1,7-2">Google announced its breakthrough Willow quantum chip in December 2024 while releasing comprehensive AI predictions for 2025, marking significant advances in quantum computing alongside continued AI enterprise adoption growth.</cite> <cite index="28-6,28-10">As industries gear up to create reasoning AI systems using proprietary data, agentic AI sits atop the list of 2025 trends alongside edge AI and AI-driven robotics.</cite></p>
     </div>
     <div class="resources-grid">
       
-    <a href="https://cjroth.com/blog/2026-02-18-building-an-elite-engineering-culture" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Building An Elite AI Engineering Culture In 2026</span>
-      <span class="resource-why"><cite index='26-2,26-3'>Senior engineers realize nearly five times the productivity gains of junior engineers with AI tools, and understanding how to leverage AI as a force multiplier while maintaining code quality is becoming essential</cite>. The shift from 'vibe coding' to structured AI workflows is happening now.</span>
+    <a href="https://medium.com/@asierr/building-a-culture-of-continuous-learning-in-engineering-teams-ab15eb2ac800" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Building a Culture of Continuous Learning in Engineering Teams</span>
+      <span class="resource-why"><cite index="10-1,10-3">In today's fast-evolving tech landscape, continuous learning has become a necessity for engineering teams, fostering innovation, improving morale, and enhancing retention.</cite></span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://newsletter.pragmaticengineer.com/p/state-of-the-job-market-2026" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">State of the Software Engineering Job Market in 2026</span>
-      <span class="resource-why"><cite index='2-20,2-21'>AI engineering demand is only going in one direction: upwards, at a fierce tick</cite>, while the broader tech job market shows complex dynamics. Understanding these shifts is crucial for career planning in an AI-dominated landscape.</span>
+    <a href="https://www.iconiq.com/growth/reports/engineering-series-2024/the-state-of-engineering" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">The State of Engineering: ICONIQ Growth Report 2024</span>
+      <span class="resource-why"><cite index="17-1,17-8">With 35-45% of organizations planning to hire AI-related roles in 2024, understanding developer productivity and experience has become essential for team-level efficiency.</cite></span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://draft.dev/learn/engineering-blogs" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">The Best Engineering Blogs for 2026</span>
-      <span class="resource-why"><cite index='21-25,21-26,21-27'>Engineering blogs showcase industry trends, demonstrate best practices, and provide insights into different engineering cultures. They help you understand how top tech companies solve complex problems, learn new technologies, and discover career paths</cite>.</span>
+    <a href="https://www.techlearningawards.com/bestof2024" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">Tech & Learning Awards of Excellence: Best of 2024</span>
+      <span class="resource-why"><cite index="18-5,18-6">The explosion of educational technology innovation in 2024 has produced award-winning products that empower deeper learning and personalized experiences for students.</cite></span>
       <span class="resource-link-icon">↗</span>
     </a>
-    <a href="https://medium.com/@alexjamesdunlop/software-engineer-learning-resources-the-premium-guide-730d5a50eeed" target="_blank" rel="noopener noreferrer" class="resource-card">
-      <span class="resource-title">Software Engineer Learning Resources: The Premium Guide</span>
-      <span class="resource-why">With AI automating routine coding tasks, <cite index='11-27,11-31'>focused learning resources that help engineers channel their learning energy and stop wasting time on low-quality tutorials</cite> are more valuable than ever for staying ahead of the curve.</span>
+    <a href="https://blogs.nvidia.com/blog/industry-ai-predictions-2025/" target="_blank" rel="noopener noreferrer" class="resource-card">
+      <span class="resource-title">NVIDIA's 2025 AI Industry Predictions: Agentic AI and Edge Computing</span>
+      <span class="resource-why"><cite index="28-8,28-10">As AI evolves to harness edge data for near-instantaneous insights across hospitals, factories, and mobile devices, agentic AI represents the next autonomous frontier.</cite></span>
       <span class="resource-link-icon">↗</span>
     </a>
     </div>
     <div class="claude-take">
       <span class="take-label">Claude's take</span>
-      <p>The engineering world is experiencing a fundamental shift from digital-first to infrastructure-first thinking. While everyone's been focused on prompt engineering and AI assistants, the real winners are those securing the physical foundations—power, chips, and talent pipelines. The most interesting cultural change? Engineering teams are becoming smaller but more leveraged, with AI amplifying the productivity gap between senior and junior engineers by 5x.</p>
+      <p>The convergence of quantum computing breakthroughs, enterprise AI adoption, and evolving engineering culture signals a pivotal moment where technical excellence must be balanced with continuous learning mindsets. As we move from experimental AI to reasoning systems, the most successful teams will be those that cultivate both deep technical expertise and adaptive learning cultures.</p>
     </div>
-    <div class="section-meta">Updated Sunday, 7 June 2026</div>
+    <div class="section-meta">Updated Friday, 10 January 2025</div>
   </section>
 
   <section class="topic-section">
