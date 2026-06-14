@@ -1,32 +1,32 @@
 {
   "topic": "Tech & Learning",
-  "generated_at": "2026-06-07",
+  "generated_at": "2025-01-10T00:00:00Z",
   "highlight": {
-    "title": "AI Infrastructure Reality Check: From Models to Atoms",
-    "summary": "June 2026 marked the moment when AI competition shifted from building smarter models to controlling physical infrastructure—chips, power grids, data centers, and talent. <cite index='32-5,32-6'>The AI race is no longer just about who has the smartest chatbot. It is now a global contest for chips, capital, energy, water, regulation, and control of the next computing platform.</cite>",
-    "url": "https://techstartups.com/2026/06/03/top-tech-news-today-june-3-2026/"
+    "title": "Google Unveils Willow Quantum Chip and Industry AI Predictions for 2025",
+    "summary": "<cite index=\"1-1,7-2\">Google announced its breakthrough Willow quantum chip in December 2024 while releasing comprehensive AI predictions for 2025, marking significant advances in quantum computing alongside continued AI enterprise adoption growth.</cite> <cite index=\"28-6,28-10\">As industries gear up to create reasoning AI systems using proprietary data, agentic AI sits atop the list of 2025 trends alongside edge AI and AI-driven robotics.</cite>",
+    "url": "https://blogs.nvidia.com/blog/industry-ai-predictions-2025/"
   },
   "resources": [
     {
-      "title": "Building An Elite AI Engineering Culture In 2026",
-      "url": "https://cjroth.com/blog/2026-02-18-building-an-elite-engineering-culture",
-      "why_now": "<cite index='26-2,26-3'>Senior engineers realize nearly five times the productivity gains of junior engineers with AI tools, and understanding how to leverage AI as a force multiplier while maintaining code quality is becoming essential</cite>. The shift from 'vibe coding' to structured AI workflows is happening now."
+      "title": "Building a Culture of Continuous Learning in Engineering Teams",
+      "url": "https://medium.com/@asierr/building-a-culture-of-continuous-learning-in-engineering-teams-ab15eb2ac800",
+      "why_now": "<cite index=\"10-1,10-3\">In today's fast-evolving tech landscape, continuous learning has become a necessity for engineering teams, fostering innovation, improving morale, and enhancing retention.</cite>"
     },
     {
-      "title": "State of the Software Engineering Job Market in 2026",
-      "url": "https://newsletter.pragmaticengineer.com/p/state-of-the-job-market-2026",
-      "why_now": "<cite index='2-20,2-21'>AI engineering demand is only going in one direction: upwards, at a fierce tick</cite>, while the broader tech job market shows complex dynamics. Understanding these shifts is crucial for career planning in an AI-dominated landscape."
+      "title": "The State of Engineering: ICONIQ Growth Report 2024",
+      "url": "https://www.iconiq.com/growth/reports/engineering-series-2024/the-state-of-engineering",
+      "why_now": "<cite index=\"17-1,17-8\">With 35-45% of organizations planning to hire AI-related roles in 2024, understanding developer productivity and experience has become essential for team-level efficiency.</cite>"
     },
     {
-      "title": "The Best Engineering Blogs for 2026",
-      "url": "https://draft.dev/learn/engineering-blogs",
-      "why_now": "<cite index='21-25,21-26,21-27'>Engineering blogs showcase industry trends, demonstrate best practices, and provide insights into different engineering cultures. They help you understand how top tech companies solve complex problems, learn new technologies, and discover career paths</cite>."
+      "title": "Tech & Learning Awards of Excellence: Best of 2024",
+      "url": "https://www.techlearningawards.com/bestof2024",
+      "why_now": "<cite index=\"18-5,18-6\">The explosion of educational technology innovation in 2024 has produced award-winning products that empower deeper learning and personalized experiences for students.</cite>"
     },
     {
-      "title": "Software Engineer Learning Resources: The Premium Guide",
-      "url": "https://medium.com/@alexjamesdunlop/software-engineer-learning-resources-the-premium-guide-730d5a50eeed",
-      "why_now": "With AI automating routine coding tasks, <cite index='11-27,11-31'>focused learning resources that help engineers channel their learning energy and stop wasting time on low-quality tutorials</cite> are more valuable than ever for staying ahead of the curve."
+      "title": "NVIDIA's 2025 AI Industry Predictions: Agentic AI and Edge Computing",
+      "url": "https://blogs.nvidia.com/blog/industry-ai-predictions-2025/",
+      "why_now": "<cite index=\"28-8,28-10\">As AI evolves to harness edge data for near-instantaneous insights across hospitals, factories, and mobile devices, agentic AI represents the next autonomous frontier.</cite>"
     }
   ],
-  "claude_take": "The engineering world is experiencing a fundamental shift from digital-first to infrastructure-first thinking. While everyone's been focused on prompt engineering and AI assistants, the real winners are those securing the physical foundations—power, chips, and talent pipelines. The most interesting cultural change? Engineering teams are becoming smaller but more leveraged, with AI amplifying the productivity gap between senior and junior engineers by 5x."
+  "claude_take": "The convergence of quantum computing breakthroughs, enterprise AI adoption, and evolving engineering culture signals a pivotal moment where technical excellence must be balanced with continuous learning mindsets. As we move from experimental AI to reasoning systems, the most successful teams will be those that cultivate both deep technical expertise and adaptive learning cultures."
 }

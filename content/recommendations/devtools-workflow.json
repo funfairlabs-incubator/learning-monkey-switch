@@ -1,32 +1,32 @@
 {
   "topic": "Developer Tools & Workflow",
-  "generated_at": "2026-06-07T12:00:00Z",
+  "generated_at": "2026-06-14T00:00:00Z",
   "highlight": {
-    "title": "GitHub Agentic Workflows Enter Technical Preview",
-    "summary": "GitHub launched Agentic Workflows allowing developers to automate repository tasks using AI agents within GitHub Actions. Write workflows in plain Markdown instead of complex YAML, and let AI handle intelligent decision-making for issue triage, pull request reviews, and repository maintenance.",
-    "url": "https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/"
+    "title": "GitHub Actions 2026 Security Roadmap: The Biggest CI/CD Overhaul in History",
+    "summary": "GitHub just announced the most comprehensive security update in Actions history, introducing immutable dependency tracking, centralized execution controls, and real-time telemetry streaming. After Q1 2026's supply chain attacks hit 23,000+ repositories through mutable action references, GitHub's response targets root causes with secure-by-default primitives rather than band-aid fixes.",
+    "url": "https://blog.canadianwebhosting.com/github-actions-2026-security-roadmap-5-features-that-will-change-how-you-ship-code/"
   },
   "resources": [
     {
-      "title": "VS Code 1.123: AI-Native with 1M Token Context",
-      "url": "https://code.visualstudio.com/updates/v1_123",
-      "why_now": "<cite index=\"21-11,21-12\">Support for 1M context windows for Anthropic and OpenAI models with automatically synced chat sessions across machines</cite> makes VS Code the first editor to truly handle massive codebases through AI assistance."
+      "title": "Anthropic's Claude Code CLI: Terminal-First AI Agent for Developers",
+      "url": "https://www.developersdigest.tech/blog/best-cli-tools-for-ai-development-2026",
+      "why_now": "Claude Code represents the terminal's evolution from command-line interface to AI workspace, offering autonomous file editing and project understanding that outpaces traditional IDE extensions. The February 2026 general availability makes it the first production-ready AI agent designed specifically for CLI workflows."
     },
     {
-      "title": "Windows 11 Gets Developer-Focused CLI Tools",
-      "url": "https://www.windowscentral.com/microsoft/windows-11/4-tools-for-windows-11-that-stood-out-to-me-during-build-2026",
-      "why_now": "<cite index=\"4-22,4-24\">Coreutils for Windows brings Linux-style command-line utilities directly to Windows 11, based on the open-source uutils project</cite> and <cite index=\"4-15,4-16\">Intelligent Terminal integrates AI agents directly into the terminal experience for context-aware assistance</cite>."
+      "title": "VS Code January 2026: Multi-Agent Development Becomes Native",
+      "url": "https://code.visualstudio.com/updates/v1_109",
+      "why_now": "Microsoft positioned VS Code as the 'home for multi-agent development' with native agent session management, background delegation, and browser-driving agents. This isn't just AI autocomplete—it's orchestrating multiple specialized agents across local, cloud, and background execution contexts."
     },
     {
-      "title": "Claude Code vs OpenAI Codex: The CLI Agent Showdown",
-      "url": "https://pinggy.io/blog/top_cli_based_ai_coding_agents/",
-      "why_now": "<cite index=\"8-6,8-8\">OpenAI shipped a Codex refresh on GPT-5.5 that several recent rankings now put at #1, while Claude Code moved to Opus 4.7</cite> and <cite index=\"8-14,8-16\">OpenCode crossed 150K GitHub stars supporting 75+ LLM endpoints out of the box</cite>."
+      "title": "Google Antigravity 2.0: CLI-First Platform with Agent Orchestration",
+      "url": "https://www.marktechpost.com/2026/05/19/google-launches-antigravity-2-0-at-i-o-2026-a-standalone-agent-first-platform-with-cli-sdk-managed-execution-and-enterprise-support/",
+      "why_now": "Google's May I/O 2026 pivot from IDE-centric to agent-orchestration represents a fundamental shift in developer tooling philosophy. The CLI-first approach with scheduled background agents moves beyond single-turn assistance toward persistent automation pipelines."
     },
     {
-      "title": "GitHub Actions Gets Parallel Steps & Security Overhaul",
-      "url": "https://github.blog/news-insights/product-news/lets-talk-about-github-actions/",
-      "why_now": "<cite index=\"13-8,13-9\">GitHub will start work on parallel steps, one of the most requested features, with plans to ship before mid-2026</cite> while <cite index=\"14-8,14-23\">new repos default to read-only permissions with tighter security defaults</cite> addressing supply chain attacks."
+      "title": "Runner Scale Set Client: Custom Autoscaling Outside Kubernetes",
+      "url": "https://github.blog/changelog/2026-02-05-github-actions-early-february-2026-updates/",
+      "why_now": "GitHub's new open-source client enables custom autoscaling solutions beyond Actions Runner Controller, addressing enterprise needs for infrastructure-specific runner management. This fills a critical gap for organizations running CI/CD on non-Kubernetes platforms while maintaining GitHub's native scaling APIs."
     }
   ],
-  "claude_take": "The developer tooling landscape in 2026 centers around AI-native workflows that blur the lines between writing code and orchestrating agents. The most significant shift is tools like VS Code and GitHub Actions evolving from code editors and CI/CD platforms into agent orchestration environments where developers describe intent in natural language rather than imperative YAML or complex configurations."
+  "claude_take": "The developer tooling landscape is undergoing its biggest architectural shift since the move from desktop IDEs to web-based editors—AI agents are becoming first-class citizens in our development environments. While 2025 was about AI-powered autocomplete, 2026 is about autonomous task execution, multi-agent orchestration, and CLI tools that understand entire project contexts rather than just individual files."
 }
